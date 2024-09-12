@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+
+    <link
+      rel="shortcut icon"
+      href="img/Logo/Plant-palace.png"
+      type="image/x-icon"
+    />
+
+    <!----- Font Awesome Cdn ----->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+
+    <!----- Bootstrap CSS ----->
+    <link rel="stylesheet" href="src/bootstrap/css/bootstrap.min.css" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="src/css/style.css" />
+  </head>
+  <body>
+    <!------------ Start Header ------------>
+
+    <header id="plantpalace"></header>
+
+    <!------------ End Header ------------>
+
+    <!------------ Start Banner Section ------------>
+
+    <section class="contact-banner">
+      <div class="container text-center">
+        <h1>Contact Us</h1>
+        <h4>Connect With Us: Your Inquiries Are Important To Us</h4>
+      </div>
+    </section>
+
+    <!------------ End Banner Section ------------>
+
+    <!------------ Start Contact Section ------------>
+
+    <section class="container py-5">
+      <div class="row py-5 g-3">
+        <div class="col-md-6 first_col">
+          <h2 class="text-center w-100 mt-3">Get In Touch</h2>
+          <form
+            class="p-4 mt-5"
+            action=""
+            id="myform"
+            onsubmit="return formsubmition()"
+          >
+            <label for="name" class="form-label">Enter your Name</label>
+            <input
+              type="text"
+              class="form-control mb-2"
+              id="name"
+              pattern="[A-Z a-z]{3,}"
+              title="Please Enter a Valid Name."
+              required
+            />
+
+            <label for="email" class="form-label">Email ID</label>
+            <input
+              class="form-control mb-2"
+              id="email"
+              type="email"
+              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+              title="Please Enter a Valid Email Address."
+              required
+            />
+
+            <label for="message" class="form-label">Enter your message</label>
+            <textarea
+              type="text"
+              class="form-control form-control-message mb-2"
+              id="message"
+              rows="3"
+              required
+            ></textarea>
+            <input
+              type="submit"
+              class="my-4 btn btn-view"
+              placeholder="Send Now"
+            />
+          </form>
+        </div>
+        <div class="col-md-6 sec_col">
+          <img src="img/contact.jpg" class="img-fluid" />
+        </div>
+      </div>
+      <div class="row-last">
+        <div class="row row-col-1 row-col-md-3 p-3 text-white">
+          <div class="col px-lg-5">
+            <i class="fa-solid fa-phone py-4"></i>
+            <h4>CALL US</h4>
+            <p>+92 320 000 0000</p>
+          </div>
+          <div class="col px-lg-5">
+            <i class="fa-solid fa-location-dot py-4"></i>
+            <h4>LOCATION</h4>
+            <p>4671 Sugar Camp Road, Owatonna, Minnesota, 55060</p>
+          </div>
+          <div class="col px-lg-5">
+            <i class="fa-solid fa-envelope py-4"></i>
+            <h4>Email</h4>
+            <p>Example@mail.com</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!------------ End Contact Section ------------>
+
+    <!------------ Start GoogleMap Section ------------>
+    <section class="container">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d887.5728797797436!2d67.15166796395589!3d24.88733872672663!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb339999415e0c3%3A0x36742eee0fd9c291!2sAptech%20Metro%20Star%20Gate!5e0!3m2!1sen!2s!4v1719439419454!5m2!1sen!2s"
+        width="100%"
+        height="300"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </section>
+
+    <!------------ End GoogleMap Section ------------>
+
+    <!------------ Start Footer  ------------>
+    <footer id="luxefooter"></footer>
+    <!------------ End Footer  ------------>
+  </body>
+
+  <!----- Bootstrap JS ----->
+  <script src="src/bootstrap/js/bootstrap.bundle.js"></script>
+
+  <!----- Custom JS ----->
+  <script src="src/js/Script.js"></script>
+  <script src="src/js/cart.js"></script>
+  <script src="src/js/Wishlist.js"></script>
+</html>

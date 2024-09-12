@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg background-white p-0">
+      <div class="container pt-2 pb-2">
+        <!-- Logo -->
+        <a class="navbar-brand" href="index.html"
+          ><img src="img/Logo/Plant-Palace.png" height="70" alt=""
+        /></a>
+
+        <div class="justify-content-end d-flex">
+          <div class="d-flex d-lg-none align-items-center">
+            <!-- Wishlist Icon -->
+            <button type="button" class="btn border-0">
+              <a
+                href="wishlist.html"
+                class="cart-btn-ic position-relative"
+                title="wishlist"
+              >
+                <i class="text-color fas fas fa-heart"></i
+                ><span
+                  class="text-color position-absolute start-100 translate-middle-y wishlist-badge"
+                  data-wishlist-badge="true"
+                >
+                  0
+                  <span class="visually-hidden">Wishlist Items</span>
+                </span>
+              </a>
+            </button>
+            <!-- Add To Cart Icon -->
+            <button type="button" class="btn border-0">
+              <a href="cart.html" class="cart-btn-ic position-relative">
+                <i class="text-color fas fa-shopping-cart"></i
+                ><span
+                  class="text-color position-absolute start-100 translate-middle-y"
+                  cartitem-count="0"
+                  data-cart-badge="true"
+                >
+                  0
+                  <span class="visually-hidden">Cart Items</span>
+                </span>
+              </a>
+            </button>
+          </div>
+          <!-- NavBar Toggle Btn -->
+          <button
+            class="navbar-toggler shadow-none border-0"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+            aria-label="Toggle navigation"
+          >
+            <span class="text-dark fa-1x fa-solid fa-bars pt-1"></span>
+          </button>
+        </div>
+        <!-- SideBar -->
+        <div
+          class="sidebar offcanvas offcanvas-start"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <!-- SideBar Header -->
+          <div class="offcanvas-header border-bottom background-white">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+              <a class="navbar-brand" href="index.html"
+                ><img src="img/Logo/logo.png" width="" height="70" alt=""
+              /></a>
+            </h5>
+            <button
+              type="button"
+              class="btn-close shadow-none border-0 fa-solid fa-xmark"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <!-- SideBar Body -->
+          <div
+            class="offcanvas-body d-flex flex-column flex-lg-row p-4 p-lg-0 background-white align-items-center"
+          >
+            <div
+              class="row justify-content-center align-items-center w-100 pt-lg-2"
+            >
+              <ul
+                class="navbar-nav justify-content-center align-items-start align-items-lg-center fs-5 flex-grow-1 px-3"
+              >
+                <li class="nav-item mx-2">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="index.html"
+                    >Home</a
+                  >
+                </li>
+
+                <li class="nav-item mx-2">
+                  <a class="nav-link" aria-current="page" href="about.html"
+                    >About Us</a
+                  >
+                </li>
+
+                <li class="nav-item mx-2">
+                  <a class="nav-link" href="shop.html">Shop</a>
+                </li>
+
+                <li class="nav-item mx-2">
+                  <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+            <div class="d-lg-flex d-none d-sm-none align-items-center px-4">
+              <!-- Wishlist Icon -->
+              <button type="button" class="btn border-0">
+                <a
+                  href="wishlist.html"
+                  class="cart-btn-ic position-relative"
+                  title="Wishlist"
+                >
+                  <i class="text-color fas fas fa-heart"></i
+                  ><span
+                    class="text-color position-absolute start-100 translate-middle-y wishlist-badge"
+                    data-wishlist-badge="true"
+                  >
+                    0
+                    <span class="visually-hidden">Wishlist Items</span>
+                  </span>
+                </a>
+              </button>
+              <!-- Add To Cart Icon -->
+              <button type="button" class="btn border-0">
+                <a
+                  href="cart.html"
+                  class="cart-btn-ic position-relative"
+                  title="Cart"
+                >
+                  <i class="text-color fas fa-shopping-cart"></i
+                  ><span
+                    class="text-color position-absolute start-100 translate-middle-y"
+                    cartitem-count="0"
+                    data-cart-badge="true"
+                  >
+                    0
+                    <span class="visually-hidden">Cart Items</span>
+                  </span>
+                </a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Whatsapp Button Start -->
+
+    <a href="https://wa.me/+923243416388" class="whatsapp-icon" target="_blank">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Whatsapp Button End -->
+  </body>
+</html>

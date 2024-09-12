@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop</title>
+
+    <link
+      rel="shortcut icon"
+      href="img/Logo/Plant-palace.png"
+      type="image/x-icon"
+    />
+
+    <!----- Font Awesome Cdn ----->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+
+    <!----- Bootstrap CSS ----->
+    <link rel="stylesheet" href="src/bootstrap/css/bootstrap.min.css" />
+
+    <!----- Light Box CSS ----->
+    <link rel="stylesheet" href="src/css/lightbox.css" />
+
+    <!----- Custom CSS ----->
+    <link rel="stylesheet" href="src/css/style.css" />
+    <style></style>
+  </head>
+  <body>
+    <!------------ Start Header ------------>
+    <header id="plantpalace"></header>
+    <!------------ End Header ------------>
+
+    <!------------ Start Banner Section ------------>
+
+    <section class="contact-banner hop-banners">
+      <div class="container text-center">
+        <h1>Shop</h1>
+        <h4>Shop With Us: Your Satisfaction is Our Priority</h4>
+      </div>
+    </section>
+
+    <!------------ End Banner Section ------------>
+
+    <!------------ Start Products ------------>
+
+    <section>
+      <div class="container">
+        <div class="row d-flex justify-content-between">
+          <!-- Col 1 For Large Screen Size -->
+          <!-- Category  -->
+          <div class="col-lg-3">
+            <!-- Category Heading  -->
+            <h2 class="d-none d-lg-flex">Category</h2>
+
+            <!-- Category Menu  -->
+            <div class="navbar navbar-dark navbar-expand-lg">
+              <div class="container-fluid">
+                <div
+                  class="d-flex justify-content-between align-items-center w-100 d-lg-none"
+                >
+                  <a class="navbar-brand" href="#">
+                    <h2>Category</h2>
+                  </a>
+                  <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasDarkNavbar"
+                    aria-controls="offcanvasDarkNavbar"
+                    aria-label="Toggle navigation"
+                  >
+                    <i
+                      class="navbar-toggler-icon text-dark fa-2x fa-solid fa-bars"
+                    ></i>
+                  </button>
+                </div>
+                <div
+                  class="offcanvas offcanvas-start"
+                  tabindex="-1"
+                  id="offcanvasDarkNavbar"
+                  aria-labelledby="offcanvasDarkNavbarLabel"
+                >
+                  <div class="offcanvas-header">
+                    <h2 class="offcanvas-title" id="offcanvasDarkNavbarLabel">
+                      Category
+                    </h2>
+                    <button
+                      type="button"
+                      class="btn-close shadow-none border-0 fa-solid fa-xmark"
+                      data-bs-dismiss="offcanvas"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="offcanvas-body">
+                    <div class="shop-category-list"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Col 2 For Large Screen Size -->
+          <!-- Products -->
+          <div class="col-lg-9">
+            <!-- Products Here  -->
+            <div class="proo"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!------------ End Products ------------>
+
+    <!------------ Start Footer  ------------>
+    <footer id="luxefooter"></footer>
+    <!------------ End Footer  ------------>
+  </body>
+
+  <!-- LightBox JS -->
+  <script src="src/js/lightbox-plus-jquery.min.js"></script>
+
+  <!-- Product Data JS -->
+  <script src="src/js/Product.js"></script>
+
+  <!----- Bootstrap JS ----->
+  <script src="src/bootstrap/js/bootstrap.bundle.js"></script>
+
+  <!-- JQuery -->
+  <script src="src/js/JQuery-3.7.1.js"></script>
+
+  <!-- Slick JS -->
+  <script
+    type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+  ></script>
+
+  <!----- Custom JS ----->
+  <script src="src/js/Script.js"></script>
+  <script src="src/js/Shop.js"></script>
+  <script src="src/js/cart.js"></script>
+  <script src="src/js/Wishlist.js"></script>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wishlist</title>
+
+    <link
+      rel="shortcut icon"
+      href="img/Logo/Plant-palace.png"
+      type="image/x-icon"
+    />
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- SwiperJS CSS  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!----- Font Awesome Cdn ----->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+
+    <!----- Bootstrap CSS ----->
+    <link rel="stylesheet" href="src/bootstrap/css/bootstrap.min.css" />
+
+    <!----- Light Box CSS ----->
+    <link rel="stylesheet" href="src/css/lightbox.css" />
+
+    <!----- Custom CSS ----->
+    <link rel="stylesheet" href="src/css/style.css" />
+  </head>
+
+  <body>
+    <!------------ Start Header ------------>
+    <header id="plantpalace"></header>
+    <!------------ End Header ------------>
+
+    <div class="container-fluid">
+      <div class="row px-5">
+        <div class="col-md-12 py-4" style="background-color: #f1f2f2">
+          <h2 class="text-uppercase">Wishlist</h2>
+        </div>
+      </div>
+      <div class="row mx-4 pt-5">
+        <div class="col-lg-12 table-responsive mb-5">
+          <table
+            class="table bg-light table-bordered text-center mb-0 Main-cart"
+          >
+            <thead class="text-dark">
+              <tr>
+                <th>S No</th>
+                <th>Products</th>
+                <th>Price</th>
+                <th>Remove</th>
+              </tr>
+            </thead>
+            <tbody class="align-middle" id="wishlistTable"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!------------ Start Footer  ------------>
+    <footer id="luxefooter"></footer>
+    <!------------ End Footer  ------------>
+  </body>
+
+  <!-- Product Data JS -->
+  <script src="src/js/Product.js"></script>
+
+  <!----- Bootstrap JS ----->
+  <script src="src/bootstrap/js/bootstrap.bundle.js"></script>
+
+  <!-- JQuery -->
+  <script src="src/js/JQuery-3.7.1.js"></script>
+
+  <!----- Custom JS ----->
+  <script src="src/js/Script.js"></script>
+  <script src="src/js/cart.js"></script>
+  <script src="src/js/Wishlist.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      console.log("DOMContentLoaded: Wishlist functions initialized.");
+      updateWishlistBadge();
+      displayWishlist();
+    });
+  </script>
+</html>
