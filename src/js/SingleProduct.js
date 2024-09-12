@@ -60,9 +60,9 @@ function viewProduct(productId, products) {
             <div class="right-box">
               <div class="main-img-box">
                 <a href="${
-                  product.images[0]
+                  product.images
                 }" id="mainImageLink" data-lightbox="models">
-                  <img src="${product.images[0]}" alt="${
+                  <img src="${product.images}" alt="${
     product.name
   }" id="mainImage" class="main-img img-fluid" />
                 </a>

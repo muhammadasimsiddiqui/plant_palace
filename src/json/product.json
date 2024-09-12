@@ -3,7 +3,7 @@
     "id": 1,
     "name": "Golden Pothos",
     "category": "IndoorPlants",
-    "images": ["1_1.jpg"],
+    "images": ["img/products/golden-pothos-plant-care-720154.webp"],
     "price": 12.99,
     "sku": "PP-PLT-001",
     "description": [
@@ -20,7 +20,7 @@
     "id": 2,
     "name": "Boston Fern",
     "category": "Ferns",
-    "images": ["boston_fern_1.jpg", "boston_fern_2.jpg"],
+    "images": ["img/products/Boston Fern.jfif"],
     "price": 14.99,
     "sku": "PP-PLT-002",
     "description": [
@@ -37,7 +37,7 @@
     "id": 3,
     "name": "Zebra Haworthia",
     "category": "Succulents",
-    "images": ["zebra_haworthia_1.jpg", "zebra_haworthia_2.jpg"],
+    "images": ["img/products/Zebra Haworthia.webp"],
     "price": 9.99,
     "sku": "PP-PLT-003",
     "description": [
@@ -54,7 +54,7 @@
     "id": 4,
     "name": "Rosemary",
     "category": "Herbs",
-    "images": ["rosemary_plant_1.jpg", "rosemary_plant_2.jpg"],
+    "images": ["img/products/Rosemary.webp"],
     "price": 7.99,
     "sku": "PP-HRB-004",
     "description": [
@@ -71,7 +71,7 @@
     "id": 5,
     "name": "Lavender",
     "category": "Herbs",
-    "images": ["lavender_plant_1.jpg", "lavender_plant_2.jpg"],
+    "images": ["img/products/Lavender.png"],
     "price": 8.99,
     "sku": "PP-HRB-005",
     "description": [
@@ -88,7 +88,7 @@
     "id": 6,
     "name": "Snake Plant",
     "category": "IndoorPlants",
-    "images": ["snake_plant_1.jpg", "snake_plant_2.jpg"],
+    "images": ["img/products/Snake Plant.png"],
     "price": 19.99,
     "sku": "PP-PLT-006",
     "description": [
@@ -105,7 +105,7 @@
     "id": 7,
     "name": "Aloe Vera",
     "category": "Succulents",
-    "images": ["aloe_vera_1.jpg", "aloe_vera_2.jpg"],
+    "images": ["img/products/Aloe Vera.png"],
     "price": 9.99,
     "sku": "PP-SUC-007",
     "description": [
@@ -122,7 +122,7 @@
     "id": 8,
     "name": "Rose",
     "category": "FloweringShrubs",
-    "images": ["rose_plant_1.jpg", "rose_plant_2.jpg"],
+    "images": ["img/products/Rose.jpeg"],
     "price": 15.99,
     "sku": "PP-FLS-008",
     "description": [
@@ -139,7 +139,7 @@
     "id": 9,
     "name": "Spider Plant",
     "category": "IndoorPlants",
-    "images": ["spider_plant_1.jpg", "spider_plant_2.jpg"],
+    "images": ["img/products/Spider Plant.webp"],
     "price": 10.99,
     "sku": "PP-PLT-009",
     "description": [
@@ -156,7 +156,7 @@
     "id": 11,
     "name": "Japanese Maple",
     "category": "Trees",
-    "images": ["japanese_maple_1.jpg", "japanese_maple_2.jpg"],
+    "images": ["img/products/Japanese Maple.jpg"],
     "price": 59.99,
     "sku": "PP-TRE-011",
     "description": [
@@ -173,7 +173,7 @@
     "id": 12,
     "name": "Venus Flytrap",
     "category": "CarnivorousPlants",
-    "images": ["venus_flytrap_1.jpg", "venus_flytrap_2.jpg"],
+    "images": ["img/products/Venus Flytrap.webp"],
     "price": 14.99,
     "sku": "PP-CRN-012",
     "description": [
@@ -190,7 +190,7 @@
     "id": 13,
     "name": "Dwarf Jade Bonsai",
     "category": "Bonsai",
-    "images": ["dwarf_jade_bonsai_1.jpg", "dwarf_jade_bonsai_2.jpg"],
+    "images": ["img/products/Dwarf Jade Bonsai.jpeg"],
     "price": 45.99,
     "sku": "PP-BNS-013",
     "description": [
@@ -207,7 +207,7 @@
     "id": 14,
     "name": "Monstera Deliciosa",
     "category": "IndoorPlants",
-    "images": ["monstera_deliciosa_1.jpg", "monstera_deliciosa_2.jpg"],
+    "images": ["img/products/Monstera Deliciosa.jpeg"],
     "price": 34.99,
     "sku": "PP-PLT-014",
     "description": [
@@ -224,7 +224,7 @@
     "id": 15,
     "name": "Peace Lily",
     "category": "IndoorPlants",
-    "images": ["peace_lily_1.jpg", "peace_lily_2.jpg"],
+    "images": ["img/products/Peace Lily.jpg"],
     "price": 24.99,
     "sku": "PP-PLT-015",
     "description": [
@@ -241,7 +241,7 @@
     "id": 16,
     "name": "Fiddle Leaf Fig",
     "category": "IndoorPlants",
-    "images": ["fiddle_leaf_fig_1.jpg", "fiddle_leaf_fig_2.jpg"],
+    "images": ["img/products/Fiddle Leaf Fig.jpg"],
     "price": 29.99,
     "sku": "PP-PLT-016",
     "description": [
@@ -258,7 +258,7 @@
     "id": 17,
     "name": "English Ivy",
     "category": "Climbers",
-    "images": ["english_ivy_1.jpg", "english_ivy_2.jpg"],
+    "images": ["img/products/English Ivy.jpg"],
     "price": 14.99,
     "sku": "PP-CLM-017",
     "description": [
@@ -275,7 +275,7 @@
     "id": 18,
     "name": "Lavender 'Munstead'",
     "category": "Herbs",
-    "images": ["lavender_munstead_1.jpg", "lavender_munstead_2.jpg"],
+    "images": ["img/products/Lavender 'Munstead 52.webp"],
     "price": 9.99,
     "sku": "PP-HRB-018",
     "description": [
@@ -292,7 +292,7 @@
     "id": 19,
     "name": "Air Plant (Tillandsia)",
     "category": "AirPlants",
-    "images": ["air_plant_1.jpg", "air_plant_2.jpg"],
+    "images": ["img/products/Air Plant (Tillandsia).jpg"],
     "price": 7.99,
     "sku": "PP-AIR-019",
     "description": [
@@ -309,7 +309,7 @@
     "id": 20,
     "name": "Blue Fescue Grass",
     "category": "OrnamentalGrasses",
-    "images": ["blue_fescue_grass_1.jpg", "blue_fescue_grass_2.jpg"],
+    "images": ["img/products/Blue Fescue Grass.webp"],
     "price": 9.99,
     "sku": "PP-ORN-020",
     "description": [
@@ -322,28 +322,12 @@
     "origin_country": "Europe",
     "scientific_name": "Festuca glauca"
   },
-  {
-    "id": 21,
-    "name": "Rosemary",
-    "category": "Herbs",
-    "images": ["rosemary_1.jpg", "rosemary_2.jpg"],
-    "price": 7.99,
-    "sku": "PP-HRB-021",
-    "description": [
-      "An aromatic herb that is a staple in Mediterranean cuisine.",
-      "Thrives in full sun, making it ideal for outdoor herb gardens or sunny windowsills.",
-      "Known for its needle-like leaves and woody stems, which are highly fragrant."
-    ],
-    "light_requirements": "Full sun",
-    "watering_cycle": "Every 10 days",
-    "origin_country": "Mediterranean",
-    "scientific_name": "Salvia rosmarinus"
-  },
+  
   {
     "id": 22,
     "name": "Succulent Potting Mix",
     "category": "Soils",
-    "images": ["succulent_potting_mix_1.jpg"],
+    "images": ["img/products/Succulent Potting Mix.jpg"],
     "price": 9.99,
     "sku": "PP-SOIL-022",
     "description": [
@@ -360,7 +344,7 @@
     "id": 23,
     "name": "Orchid Bark Mix",
     "category": "Soils",
-    "images": ["orchid_bark_mix_1.jpg"],
+    "images": ["img/products/Orchid Bark Mix.jpg"],
     "price": 14.99,
     "sku": "PP-SOIL-023",
     "description": [
@@ -377,7 +361,7 @@
     "id": 24,
     "name": "Cactus Soil Mix",
     "category": "Soils",
-    "images": ["cactus_soil_mix_1.jpg"],
+    "images": ["img/products/cactus soil.jpg"],
     "price": 9.99,
     "sku": "PP-SOIL-024",
     "description": [
@@ -394,7 +378,7 @@
     "id": 25,
     "name": "Organic Potting Soil",
     "category": "Soils",
-    "images": ["organic_potting_soil_1.jpg"],
+    "images": ["img/products/Organic Potting Soil.webp"],
     "price": 12.99,
     "sku": "PP-SOIL-025",
     "description": [
@@ -411,7 +395,7 @@
     "id": 26,
     "name": "Hanging Plant Hook",
     "category": "GardeningTools",
-    "images": ["hanging_plant_hook_1.jpg"],
+    "images": ["img/products/Hanging Plant Hook.jfif"],
     "price": 4.99,
     "sku": "PP-TOOL-026",
     "description": [
@@ -428,7 +412,7 @@
     "id": 27,
     "name": "Bamboo Stakes",
     "category": "GardeningTools",
-    "images": ["bamboo_stakes_1.jpg"],
+    "images": ["img/products/Bamboo-Stakes.webp"],
     "price": 7.99,
     "sku": "PP-TOOL-027",
     "description": [
@@ -445,7 +429,7 @@
     "id": 28,
     "name": "Pruning Shears",
     "category": "GardeningTools",
-    "images": ["pruning_shears_1.jpg"],
+    "images": ["img/products/Pruning Shears.webp"],
     "price": 19.99,
     "sku": "PP-TOOL-028",
     "description": [
@@ -462,7 +446,7 @@
     "id": 29,
     "name": "Watering Can",
     "category": "GardeningTools",
-    "images": ["watering_can_1.jpg"],
+    "images": ["img/products/Watering Can.jpg"],
     "price": 12.99,
     "sku": "PP-TOOL-029",
     "description": [
@@ -479,7 +463,7 @@
     "id": 30,
     "name": "Terracotta Pot",
     "category": "GardeningTools",
-    "images": ["terracotta_pot_1.jpg"],
+    "images": ["img/products/Terracotta Pot.webp"],
     "price": 5.99,
     "sku": "PP-TOOL-030",
     "description": [
@@ -496,7 +480,7 @@
     "id": 31,
     "name": "Blueberry Bush",
     "category": "EdiblePlants",
-    "images": ["blueberry_bush_1.jpg", "blueberry_bush_2.jpg"],
+    "images": ["img/products/Blueberry Bush.jpg"],
     "price": 22.99,
     "sku": "PP-EDB-031",
     "description": [
@@ -513,7 +497,7 @@
     "id": 32,
     "name": "Peach Tree",
     "category": "Trees",
-    "images": ["peach_tree_1.jpg", "peach_tree_2.jpg"],
+    "images": ["img/products/Peach Tree.webp"],
     "price": 45.99,
     "sku": "PP-TRE-032",
     "description": [
@@ -530,7 +514,7 @@
     "id": 33,
     "name": "Cherry Tomato",
     "category": "EdiblePlants",
-    "images": ["cherry_tomato_1.jpg", "cherry_tomato_2.jpg"],
+    "images": ["img/products/Cherry Tomato.jpg"],
     "price": 5.99,
     "sku": "PP-EDB-033",
     "description": [
@@ -547,7 +531,7 @@
     "id": 34,
     "name": "Lavender 'Hidcote'",
     "category": "Herbs",
-    "images": ["lavender_hidcote_1.jpg", "lavender_hidcote_2.jpg"],
+    "images": ["img/products/Lavender 'Hidcote.jpeg"],
     "price": 9.99,
     "sku": "PP-HRB-034",
     "description": [
@@ -564,7 +548,7 @@
     "id": 35,
     "name": "Spiderwort",
     "category": "FloweringPerennials",
-    "images": ["spiderwort_1.jpg", "spiderwort_2.jpg"],
+    "images": ["img/products/Spiderwort.webp"],
     "price": 8.99,
     "sku": "PP-FWP-035",
     "description": [
@@ -581,7 +565,7 @@
     "id": 36,
     "name": "Golden Barrel Cactus",
     "category": "Cacti",
-    "images": ["golden_barrel_cactus_1.jpg", "golden_barrel_cactus_2.jpg"],
+    "images": ["img/products/Golden Barrel Cactus.webp"],
     "price": 15.99,
     "sku": "PP-CAC-036",
     "description": [
@@ -598,7 +582,7 @@
     "id": 37,
     "name": "Dwarf Mondo Grass",
     "category": "OrnamentalGrasses",
-    "images": ["dwarf_mondo_grass_1.jpg", "dwarf_mondo_grass_2.jpg"],
+    "images": ["img/products/Dwarf Mondo Grass.jpg"],
     "price": 8.99,
     "sku": "PP-ORN-037",
     "description": [
@@ -615,7 +599,7 @@
     "id": 38,
     "name": "Jade Plant",
     "category": "Succulents",
-    "images": ["jade_plant_1.jpg", "jade_plant_2.jpg"],
+    "images": ["img/products/Jade Plant.jpg"],
     "price": 12.99,
     "sku": "PP-SUC-038",
     "description": [
@@ -632,7 +616,7 @@
     "id": 39,
     "name": "Kalanchoe",
     "category": "Succulents",
-    "images": ["kalanchoe_1.jpg", "kalanchoe_2.jpg"],
+    "images": ["img/products/Kalanchoe.jpg"],
     "price": 12.99,
     "sku": "PP-SUC-039",
     "description": [
@@ -649,7 +633,7 @@
     "id": 40,
     "name": "Moth Orchid",
     "category": "IndoorPlants",
-    "images": ["moth_orchid_1.jpg", "moth_orchid_2.jpg"],
+    "images": ["img/products/Moth Orchid.jpg"],
     "price": 22.99,
     "sku": "PP-PLT-040",
     "description": [
@@ -666,7 +650,7 @@
     "id": 41,
     "name": "Ponytail Palm",
     "category": "Palms",
-    "images": ["ponytail_palm_1.jpg", "ponytail_palm_2.jpg"],
+    "images": ["img/products/Ponytail Palm.jpg"],
     "price": 19.99,
     "sku": "PP-PLM-041",
     "description": [
@@ -683,7 +667,7 @@
     "id": 42,
     "name": "Golden Pothos",
     "category": "IndoorPlants",
-    "images": ["golden_pothos_1.jpg", "golden_pothos_2.jpg"],
+    "images": ["img/products/golden-pothos-plant-care-720154.webp"],
     "price": 12.99,
     "sku": "PP-PLT-042",
     "description": [
@@ -700,7 +684,7 @@
     "id": 43,
     "name": "Rubber Plant",
     "category": "IndoorPlants",
-    "images": ["rubber_plant_1.jpg", "rubber_plant_2.jpg"],
+    "images": ["img/products/RubberPlant.webp"],
     "price": 24.99,
     "sku": "PP-PLT-043",
     "description": [
@@ -717,7 +701,7 @@
     "id": 44,
     "name": "Bleeding Heart Vine",
     "category": "Climbers",
-    "images": ["bleeding_heart_vine_1.jpg", "bleeding_heart_vine_2.jpg"],
+    "images": ["img/products/Bleeding Heart Vine.jpg"],
     "price": 18.99,
     "sku": "PP-CLM-044",
     "description": [
@@ -734,7 +718,7 @@
     "id": 45,
     "name": "Lavender",
     "category": "Herbs",
-    "images": ["lavender_plant_1.jpg", "lavender_plant_2.jpg"],
+    "images": ["img/products/Lavender.png"],
     "price": 8.99,
     "sku": "PP-HRB-045",
     "description": [
@@ -751,7 +735,7 @@
     "id": 46,
     "name": "Golden Barrel Cactus",
     "category": "Cacti",
-    "images": ["golden_barrel_cactus_1.jpg", "golden_barrel_cactus_2.jpg"],
+    "images": ["img/products/Golden Barrel Cactus.webp"],
     "price": 15.99,
     "sku": "PP-CAC-046",
     "description": [
@@ -768,7 +752,7 @@
     "id": 47,
     "name": "Hosta",
     "category": "Groundcovers",
-    "images": ["hosta_1.jpg", "hosta_2.jpg"],
+    "images": ["img/products/Hosta.jpeg"],
     "price": 8.99,
     "sku": "PP-GRO-047",
     "description": [
@@ -785,7 +769,7 @@
     "id": 48,
     "name": "Snowdrop",
     "category": "Bulbs",
-    "images": ["snowdrop_1.jpg", "snowdrop_2.jpg"],
+    "images": ["img/products/Snowdrop.jpeg"],
     "price": 7.99,
     "sku": "PP-BLB-048",
     "description": [
@@ -802,7 +786,7 @@
     "id": 49,
     "name": "Venus Flytrap",
     "category": "CarnivorousPlants",
-    "images": ["venus_flytrap_1.jpg", "venus_flytrap_2.jpg"],
+    "images": ["img/products/Venus Flytrap.webp"],
     "price": 15.99,
     "sku": "PP-CRN-049",
     "description": [
@@ -819,7 +803,7 @@
     "id": 50,
     "name": "Organic Fertilizer",
     "category": "Soils",
-    "images": ["organic_fertilizer_1.jpg"],
+    "images": ["img/products/Organic Fertilizer.jpg"],
     "price": 19.99,
     "sku": "PP-SOIL-050",
     "description": [
@@ -836,7 +820,7 @@
     "id": 51,
     "name": "Creeping Thyme",
     "category": "EdiblePlants",
-    "images": ["creeping_thyme_1.jpg", "creeping_thyme_2.jpg"],
+    "images": ["img/products/Creeping Thyme.jpg"],
     "price": 8.99,
     "sku": "PP-HRB-051",
     "description": [
@@ -849,28 +833,12 @@
     "origin_country": "Europe and Asia",
     "scientific_name": "Thymus serpyllum"
   },
-  {
-    "id": 52,
-    "name": "Lavender 'Munstead'",
-    "category": "Herbs",
-    "images": ["lavender_munstead_1.jpg", "lavender_munstead_2.jpg"],
-    "price": 9.99,
-    "sku": "PP-HRB-052",
-    "description": [
-      "A compact variety of lavender known for its aromatic foliage and deep purple flowers.",
-      "Thrives in full sun and well-drained soil, suitable for herb gardens, borders, and rock gardens.",
-      "Requires minimal watering once established, about once every 7-10 days."
-    ],
-    "light_requirements": "Full sun",
-    "watering_cycle": "Every 7-10 days",
-    "origin_country": "Mediterranean",
-    "scientific_name": "Lavandula angustifolia 'Munstead'"
-  },
+
   {
     "id": 53,
     "name": "Bleeding Heart",
     "category": "FloweringPerennials",
-    "images": ["bleeding_heart_1.jpg", "bleeding_heart_2.jpg"],
+    "images": ["img/products/Bleeding Heart 53.jpg"],
     "price": 16.99,
     "sku": "PP-FWP-053",
     "description": [
@@ -883,28 +851,12 @@
     "origin_country": "Asia",
     "scientific_name": "Lamprocapnos spectabilis"
   },
-  {
-    "id": 54,
-    "name": "Lavender 'Hidcote'",
-    "category": "Herbs",
-    "images": ["lavender_hidcote_1.jpg", "lavender_hidcote_2.jpg"],
-    "price": 9.99,
-    "sku": "PP-HRB-054",
-    "description": [
-      "A compact variety of lavender with deep purple flowers and aromatic foliage.",
-      "Thrives in full sun and well-drained soil, making it ideal for herb gardens and borders.",
-      "Popular in herb gardens and for crafting scented sachets."
-    ],
-    "light_requirements": "Full sun",
-    "watering_cycle": "Every 7-10 days",
-    "origin_country": "Mediterranean",
-    "scientific_name": "Lavandula angustifolia 'Hidcote'"
-  },
+
   {
     "id": 55,
     "name": "String of Pearls",
     "category": "Succulents",
-    "images": ["string_of_pearls_1.jpg", "string_of_pearls_2.jpg"],
+    "images": ["img/products/String of Pearls.jfif"],
     "price": 17.99,
     "sku": "PP-SUC-055",
     "description": [
@@ -921,7 +873,7 @@
     "id": 56,
     "name": "Maidenhair Fern",
     "category": "Ferns",
-    "images": ["maidenhair_fern_1.jpg", "maidenhair_fern_2.jpg"],
+    "images": ["img/products/Maidenhair Fern 55.jpeg"],
     "price": 17.99,
     "sku": "PP-FRN-056",
     "description": [
@@ -938,7 +890,7 @@
     "id": 57,
     "name": "Water Lily",
     "category": "AquaticPlants",
-    "images": ["water_lily_1.jpg", "water_lily_2.jpg"],
+    "images": ["img/products/Water Lily.jpg"],
     "price": 19.99,
     "sku": "PP-AQT-057",
     "description": [
@@ -955,7 +907,7 @@
     "id": 58,
     "name": "Bleeding Heart Vine",
     "category": "Climbers",
-    "images": ["bleeding_heart_vine_1.jpg", "bleeding_heart_vine_2.jpg"],
+    "images": ["img/products/Bleeding Heart Vine.jpg"],
     "price": 18.99,
     "sku": "PP-CLM-058",
     "description": [
@@ -972,7 +924,7 @@
     "id": 59,
     "name": "Calla Lily",
     "category": "FloweringPerennials",
-    "images": ["calla_lily_1.jpg", "calla_lily_2.jpg"],
+    "images": ["img/products/Calla Lily.jpg"],
     "price": 13.99,
     "sku": "PP-FWP-059",
     "description": [
@@ -989,7 +941,7 @@
     "id": 60,
     "name": "Cherry Tomato",
     "category": "EdiblePlants",
-    "images": ["cherry_tomato_1.jpg", "cherry_tomato_2.jpg"],
+    "images": ["img/products/Cherry Tomato.jpg"],
     "price": 5.99,
     "sku": "PP-EDB-060",
     "description": [
@@ -1006,7 +958,7 @@
     "id": 61,
     "name": "Blue Star Fern",
     "category": "Ferns",
-    "images": ["blue_star_fern_1.jpg", "blue_star_fern_2.jpg"],
+    "images": ["img/products/blue_star_fern_1.jpg", "blue_star_fern_2.jpg"],
     "price": 19.99,
     "sku": "PP-FRN-061",
     "description": [
@@ -1023,7 +975,10 @@
     "id": 62,
     "name": "Japanese Blood Grass",
     "category": "OrnamentalGrasses",
-    "images": ["japanese_blood_grass_1.jpg", "japanese_blood_grass_2.jpg"],
+    "images": [
+      "img/products/japanese_blood_grass_1.jpg",
+      "japanese_blood_grass_2.jpg"
+    ],
     "price": 10.99,
     "sku": "PP-ORN-062",
     "description": [
@@ -1040,7 +995,7 @@
     "id": 63,
     "name": "Sago Palm",
     "category": "Palms",
-    "images": ["sago_palm_1.jpg", "sago_palm_2.jpg"],
+    "images": ["img/products/sago_palm_1.jpg", "sago_palm_2.jpg"],
     "price": 39.99,
     "sku": "PP-PLM-063",
     "description": [
@@ -1057,7 +1012,7 @@
     "id": 64,
     "name": "Creeping Jenny",
     "category": "Groundcovers",
-    "images": ["creeping_jenny_1.jpg", "creeping_jenny_2.jpg"],
+    "images": ["img/products/creeping_jenny_1.jpg", "creeping_jenny_2.jpg"],
     "price": 9.99,
     "sku": "PP-GRO-064",
     "description": [
@@ -1074,7 +1029,7 @@
     "id": 65,
     "name": "Bird of Paradise",
     "category": "Tropicals",
-    "images": ["bird_of_paradise_1.jpg", "bird_of_paradise_2.jpg"],
+    "images": ["img/products/bird_of_paradise_1.jpg", "bird_of_paradise_2.jpg"],
     "price": 29.99,
     "sku": "PP-TRO-065",
     "description": [
@@ -1088,27 +1043,10 @@
     "scientific_name": "Strelitzia reginae"
   },
   {
-    "id": 66,
-    "name": "Rubber Plant",
-    "category": "IndoorPlants",
-    "images": ["rubber_plant_1.jpg", "rubber_plant_2.jpg"],
-    "price": 24.99,
-    "sku": "PP-PLT-066",
-    "description": [
-      "A popular indoor plant known for its glossy, dark green leaves and upright growth habit.",
-      "Thrives in bright, indirect light and well-drained soil.",
-      "Adds a touch of elegance and greenery to indoor spaces."
-    ],
-    "light_requirements": "Bright, indirect light",
-    "watering_cycle": "Every 7 days",
-    "origin_country": "Southeast Asia",
-    "scientific_name": "Ficus elastica"
-  },
-  {
     "id": 67,
     "name": "Creeping Juniper",
     "category": "Groundcovers",
-    "images": ["creeping_juniper_1.jpg", "creeping_juniper_2.jpg"],
+    "images": ["img/products/creeping_juniper_1.jpg", "creeping_juniper_2.jpg"],
     "price": 15.99,
     "sku": "PP-GRO-067",
     "description": [
@@ -1125,7 +1063,7 @@
     "id": 68,
     "name": "Wisteria",
     "category": "Climbers",
-    "images": ["wisteria_1.jpg", "wisteria_2.jpg"],
+    "images": ["img/products/wisteria_1.jpg", "wisteria_2.jpg"],
     "price": 34.99,
     "sku": "PP-CLM-068",
     "description": [
@@ -1138,28 +1076,12 @@
     "origin_country": "East Asia",
     "scientific_name": "Wisteria sinensis"
   },
-  {
-    "id": 69,
-    "name": "Chinese Evergreen",
-    "category": "IndoorPlants",
-    "images": ["chinese_evergreen_1.jpg", "chinese_evergreen_2.jpg"],
-    "price": 14.99,
-    "sku": "PP-PLT-069",
-    "description": [
-      "An adaptable indoor plant with attractive, variegated leaves and a tolerance for low light.",
-      "Prefers low to bright indirect light and well-drained soil.",
-      "Adds lush greenery and decorative appeal to interior spaces with its vibrant foliage."
-    ],
-    "light_requirements": "Low to bright indirect light",
-    "watering_cycle": "Every 5-7 days",
-    "origin_country": "Asia",
-    "scientific_name": "Aglaonema"
-  },
+
   {
     "id": 70,
     "name": "Maranta Leuconeura (Prayer Plant)",
     "category": "IndoorPlants",
-    "images": ["prayer_plant_1.jpg", "prayer_plant_2.jpg"],
+    "images": ["img/products/prayer_plant_1.jpg", "prayer_plant_2.jpg"],
     "price": 13.99,
     "sku": "PP-PLT-070",
     "description": [
@@ -1176,7 +1098,7 @@
     "id": 71,
     "name": "Lucky Bamboo",
     "category": "IndoorPlants",
-    "images": ["lucky_bamboo_1.jpg", "lucky_bamboo_2.jpg"],
+    "images": ["img/products/lucky_bamboo_1.jpg", "lucky_bamboo_2.jpg"],
     "price": 9.99,
     "sku": "PP-PLT-071",
     "description": [
@@ -1193,7 +1115,7 @@
     "id": 72,
     "name": "Moth Orchid",
     "category": "IndoorPlants",
-    "images": ["moth_orchid_1.jpg", "moth_orchid_2.jpg"],
+    "images": ["img/products/moth_orchid_1.jpg", "moth_orchid_2.jpg"],
     "price": 22.99,
     "sku": "PP-PLT-072",
     "description": [
@@ -1210,7 +1132,7 @@
     "id": 73,
     "name": "African Violet",
     "category": "IndoorPlants",
-    "images": ["african_violet_1.jpg", "african_violet_2.jpg"],
+    "images": ["img/products/african_violet_1.jpg", "african_violet_2.jpg"],
     "price": 12.99,
     "sku": "PP-PLT-073",
     "description": [
@@ -1227,7 +1149,7 @@
     "id": 74,
     "name": "Snowdrop",
     "category": "Bulbs",
-    "images": ["snowdrop_1.jpg", "snowdrop_2.jpg"],
+    "images": ["img/products/snowdrop_1.jpg", "snowdrop_2.jpg"],
     "price": 7.99,
     "sku": "PP-BLB-074",
     "description": [
@@ -1244,7 +1166,7 @@
     "id": 75,
     "name": "Hydrangea",
     "category": "FloweringShrubs",
-    "images": ["hydrangea_1.jpg", "hydrangea_2.jpg"],
+    "images": ["img/products/hydrangea_1.jpg", "hydrangea_2.jpg"],
     "price": 29.99,
     "sku": "PP-FLS-075",
     "description": [
@@ -1261,7 +1183,7 @@
     "id": 76,
     "name": "Hosta",
     "category": "Groundcovers",
-    "images": ["hosta_1.jpg", "hosta_2.jpg"],
+    "images": ["img/products/hosta_1.jpg", "hosta_2.jpg"],
     "price": 8.99,
     "sku": "PP-GRO-076",
     "description": [
@@ -1278,7 +1200,7 @@
     "id": 77,
     "name": "Venus Flytrap",
     "category": "CarnivorousPlants",
-    "images": ["venus_flytrap_1.jpg", "venus_flytrap_2.jpg"],
+    "images": ["img/products/venus_flytrap_1.jpg", "venus_flytrap_2.jpg"],
     "price": 15.99,
     "sku": "PP-CRN-077",
     "description": [
@@ -1295,7 +1217,7 @@
     "id": 78,
     "name": "Golden Pothos",
     "category": "IndoorPlants",
-    "images": ["golden_pothos_1.jpg", "golden_pothos_2.jpg"],
+    "images": ["img/products/golden_pothos_1.jpg", "golden_pothos_2.jpg"],
     "price": 12.99,
     "sku": "PP-PLT-078",
     "description": [
@@ -1312,7 +1234,7 @@
     "id": 79,
     "name": "Peach Tree",
     "category": "Trees",
-    "images": ["peach_tree_1.jpg", "peach_tree_2.jpg"],
+    "images": ["img/products/peach_tree_1.jpg", "peach_tree_2.jpg"],
     "price": 45.99,
     "sku": "PP-TRE-079",
     "description": [
@@ -1329,7 +1251,7 @@
     "id": 80,
     "name": "Rose",
     "category": "FloweringShrubs",
-    "images": ["rose_1.jpg", "rose_2.jpg"],
+    "images": ["img/products/rose_1.jpg", "rose_2.jpg"],
     "price": 15.99,
     "sku": "PP-FLS-080",
     "description": [
@@ -1346,7 +1268,7 @@
     "id": 81,
     "name": "Japanese Maple",
     "category": "Trees",
-    "images": ["japanese_maple_1.jpg", "japanese_maple_2.jpg"],
+    "images": ["img/products/japanese_maple_1.jpg", "japanese_maple_2.jpg"],
     "price": 59.99,
     "sku": "PP-TRE-081",
     "description": [
@@ -1363,7 +1285,7 @@
     "id": 82,
     "name": "Jade Plant",
     "category": "Succulents",
-    "images": ["jade_plant_1.jpg", "jade_plant_2.jpg"],
+    "images": ["img/products/jade_plant_1.jpg", "jade_plant_2.jpg"],
     "price": 12.99,
     "sku": "PP-SUC-082",
     "description": [
@@ -1380,7 +1302,7 @@
     "id": 83,
     "name": "Lavender",
     "category": "Herbs",
-    "images": ["lavender_plant_1.jpg", "lavender_plant_2.jpg"],
+    "images": ["img/products/lavender_plant_1.jpg", "lavender_plant_2.jpg"],
     "price": 8.99,
     "sku": "PP-HRB-083",
     "description": [
@@ -1397,7 +1319,7 @@
     "id": 84,
     "name": "Bougainvillea",
     "category": "Climbers",
-    "images": ["bougainvillea_1.jpg", "bougainvillea_2.jpg"],
+    "images": ["img/products/bougainvillea_1.jpg", "bougainvillea_2.jpg"],
     "price": 19.99,
     "sku": "PP-CLM-084",
     "description": [
@@ -1414,7 +1336,10 @@
     "id": 85,
     "name": "Dwarf Jade Bonsai",
     "category": "Bonsai",
-    "images": ["dwarf_jade_bonsai_1.jpg", "dwarf_jade_bonsai_2.jpg"],
+    "images": [
+      "img/products/dwarf_jade_bonsai_1.jpg",
+      "dwarf_jade_bonsai_2.jpg"
+    ],
     "price": 45.99,
     "sku": "PP-BNS-085",
     "description": [
@@ -1431,7 +1356,7 @@
     "id": 86,
     "name": "Creeping Thyme",
     "category": "EdiblePlants",
-    "images": ["creeping_thyme_1.jpg", "creeping_thyme_2.jpg"],
+    "images": ["img/products/creeping_thyme_1.jpg", "creeping_thyme_2.jpg"],
     "price": 8.99,
     "sku": "PP-HRB-086",
     "description": [
@@ -1448,7 +1373,10 @@
     "id": 87,
     "name": "Japanese Blood Grass",
     "category": "OrnamentalGrasses",
-    "images": ["japanese_blood_grass_1.jpg", "japanese_blood_grass_2.jpg"],
+    "images": [
+      "img/products/japanese_blood_grass_1.jpg",
+      "japanese_blood_grass_2.jpg"
+    ],
     "price": 10.99,
     "sku": "PP-ORN-087",
     "description": [
@@ -1465,7 +1393,7 @@
     "id": 88,
     "name": "Spider Plant",
     "category": "IndoorPlants",
-    "images": ["spider_plant_1.jpg", "spider_plant_2.jpg"],
+    "images": ["img/products/spider_plant_1.jpg", "spider_plant_2.jpg"],
     "price": 10.99,
     "sku": "PP-PLT-088",
     "description": [
@@ -1482,7 +1410,7 @@
     "id": 89,
     "name": "Water Lily",
     "category": "AquaticPlants",
-    "images": ["water_lily_1.jpg", "water_lily_2.jpg"],
+    "images": ["img/products/water_lily_1.jpg", "water_lily_2.jpg"],
     "price": 19.99,
     "sku": "PP-AQT-089",
     "description": [
@@ -1499,7 +1427,10 @@
     "id": 90,
     "name": "Golden Barrel Cactus",
     "category": "Cacti",
-    "images": ["golden_barrel_cactus_1.jpg", "golden_barrel_cactus_2.jpg"],
+    "images": [
+      "img/products/golden_barrel_cactus_1.jpg",
+      "golden_barrel_cactus_2.jpg"
+    ],
     "price": 15.99,
     "sku": "PP-CAC-090",
     "description": [
@@ -1516,7 +1447,7 @@
     "id": 91,
     "name": "Silver Queen",
     "category": "IndoorPlants",
-    "images": ["silver_queen_1.jpg", "silver_queen_2.jpg"],
+    "images": ["img/products/silver_queen_1.jpg", "silver_queen_2.jpg"],
     "price": 15.99,
     "sku": "PP-PLT-091",
     "description": [
@@ -1533,7 +1464,7 @@
     "id": 92,
     "name": "Bird of Paradise",
     "category": "Tropicals",
-    "images": ["bird_of_paradise_1.jpg", "bird_of_paradise_2.jpg"],
+    "images": ["img/products/bird_of_paradise_1.jpg", "bird_of_paradise_2.jpg"],
     "price": 29.99,
     "sku": "PP-TRO-092",
     "description": [
@@ -1550,7 +1481,7 @@
     "id": 93,
     "name": "Tillandsia",
     "category": "AirPlants",
-    "images": ["tillandsia_1.jpg", "tillandsia_2.jpg"],
+    "images": ["img/products/tillandsia_1.jpg", "tillandsia_2.jpg"],
     "price": 8.99,
     "sku": "PP-AIR-093",
     "description": [
@@ -1567,7 +1498,7 @@
     "id": 94,
     "name": "Fiddle Leaf Fig",
     "category": "IndoorPlants",
-    "images": ["fiddle_leaf_fig_1.jpg", "fiddle_leaf_fig_2.jpg"],
+    "images": ["img/products/fiddle_leaf_fig_1.jpg", "fiddle_leaf_fig_2.jpg"],
     "price": 29.99,
     "sku": "PP-PLT-094",
     "description": [
@@ -1584,7 +1515,7 @@
     "id": 95,
     "name": "Orchid Bark Mix",
     "category": "Soils",
-    "images": ["orchid_bark_mix_1.jpg"],
+    "images": ["img/products/orchid_bark_mix_1.jpg"],
     "price": 14.99,
     "sku": "PP-SOIL-095",
     "description": [
@@ -1601,7 +1532,7 @@
     "id": 96,
     "name": "Organic Potting Soil",
     "category": "Soils",
-    "images": ["organic_potting_soil_1.jpg"],
+    "images": ["img/products/organic_potting_soil_1.jpg"],
     "price": 12.99,
     "sku": "PP-SOIL-096",
     "description": [
@@ -1618,7 +1549,7 @@
     "id": 97,
     "name": "Bonsai Scissors",
     "category": "GardeningTools",
-    "images": ["bonsai_scissors_1.jpg"],
+    "images": ["img/products/bonsai_scissors_1.jpg"],
     "price": 24.99,
     "sku": "PP-TOOL-097",
     "description": [
@@ -1635,7 +1566,7 @@
     "id": 98,
     "name": "Succulent Potting Mix",
     "category": "Soils",
-    "images": ["succulent_potting_mix_1.jpg"],
+    "images": ["img/products/succulent_potting_mix_1.jpg"],
     "price": 9.99,
     "sku": "PP-SOIL-098",
     "description": [
@@ -1652,7 +1583,7 @@
     "id": 99,
     "name": "Watering Can",
     "category": "GardeningTools",
-    "images": ["watering_can_1.jpg"],
+    "images": ["img/products/watering_can_1.jpg"],
     "price": 12.99,
     "sku": "PP-TOOL-099",
     "description": [
@@ -1669,7 +1600,7 @@
     "id": 100,
     "name": "Bamboo Stakes",
     "category": "GardeningTools",
-    "images": ["bamboo_stakes_1.jpg"],
+    "images": ["img/products/bamboo_stakes_1.jpg"],
     "price": 7.99,
     "sku": "PP-TOOL-100",
     "description": [
@@ -1686,7 +1617,7 @@
     "id": 101,
     "name": "Garden Hand Trowel",
     "category": "GardeningTools",
-    "images": ["garden_hand_trowel_1.jpg"],
+    "images": ["img/products/garden_hand_trowel_1.jpg"],
     "price": 8.99,
     "sku": "PP-TOOL-101",
     "description": [
@@ -1703,7 +1634,7 @@
     "id": 102,
     "name": "Organic Fertilizer",
     "category": "Soils",
-    "images": ["organic_fertilizer_1.jpg"],
+    "images": ["img/products/organic_fertilizer_1.jpg"],
     "price": 19.99,
     "sku": "PP-SOIL-102",
     "description": [
@@ -1720,7 +1651,7 @@
     "id": 103,
     "name": "Terracotta Pot",
     "category": "GardeningTools",
-    "images": ["terracotta_pot_1.jpg"],
+    "images": ["img/products/terracotta_pot_1.jpg"],
     "price": 5.99,
     "sku": "PP-TOOL-103",
     "description": [
@@ -1737,7 +1668,7 @@
     "id": 104,
     "name": "Spiderwort",
     "category": "FloweringPerennials",
-    "images": ["spiderwort_1.jpg", "spiderwort_2.jpg"],
+    "images": ["img/products/spiderwort_1.jpg", "spiderwort_2.jpg"],
     "price": 8.99,
     "sku": "PP-FWP-104",
     "description": [
@@ -1754,7 +1685,7 @@
     "id": 105,
     "name": "Pruning Shears",
     "category": "GardeningTools",
-    "images": ["pruning_shears_1.jpg"],
+    "images": ["img/products/pruning_shears_1.jpg"],
     "price": 19.99,
     "sku": "PP-TOOL-105",
     "description": [
@@ -1771,7 +1702,7 @@
     "id": 106,
     "name": "Peach Tree",
     "category": "Trees",
-    "images": ["peach_tree_1.jpg", "peach_tree_2.jpg"],
+    "images": ["img/products/peach_tree_1.jpg", "peach_tree_2.jpg"],
     "price": 45.99,
     "sku": "PP-TRE-106",
     "description": [
@@ -1784,28 +1715,12 @@
     "origin_country": "China",
     "scientific_name": "Prunus persica"
   },
-  {
-    "id": 107,
-    "name": "Rosemary",
-    "category": "Herbs",
-    "images": ["rosemary_1.jpg", "rosemary_2.jpg"],
-    "price": 7.99,
-    "sku": "PP-HRB-107",
-    "description": [
-      "An aromatic herb that is a staple in Mediterranean cuisine.",
-      "Thrives in full sun, making it ideal for outdoor herb gardens or sunny windowsills.",
-      "Known for its needle-like leaves and woody stems, which are highly fragrant."
-    ],
-    "light_requirements": "Full sun",
-    "watering_cycle": "Every 10 days",
-    "origin_country": "Mediterranean",
-    "scientific_name": "Salvia rosmarinus"
-  },
+ 
   {
     "id": 108,
     "name": "Creeping Jenny",
     "category": "Groundcovers",
-    "images": ["creeping_jenny_1.jpg", "creeping_jenny_2.jpg"],
+    "images": ["img/products/creeping_jenny_1.jpg", "creeping_jenny_2.jpg"],
     "price": 9.99,
     "sku": "PP-GRO-108",
     "description": [
@@ -1818,28 +1733,12 @@
     "origin_country": "Europe",
     "scientific_name": "Lysimachia nummularia"
   },
-  {
-    "id": 109,
-    "name": "Lavender 'Munstead'",
-    "category": "Herbs",
-    "images": ["lavender_munstead_1.jpg", "lavender_munstead_2.jpg"],
-    "price": 9.99,
-    "sku": "PP-HRB-109",
-    "description": [
-      "A compact variety of lavender known for its aromatic foliage and deep purple flowers.",
-      "Thrives in full sun and well-drained soil, suitable for herb gardens, borders, and rock gardens.",
-      "Requires minimal watering once established, about once every 7-10 days."
-    ],
-    "light_requirements": "Full sun",
-    "watering_cycle": "Every 7-10 days",
-    "origin_country": "Mediterranean",
-    "scientific_name": "Lavandula angustifolia 'Munstead'"
-  },
+
   {
     "id": 110,
     "name": "Golden Pothos",
     "category": "IndoorPlants",
-    "images": ["golden_pothos_1.jpg", "golden_pothos_2.jpg"],
+    "images": ["img/products/golden_pothos_1.jpg", "golden_pothos_2.jpg"],
     "price": 12.99,
     "sku": "PP-PLT-110",
     "description": [
@@ -1856,7 +1755,7 @@
     "id": 111,
     "name": "Bonsai Soil Mix",
     "category": "Soils",
-    "images": ["bonsai_soil_mix_1.jpg"],
+    "images": ["img/products/bonsai_soil_mix_1.jpg"],
     "price": 14.99,
     "sku": "PP-SOIL-111",
     "description": [
@@ -1873,7 +1772,7 @@
     "id": 112,
     "name": "Hydrangea",
     "category": "FloweringShrubs",
-    "images": ["hydrangea_1.jpg", "hydrangea_2.jpg"],
+    "images": ["img/products/hydrangea_1.jpg", "hydrangea_2.jpg"],
     "price": 29.99,
     "sku": "PP-FLS-112",
     "description": [
@@ -1890,7 +1789,7 @@
     "id": 113,
     "name": "Fiddle Leaf Fig",
     "category": "IndoorPlants",
-    "images": ["fiddle_leaf_fig_1.jpg", "fiddle_leaf_fig_2.jpg"],
+    "images": ["img/products/fiddle_leaf_fig_1.jpg", "fiddle_leaf_fig_2.jpg"],
     "price": 29.99,
     "sku": "PP-PLT-113",
     "description": [
@@ -1907,7 +1806,7 @@
     "id": 114,
     "name": "Japanese Maple",
     "category": "Trees",
-    "images": ["japanese_maple_1.jpg", "japanese_maple_2.jpg"],
+    "images": ["img/products/japanese_maple_1.jpg", "japanese_maple_2.jpg"],
     "price": 59.99,
     "sku": "PP-TRE-114",
     "description": [
@@ -1924,7 +1823,7 @@
     "id": 115,
     "name": "Spider Plant",
     "category": "IndoorPlants",
-    "images": ["spider_plant_1.jpg", "spider_plant_2.jpg"],
+    "images": ["img/products/spider_plant_1.jpg", "spider_plant_2.jpg"],
     "price": 10.99,
     "sku": "PP-PLT-115",
     "description": [
@@ -1941,7 +1840,7 @@
     "id": 116,
     "name": "Blue Star Fern",
     "category": "Ferns",
-    "images": ["blue_star_fern_1.jpg", "blue_star_fern_2.jpg"],
+    "images": ["img/products/blue_star_fern_1.jpg", "blue_star_fern_2.jpg"],
     "price": 19.99,
     "sku": "PP-FRN-116",
     "description": [
@@ -1958,7 +1857,7 @@
     "id": 117,
     "name": "Wisteria",
     "category": "Climbers",
-    "images": ["wisteria_1.jpg", "wisteria_2.jpg"],
+    "images": ["img/products/wisteria_1.jpg", "wisteria_2.jpg"],
     "price": 34.99,
     "sku": "PP-CLM-117",
     "description": [
@@ -1975,7 +1874,7 @@
     "id": 118,
     "name": "Rose",
     "category": "FloweringShrubs",
-    "images": ["rose_1.jpg", "rose_2.jpg"],
+    "images": ["img/products/rose_1.jpg", "rose_2.jpg"],
     "price": 15.99,
     "sku": "PP-FLS-118",
     "description": [
@@ -1988,28 +1887,12 @@
     "origin_country": "Asia",
     "scientific_name": "Rosa"
   },
-  {
-    "id": 119,
-    "name": "Lavender 'Hidcote'",
-    "category": "Herbs",
-    "images": ["lavender_hidcote_1.jpg", "lavender_hidcote_2.jpg"],
-    "price": 9.99,
-    "sku": "PP-HRB-119",
-    "description": [
-      "A compact variety of lavender with deep purple flowers and aromatic foliage.",
-      "Thrives in full sun and well-drained soil, making it ideal for herb gardens and borders.",
-      "Popular in herb gardens and for crafting scented sachets."
-    ],
-    "light_requirements": "Full sun",
-    "watering_cycle": "Every 7-10 days",
-    "origin_country": "Mediterranean",
-    "scientific_name": "Lavandula angustifolia 'Hidcote'"
-  },
+
   {
     "id": 120,
     "name": "Garden Hand Trowel",
     "category": "GardeningTools",
-    "images": ["garden_hand_trowel_1.jpg"],
+    "images": ["img/products/garden_hand_trowel_1.jpg"],
     "price": 8.99,
     "sku": "PP-TOOL-120",
     "description": [
@@ -2027,7 +1910,10 @@
     "id": 121,
     "name": "Lavender 'Provence'",
     "category": "Herbs",
-    "images": ["lavender_provence_1.jpg", "lavender_provence_2.jpg"],
+    "images": [
+      "img/products/lavender_provence_1.jpg",
+      "lavender_provence_2.jpg"
+    ],
     "price": 10.99,
     "sku": "PP-HRB-121",
     "description": [
@@ -2044,7 +1930,7 @@
     "id": 122,
     "name": "Creeping Thyme",
     "category": "EdiblePlants",
-    "images": ["creeping_thyme_1.jpg", "creeping_thyme_2.jpg"],
+    "images": ["img/products/creeping_thyme_1.jpg", "creeping_thyme_2.jpg"],
     "price": 8.99,
     "sku": "PP-HRB-122",
     "description": [
@@ -2061,7 +1947,7 @@
     "id": 123,
     "name": "English Ivy",
     "category": "Climbers",
-    "images": ["english_ivy_1.jpg", "english_ivy_2.jpg"],
+    "images": ["img/products/english_ivy_1.jpg", "english_ivy_2.jpg"],
     "price": 14.99,
     "sku": "PP-CLM-123",
     "description": [
@@ -2078,7 +1964,7 @@
     "id": 124,
     "name": "Bamboo Palm",
     "category": "Palms",
-    "images": ["bamboo_palm_1.jpg", "bamboo_palm_2.jpg"],
+    "images": ["img/products/bamboo_palm_1.jpg", "bamboo_palm_2.jpg"],
     "price": 24.99,
     "sku": "PP-PLM-124",
     "description": [
@@ -2095,7 +1981,7 @@
     "id": 125,
     "name": "Golden Pothos",
     "category": "IndoorPlants",
-    "images": ["golden_pothos_1.jpg", "golden_pothos_2.jpg"],
+    "images": ["img/products/golden_pothos_1.jpg", "golden_pothos_2.jpg"],
     "price": 12.99,
     "sku": "PP-PLT-125",
     "description": [
@@ -2112,7 +1998,7 @@
     "id": 126,
     "name": "Ficus Bonsai",
     "category": "Bonsai",
-    "images": ["ficus_bonsai_1.jpg", "ficus_bonsai_2.jpg"],
+    "images": ["img/products/ficus_bonsai_1.jpg", "ficus_bonsai_2.jpg"],
     "price": 49.99,
     "sku": "PP-BNS-126",
     "description": [
@@ -2129,7 +2015,7 @@
     "id": 127,
     "name": "Snake Plant",
     "category": "IndoorPlants",
-    "images": ["snake_plant_1.jpg", "snake_plant_2.jpg"],
+    "images": ["img/products/snake_plant_1.jpg", "snake_plant_2.jpg"],
     "price": 19.99,
     "sku": "PP-PLT-127",
     "description": [
@@ -2146,7 +2032,7 @@
     "id": 128,
     "name": "Peace Lily",
     "category": "IndoorPlants",
-    "images": ["peace_lily_1.jpg", "peace_lily_2.jpg"],
+    "images": ["img/products/peace_lily_1.jpg", "peace_lily_2.jpg"],
     "price": 24.99,
     "sku": "PP-PLT-128",
     "description": [
@@ -2163,7 +2049,7 @@
     "id": 129,
     "name": "Maidenhair Fern",
     "category": "Ferns",
-    "images": ["maidenhair_fern_1.jpg", "maidenhair_fern_2.jpg"],
+    "images": ["img/products/maidenhair_fern_1.jpg", "maidenhair_fern_2.jpg"],
     "price": 17.99,
     "sku": "PP-FRN-129",
     "description": [
@@ -2180,7 +2066,10 @@
     "id": 130,
     "name": "Monstera Deliciosa",
     "category": "IndoorPlants",
-    "images": ["monstera_deliciosa_1.jpg", "monstera_deliciosa_2.jpg"],
+    "images": [
+      "img/products/monstera_deliciosa_1.jpg",
+      "monstera_deliciosa_2.jpg"
+    ],
     "price": 34.99,
     "sku": "PP-PLT-130",
     "description": [
@@ -2193,45 +2082,12 @@
     "origin_country": "Mexico, Panama",
     "scientific_name": "Monstera deliciosa"
   },
-  {
-    "id": 131,
-    "name": "Basil",
-    "category": "Herbs",
-    "images": ["basil_1.jpg", "basil_2.jpg"],
-    "price": 6.99,
-    "sku": "PP-HRB-131",
-    "description": [
-      "A fragrant herb commonly used in Italian and Southeast Asian cuisines.",
-      "Prefers full sun and should be placed in a spot with at least 6 hours of sunlight.",
-      "Known for its large, aromatic leaves that can be harvested regularly."
-    ],
-    "light_requirements": "Full sun",
-    "watering_cycle": "Every 5-7 days",
-    "origin_country": "India",
-    "scientific_name": "Ocimum basilicum"
-  },
-  {
-    "id": 132,
-    "name": "Rosemary",
-    "category": "Herbs",
-    "images": ["rosemary_1.jpg", "rosemary_2.jpg"],
-    "price": 7.99,
-    "sku": "PP-HRB-132",
-    "description": [
-      "An aromatic herb that is a staple in Mediterranean cuisine.",
-      "Thrives in full sun, making it ideal for outdoor herb gardens or sunny windowsills.",
-      "Known for its needle-like leaves and woody stems, which are highly fragrant."
-    ],
-    "light_requirements": "Full sun",
-    "watering_cycle": "Every 10 days",
-    "origin_country": "Mediterranean",
-    "scientific_name": "Salvia rosmarinus"
-  },
+ 
   {
     "id": 133,
     "name": "Venus Flytrap",
     "category": "CarnivorousPlants",
-    "images": ["venus_flytrap_1.jpg", "venus_flytrap_2.jpg"],
+    "images": ["img/products/venus_flytrap_1.jpg", "venus_flytrap_2.jpg"],
     "price": 14.99,
     "sku": "PP-CRN-133",
     "description": [
@@ -2244,28 +2100,12 @@
     "origin_country": "United States",
     "scientific_name": "Dionaea muscipula"
   },
-  {
-    "id": 134,
-    "name": "Lavender 'Hidcote'",
-    "category": "Herbs",
-    "images": ["lavender_hidcote_1.jpg", "lavender_hidcote_2.jpg"],
-    "price": 9.99,
-    "sku": "PP-HRB-134",
-    "description": [
-      "A compact variety of lavender with deep purple flowers and aromatic foliage.",
-      "Thrives in full sun and well-drained soil, making it ideal for herb gardens and borders.",
-      "Popular in herb gardens and for crafting scented sachets."
-    ],
-    "light_requirements": "Full sun",
-    "watering_cycle": "Every 7-10 days",
-    "origin_country": "Mediterranean",
-    "scientific_name": "Lavandula angustifolia 'Hidcote'"
-  },
+
   {
     "id": 135,
     "name": "Jade Plant",
     "category": "Succulents",
-    "images": ["jade_plant_1.jpg", "jade_plant_2.jpg"],
+    "images": ["img/products/jade_plant_1.jpg", "jade_plant_2.jpg"],
     "price": 12.99,
     "sku": "PP-SUC-135",
     "description": [
@@ -2282,7 +2122,7 @@
     "id": 136,
     "name": "Aloe Vera",
     "category": "Succulents",
-    "images": ["aloe_vera_1.jpg", "aloe_vera_2.jpg"],
+    "images": ["img/products/aloe_vera_1.jpg", "aloe_vera_2.jpg"],
     "price": 9.99,
     "sku": "PP-SUC-136",
     "description": [
@@ -2299,7 +2139,10 @@
     "id": 137,
     "name": "Golden Barrel Cactus",
     "category": "Cacti",
-    "images": ["golden_barrel_cactus_1.jpg", "golden_barrel_cactus_2.jpg"],
+    "images": [
+      "img/products/golden_barrel_cactus_1.jpg",
+      "golden_barrel_cactus_2.jpg"
+    ],
     "price": 15.99,
     "sku": "PP-CAC-137",
     "description": [
@@ -2316,7 +2159,10 @@
     "id": 138,
     "name": "Dwarf Mondo Grass",
     "category": "OrnamentalGrasses",
-    "images": ["dwarf_mondo_grass_1.jpg", "dwarf_mondo_grass_2.jpg"],
+    "images": [
+      "img/products/dwarf_mondo_grass_1.jpg",
+      "dwarf_mondo_grass_2.jpg"
+    ],
     "price": 8.99,
     "sku": "PP-ORN-138",
     "description": [
@@ -2333,7 +2179,7 @@
     "id": 139,
     "name": "Tillandsia",
     "category": "AirPlants",
-    "images": ["tillandsia_1.jpg", "tillandsia_2.jpg"],
+    "images": ["img/products/tillandsia_1.jpg", "tillandsia_2.jpg"],
     "price": 8.99,
     "sku": "PP-AIR-139",
     "description": [
@@ -2350,7 +2196,7 @@
     "id": 140,
     "name": "Orchid Bark Mix",
     "category": "Soils",
-    "images": ["orchid_bark_mix_1.jpg"],
+    "images": ["img/products/orchid_bark_mix_1.jpg"],
     "price": 14.99,
     "sku": "PP-SOIL-140",
     "description": [
@@ -2367,7 +2213,7 @@
     "id": 141,
     "name": "Succulent Potting Mix",
     "category": "Soils",
-    "images": ["succulent_potting_mix_1.jpg"],
+    "images": ["img/products/succulent_potting_mix_1.jpg"],
     "price": 9.99,
     "sku": "PP-SOIL-141",
     "description": [
@@ -2384,7 +2230,7 @@
     "id": 142,
     "name": "Bonsai Scissors",
     "category": "GardeningTools",
-    "images": ["bonsai_scissors_1.jpg"],
+    "images": ["img/products/bonsai_scissors_1.jpg"],
     "price": 24.99,
     "sku": "PP-TOOL-142",
     "description": [
@@ -2401,7 +2247,7 @@
     "id": 143,
     "name": "Organic Fertilizer",
     "category": "Soils",
-    "images": ["organic_fertilizer_1.jpg"],
+    "images": ["img/products/organic_fertilizer_1.jpg"],
     "price": 19.99,
     "sku": "PP-SOIL-143",
     "description": [
@@ -2418,7 +2264,7 @@
     "id": 144,
     "name": "Watering Can",
     "category": "GardeningTools",
-    "images": ["watering_can_1.jpg"],
+    "images": ["img/products/watering_can_1.jpg"],
     "price": 12.99,
     "sku": "PP-TOOL-144",
     "description": [
@@ -2435,7 +2281,7 @@
     "id": 145,
     "name": "Terracotta Pot",
     "category": "GardeningTools",
-    "images": ["terracotta_pot_1.jpg"],
+    "images": ["img/products/terracotta_pot_1.jpg"],
     "price": 5.99,
     "sku": "PP-TOOL-145",
     "description": [
@@ -2452,7 +2298,7 @@
     "id": 146,
     "name": "Bamboo Stakes",
     "category": "GardeningTools",
-    "images": ["bamboo_stakes_1.jpg"],
+    "images": ["img/products/bamboo_stakes_1.jpg"],
     "price": 7.99,
     "sku": "PP-TOOL-146",
     "description": [
@@ -2469,7 +2315,7 @@
     "id": 147,
     "name": "Pruning Shears",
     "category": "GardeningTools",
-    "images": ["pruning_shears_1.jpg"],
+    "images": ["img/products/pruning_shears_1.jpg"],
     "price": 19.99,
     "sku": "PP-TOOL-147",
     "description": [
@@ -2486,7 +2332,7 @@
     "id": 148,
     "name": "Spider Plant",
     "category": "IndoorPlants",
-    "images": ["spider_plant_1.jpg", "spider_plant_2.jpg"],
+    "images": ["img/products/spider_plant_1.jpg", "spider_plant_2.jpg"],
     "price": 10.99,
     "sku": "PP-PLT-148",
     "description": [
@@ -2503,7 +2349,7 @@
     "id": 149,
     "name": "Lucky Bamboo",
     "category": "IndoorPlants",
-    "images": ["lucky_bamboo_1.jpg", "lucky_bamboo_2.jpg"],
+    "images": ["img/products/lucky_bamboo_1.jpg", "lucky_bamboo_2.jpg"],
     "price": 9.99,
     "sku": "PP-PLT-149",
     "description": [
@@ -2520,7 +2366,7 @@
     "id": 150,
     "name": "African Violet",
     "category": "IndoorPlants",
-    "images": ["african_violet_1.jpg", "african_violet_2.jpg"],
+    "images": ["img/products/african_violet_1.jpg", "african_violet_2.jpg"],
     "price": 12.99,
     "sku": "PP-PLT-150",
     "description": [
@@ -2537,7 +2383,7 @@
     "id": 151,
     "name": "Moth Orchid",
     "category": "IndoorPlants",
-    "images": ["moth_orchid_1.jpg", "moth_orchid_2.jpg"],
+    "images": ["img/products/moth_orchid_1.jpg", "moth_orchid_2.jpg"],
     "price": 22.99,
     "sku": "PP-PLT-151",
     "description": [
@@ -2554,7 +2400,10 @@
     "id": 152,
     "name": "Golden Barrel Cactus",
     "category": "Cacti",
-    "images": ["golden_barrel_cactus_1.jpg", "golden_barrel_cactus_2.jpg"],
+    "images": [
+      "img/products/golden_barrel_cactus_1.jpg",
+      "golden_barrel_cactus_2.jpg"
+    ],
     "price": 15.99,
     "sku": "PP-CAC-152",
     "description": [
@@ -2571,7 +2420,7 @@
     "id": 153,
     "name": "Maidenhair Fern",
     "category": "Ferns",
-    "images": ["maidenhair_fern_1.jpg", "maidenhair_fern_2.jpg"],
+    "images": ["img/products/maidenhair_fern_1.jpg", "maidenhair_fern_2.jpg"],
     "price": 17.99,
     "sku": "PP-FRN-153",
     "description": [
@@ -2588,7 +2437,7 @@
     "id": 154,
     "name": "Spiderwort",
     "category": "FloweringPerennials",
-    "images": ["spiderwort_1.jpg", "spiderwort_2.jpg"],
+    "images": ["img/products/spiderwort_1.jpg", "spiderwort_2.jpg"],
     "price": 8.99,
     "sku": "PP-FWP-154",
     "description": [
@@ -2601,28 +2450,12 @@
     "origin_country": "North America",
     "scientific_name": "Tradescantia"
   },
-  {
-    "id": 155,
-    "name": "Rosemary",
-    "category": "Herbs",
-    "images": ["rosemary_1.jpg", "rosemary_2.jpg"],
-    "price": 7.99,
-    "sku": "PP-HRB-155",
-    "description": [
-      "An aromatic herb that is a staple in Mediterranean cuisine.",
-      "Thrives in full sun, making it ideal for outdoor herb gardens or sunny windowsills.",
-      "Known for its needle-like leaves and woody stems, which are highly fragrant."
-    ],
-    "light_requirements": "Full sun",
-    "watering_cycle": "Every 10 days",
-    "origin_country": "Mediterranean",
-    "scientific_name": "Salvia rosmarinus"
-  },
+ 
   {
     "id": 156,
     "name": "Golden Pothos",
     "category": "IndoorPlants",
-    "images": ["golden_pothos_1.jpg", "golden_pothos_2.jpg"],
+    "images": ["img/products/golden_pothos_1.jpg", "golden_pothos_2.jpg"],
     "price": 12.99,
     "sku": "PP-PLT-156",
     "description": [
@@ -2639,7 +2472,7 @@
     "id": 157,
     "name": "Blue Star Fern",
     "category": "Ferns",
-    "images": ["blue_star_fern_1.jpg", "blue_star_fern_2.jpg"],
+    "images": ["img/products/blue_star_fern_1.jpg", "blue_star_fern_2.jpg"],
     "price": 19.99,
     "sku": "PP-FRN-157",
     "description": [
@@ -2656,7 +2489,7 @@
     "id": 158,
     "name": "Lucky Bamboo",
     "category": "IndoorPlants",
-    "images": ["lucky_bamboo_1.jpg", "lucky_bamboo_2.jpg"],
+    "images": ["img/products/lucky_bamboo_1.jpg", "lucky_bamboo_2.jpg"],
     "price": 9.99,
     "sku": "PP-PLT-158",
     "description": [
@@ -2673,7 +2506,10 @@
     "id": 159,
     "name": "Golden Barrel Cactus",
     "category": "Cacti",
-    "images": ["golden_barrel_cactus_1.jpg", "golden_barrel_cactus_2.jpg"],
+    "images": [
+      "img/products/golden_barrel_cactus_1.jpg",
+      "golden_barrel_cactus_2.jpg"
+    ],
     "price": 15.99,
     "sku": "PP-CAC-159",
     "description": [
@@ -2690,7 +2526,7 @@
     "id": 160,
     "name": "Jade Plant",
     "category": "Succulents",
-    "images": ["jade_plant_1.jpg", "jade_plant_2.jpg"],
+    "images": ["img/products/jade_plant_1.jpg", "jade_plant_2.jpg"],
     "price": 12.99,
     "sku": "PP-SUC-160",
     "description": [
@@ -2707,7 +2543,10 @@
     "id": 161,
     "name": "Monstera Deliciosa",
     "category": "IndoorPlants",
-    "images": ["monstera_deliciosa_1.jpg", "monstera_deliciosa_2.jpg"],
+    "images": [
+      "img/products/monstera_deliciosa_1.jpg",
+      "monstera_deliciosa_2.jpg"
+    ],
     "price": 34.99,
     "sku": "PP-PLT-161",
     "description": [
@@ -2724,7 +2563,7 @@
     "id": 162,
     "name": "Peach Tree",
     "category": "Trees",
-    "images": ["peach_tree_1.jpg", "peach_tree_2.jpg"],
+    "images": ["img/products/peach_tree_1.jpg", "peach_tree_2.jpg"],
     "price": 45.99,
     "sku": "PP-TRE-162",
     "description": [
@@ -2741,7 +2580,10 @@
     "id": 163,
     "name": "Blue Fescue Grass",
     "category": "OrnamentalGrasses",
-    "images": ["blue_fescue_grass_1.jpg", "blue_fescue_grass_2.jpg"],
+    "images": [
+      "img/products/blue_fescue_grass_1.jpg",
+      "blue_fescue_grass_2.jpg"
+    ],
     "price": 9.99,
     "sku": "PP-ORN-163",
     "description": [
@@ -2754,28 +2596,12 @@
     "origin_country": "Europe",
     "scientific_name": "Festuca glauca"
   },
-  {
-    "id": 164,
-    "name": "Basil",
-    "category": "Herbs",
-    "images": ["basil_1.jpg", "basil_2.jpg"],
-    "price": 6.99,
-    "sku": "PP-HRB-164",
-    "description": [
-      "A fragrant herb commonly used in Italian and Southeast Asian cuisines.",
-      "Prefers full sun and should be placed in a spot with at least 6 hours of sunlight.",
-      "Known for its large, aromatic leaves that can be harvested regularly."
-    ],
-    "light_requirements": "Full sun",
-    "watering_cycle": "Every 5-7 days",
-    "origin_country": "India",
-    "scientific_name": "Ocimum basilicum"
-  },
+ 
   {
     "id": 165,
     "name": "Wisteria",
     "category": "Climbers",
-    "images": ["wisteria_1.jpg", "wisteria_2.jpg"],
+    "images": ["img/products/wisteria_1.jpg", "wisteria_2.jpg"],
     "price": 34.99,
     "sku": "PP-CLM-165",
     "description": [
@@ -2792,7 +2618,7 @@
     "id": 166,
     "name": "Cherry Tomato",
     "category": "EdiblePlants",
-    "images": ["cherry_tomato_1.jpg", "cherry_tomato_2.jpg"],
+    "images": ["img/products/cherry_tomato_1.jpg", "cherry_tomato_2.jpg"],
     "price": 5.99,
     "sku": "PP-VGT-166",
     "description": [
@@ -2809,7 +2635,7 @@
     "id": 167,
     "name": "Bougainvillea",
     "category": "Climbers",
-    "images": ["bougainvillea_1.jpg", "bougainvillea_2.jpg"],
+    "images": ["img/products/bougainvillea_1.jpg", "bougainvillea_2.jpg"],
     "price": 19.99,
     "sku": "PP-CLM-167",
     "description": [
@@ -2822,28 +2648,12 @@
     "origin_country": "South America",
     "scientific_name": "Bougainvillea spectabilis"
   },
-  {
-    "id": 168,
-    "name": "Lavender 'Munstead'",
-    "category": "Herbs",
-    "images": ["lavender_munstead_1.jpg", "lavender_munstead_2.jpg"],
-    "price": 9.99,
-    "sku": "PP-HRB-168",
-    "description": [
-      "A compact variety of lavender known for its aromatic foliage and deep purple flowers.",
-      "Thrives in full sun and well-drained soil, suitable for herb gardens, borders, and rock gardens.",
-      "Requires minimal watering once established, about once every 7-10 days."
-    ],
-    "light_requirements": "Full sun",
-    "watering_cycle": "Every 7-10 days",
-    "origin_country": "Mediterranean",
-    "scientific_name": "Lavandula angustifolia 'Munstead'"
-  },
+
   {
     "id": 169,
     "name": "Spider Plant",
     "category": "IndoorPlants",
-    "images": ["spider_plant_1.jpg", "spider_plant_2.jpg"],
+    "images": ["img/products/spider_plant_1.jpg", "spider_plant_2.jpg"],
     "price": 10.99,
     "sku": "PP-PLT-169",
     "description": [
@@ -2860,7 +2670,7 @@
     "id": 170,
     "name": "Blue Star Fern",
     "category": "Ferns",
-    "images": ["blue_star_fern_1.jpg", "blue_star_fern_2.jpg"],
+    "images": ["img/products/blue_star_fern_1.jpg", "blue_star_fern_2.jpg"],
     "price": 19.99,
     "sku": "PP-FRN-170",
     "description": [
@@ -2877,7 +2687,7 @@
     "id": 171,
     "name": "English Ivy",
     "category": "Climbers",
-    "images": ["english_ivy_1.jpg", "english_ivy_2.jpg"],
+    "images": ["img/products/english_ivy_1.jpg", "english_ivy_2.jpg"],
     "price": 14.99,
     "sku": "PP-CLM-171",
     "description": [
@@ -2894,7 +2704,7 @@
     "id": 172,
     "name": "Kalanchoe",
     "category": "Succulents",
-    "images": ["kalanchoe_1.jpg", "kalanchoe_2.jpg"],
+    "images": ["img/products/kalanchoe_1.jpg", "kalanchoe_2.jpg"],
     "price": 12.99,
     "sku": "PP-SUC-172",
     "description": [
@@ -2911,7 +2721,7 @@
     "id": 173,
     "name": "Bird of Paradise",
     "category": "Tropicals",
-    "images": ["bird_of_paradise_1.jpg", "bird_of_paradise_2.jpg"],
+    "images": ["img/products/bird_of_paradise_1.jpg", "bird_of_paradise_2.jpg"],
     "price": 29.99,
     "sku": "PP-TRO-173",
     "description": [
@@ -2928,7 +2738,7 @@
     "id": 174,
     "name": "Maidenhair Fern",
     "category": "Ferns",
-    "images": ["maidenhair_fern_1.jpg", "maidenhair_fern_2.jpg"],
+    "images": ["img/products/maidenhair_fern_1.jpg", "maidenhair_fern_2.jpg"],
     "price": 17.99,
     "sku": "PP-FRN-174",
     "description": [
@@ -2945,7 +2755,7 @@
     "id": 175,
     "name": "Hydrangea",
     "category": "FloweringShrubs",
-    "images": ["hydrangea_1.jpg", "hydrangea_2.jpg"],
+    "images": ["img/products/hydrangea_1.jpg", "hydrangea_2.jpg"],
     "price": 29.99,
     "sku": "PP-FLS-175",
     "description": [
@@ -2962,7 +2772,7 @@
     "id": 176,
     "name": "Sago Palm",
     "category": "Palms",
-    "images": ["sago_palm_1.jpg", "sago_palm_2.jpg"],
+    "images": ["img/products/sago_palm_1.jpg", "sago_palm_2.jpg"],
     "price": 39.99,
     "sku": "PP-PLM-176",
     "description": [
@@ -2979,7 +2789,7 @@
     "id": 177,
     "name": "Ficus Bonsai",
     "category": "Bonsai",
-    "images": ["ficus_bonsai_1.jpg", "ficus_bonsai_2.jpg"],
+    "images": ["img/products/ficus_bonsai_1.jpg", "ficus_bonsai_2.jpg"],
     "price": 49.99,
     "sku": "PP-BNS-177",
     "description": [
@@ -2992,28 +2802,15 @@
     "origin_country": "Asia",
     "scientific_name": "Ficus microcarpa"
   },
-  {
-    "id": 178,
-    "name": "Rubber Plant",
-    "category": "IndoorPlants",
-    "images": ["rubber_plant_1.jpg", "rubber_plant_2.jpg"],
-    "price": 24.99,
-    "sku": "PP-PLT-178",
-    "description": [
-      "A popular indoor plant known for its glossy, dark green leaves and upright growth habit.",
-      "Thrives in bright, indirect light and well-drained soil, making it suitable for indoor settings.",
-      "Adds a touch of elegance and greenery to indoor spaces with its bold foliage and compact form."
-    ],
-    "light_requirements": "Bright, indirect light",
-    "watering_cycle": "Every 7 days",
-    "origin_country": "Southeast Asia",
-    "scientific_name": "Ficus elastica"
-  },
+
   {
     "id": 179,
     "name": "Dwarf Jade Bonsai",
     "category": "Bonsai",
-    "images": ["dwarf_jade_bonsai_1.jpg", "dwarf_jade_bonsai_2.jpg"],
+    "images": [
+      "img/products/dwarf_jade_bonsai_1.jpg",
+      "dwarf_jade_bonsai_2.jpg"
+    ],
     "price": 45.99,
     "sku": "PP-BNS-179",
     "description": [
@@ -3030,7 +2827,7 @@
     "id": 180,
     "name": "Calla Lily",
     "category": "FloweringPerennials",
-    "images": ["calla_lily_1.jpg", "calla_lily_2.jpg"],
+    "images": ["img/products/calla_lily_1.jpg", "calla_lily_2.jpg"],
     "price": 13.99,
     "sku": "PP-FWP-180",
     "description": [
@@ -3047,7 +2844,7 @@
     "id": 181,
     "name": "Fiddle Leaf Fig",
     "category": "IndoorPlants",
-    "images": ["fiddle_leaf_fig_1.jpg", "fiddle_leaf_fig_2.jpg"],
+    "images": ["img/products/fiddle_leaf_fig_1.jpg", "fiddle_leaf_fig_2.jpg"],
     "price": 29.99,
     "sku": "PP-PLT-181",
     "description": [
@@ -3064,7 +2861,7 @@
     "id": 182,
     "name": "Japanese Maple",
     "category": "Trees",
-    "images": ["japanese_maple_1.jpg", "japanese_maple_2.jpg"],
+    "images": ["img/products/japanese_maple_1.jpg", "japanese_maple_2.jpg"],
     "price": 59.99,
     "sku": "PP-TRE-182",
     "description": [
@@ -3081,7 +2878,7 @@
     "id": 183,
     "name": "Golden Pothos",
     "category": "IndoorPlants",
-    "images": ["golden_pothos_1.jpg", "golden_pothos_2.jpg"],
+    "images": ["img/products/golden_pothos_1.jpg", "golden_pothos_2.jpg"],
     "price": 12.99,
     "sku": "PP-PLT-183",
     "description": [
@@ -3098,7 +2895,7 @@
     "id": 184,
     "name": "Maidenhair Fern",
     "category": "Ferns",
-    "images": ["maidenhair_fern_1.jpg", "maidenhair_fern_2.jpg"],
+    "images": ["img/products/maidenhair_fern_1.jpg", "maidenhair_fern_2.jpg"],
     "price": 17.99,
     "sku": "PP-FRN-184",
     "description": [
@@ -3115,7 +2912,7 @@
     "id": 185,
     "name": "Snake Plant",
     "category": "IndoorPlants",
-    "images": ["snake_plant_1.jpg", "snake_plant_2.jpg"],
+    "images": ["img/products/snake_plant_1.jpg", "snake_plant_2.jpg"],
     "price": 19.99,
     "sku": "PP-PLT-185",
     "description": [
@@ -3132,7 +2929,7 @@
     "id": 186,
     "name": "Venus Flytrap",
     "category": "CarnivorousPlants",
-    "images": ["venus_flytrap_1.jpg", "venus_flytrap_2.jpg"],
+    "images": ["img/products/venus_flytrap_1.jpg", "venus_flytrap_2.jpg"],
     "price": 14.99,
     "sku": "PP-CRN-186",
     "description": [
@@ -3149,7 +2946,7 @@
     "id": 187,
     "name": "Hydrangea",
     "category": "FloweringShrubs",
-    "images": ["hydrangea_1.jpg", "hydrangea_2.jpg"],
+    "images": ["img/products/hydrangea_1.jpg", "hydrangea_2.jpg"],
     "price": 29.99,
     "sku": "PP-FLS-187",
     "description": [
@@ -3162,28 +2959,15 @@
     "origin_country": "Asia",
     "scientific_name": "Hydrangea macrophylla"
   },
-  {
-    "id": 188,
-    "name": "Rosemary",
-    "category": "Herbs",
-    "images": ["rosemary_1.jpg", "rosemary_2.jpg"],
-    "price": 7.99,
-    "sku": "PP-HRB-188",
-    "description": [
-      "An aromatic herb that is a staple in Mediterranean cuisine.",
-      "Thrives in full sun, making it ideal for outdoor herb gardens or sunny windowsills.",
-      "Known for its needle-like leaves and woody stems, which are highly fragrant."
-    ],
-    "light_requirements": "Full sun",
-    "watering_cycle": "Every 10 days",
-    "origin_country": "Mediterranean",
-    "scientific_name": "Salvia rosmarinus"
-  },
+ 
   {
     "id": 189,
     "name": "Golden Barrel Cactus",
     "category": "Cacti",
-    "images": ["golden_barrel_cactus_1.jpg", "golden_barrel_cactus_2.jpg"],
+    "images": [
+      "img/products/golden_barrel_cactus_1.jpg",
+      "golden_barrel_cactus_2.jpg"
+    ],
     "price": 15.99,
     "sku": "PP-CAC-189",
     "description": [
@@ -3200,7 +2984,7 @@
     "id": 190,
     "name": "Bonsai Soil Mix",
     "category": "Soils",
-    "images": ["bonsai_soil_mix_1.jpg"],
+    "images": ["img/products/bonsai_soil_mix_1.jpg"],
     "price": 14.99,
     "sku": "PP-SOIL-190",
     "description": [
@@ -3217,7 +3001,7 @@
     "id": 191,
     "name": "Succulent Potting Mix",
     "category": "Soils",
-    "images": ["succulent_potting_mix_1.jpg"],
+    "images": ["img/products/succulent_potting_mix_1.jpg"],
     "price": 9.99,
     "sku": "PP-SOIL-191",
     "description": [
@@ -3234,7 +3018,7 @@
     "id": 192,
     "name": "Organic Fertilizer",
     "category": "Soils",
-    "images": ["organic_fertilizer_1.jpg"],
+    "images": ["img/products/organic_fertilizer_1.jpg"],
     "price": 19.99,
     "sku": "PP-SOIL-192",
     "description": [
@@ -3251,7 +3035,7 @@
     "id": 193,
     "name": "Garden Hand Trowel",
     "category": "GardeningTools",
-    "images": ["garden_hand_trowel_1.jpg"],
+    "images": ["img/products/garden_hand_trowel_1.jpg"],
     "price": 8.99,
     "sku": "PP-TOOL-193",
     "description": [
@@ -3268,7 +3052,7 @@
     "id": 194,
     "name": "Bonsai Scissors",
     "category": "GardeningTools",
-    "images": ["bonsai_scissors_1.jpg"],
+    "images": ["img/products/bonsai_scissors_1.jpg"],
     "price": 24.99,
     "sku": "PP-TOOL-194",
     "description": [
@@ -3285,7 +3069,7 @@
     "id": 195,
     "name": "Pruning Shears",
     "category": "GardeningTools",
-    "images": ["pruning_shears_1.jpg"],
+    "images": ["img/products/pruning_shears_1.jpg"],
     "price": 19.99,
     "sku": "PP-TOOL-195",
     "description": [
@@ -3302,7 +3086,7 @@
     "id": 196,
     "name": "Terracotta Pot",
     "category": "GardeningTools",
-    "images": ["terracotta_pot_1.jpg"],
+    "images": ["img/products/terracotta_pot_1.jpg"],
     "price": 5.99,
     "sku": "PP-TOOL-196",
     "description": [
@@ -3319,7 +3103,7 @@
     "id": 197,
     "name": "Bamboo Stakes",
     "category": "GardeningTools",
-    "images": ["bamboo_stakes_1.jpg"],
+    "images": ["img/products/bamboo_stakes_1.jpg"],
     "price": 7.99,
     "sku": "PP-TOOL-197",
     "description": [
@@ -3336,7 +3120,7 @@
     "id": 198,
     "name": "Watering Can",
     "category": "GardeningTools",
-    "images": ["watering_can_1.jpg"],
+    "images": ["img/products/watering_can_1.jpg"],
     "price": 12.99,
     "sku": "PP-TOOL-198",
     "description": [
@@ -3353,7 +3137,7 @@
     "id": 199,
     "name": "Garden Shovel",
     "category": "GardeningTools",
-    "images": ["garden_shovel_1.jpg"],
+    "images": ["img/products/garden_shovel_1.jpg"],
     "price": 15.99,
     "sku": "PP-TOOL-199",
     "description": [
@@ -3370,7 +3154,7 @@
     "id": 200,
     "name": "Hand Rake",
     "category": "GardeningTools",
-    "images": ["hand_rake_1.jpg"],
+    "images": ["img/products/hand_rake_1.jpg"],
     "price": 9.99,
     "sku": "PP-TOOL-200",
     "description": [
@@ -3387,7 +3171,7 @@
     "id": 201,
     "name": "Lawn Fertilizer",
     "category": "Soils",
-    "images": ["lawn_fertilizer_1.jpg"],
+    "images": ["img/products/lawn_fertilizer_1.jpg"],
     "price": 24.99,
     "sku": "PP-SOIL-201",
     "description": [
@@ -3404,7 +3188,7 @@
     "id": 202,
     "name": "Bird of Paradise",
     "category": "Tropicals",
-    "images": ["bird_of_paradise_1.jpg", "bird_of_paradise_2.jpg"],
+    "images": ["img/products/bird_of_paradise_1.jpg", "bird_of_paradise_2.jpg"],
     "price": 29.99,
     "sku": "PP-TRO-202",
     "description": [
@@ -3417,28 +3201,12 @@
     "origin_country": "South Africa",
     "scientific_name": "Strelitzia reginae"
   },
-  {
-    "id": 203,
-    "name": "Basil",
-    "category": "Herbs",
-    "images": ["basil_1.jpg", "basil_2.jpg"],
-    "price": 6.99,
-    "sku": "PP-HRB-203",
-    "description": [
-      "A fragrant herb commonly used in Italian and Southeast Asian cuisines.",
-      "Prefers full sun and should be placed in a spot with at least 6 hours of sunlight.",
-      "Known for its large, aromatic leaves that can be harvested regularly."
-    ],
-    "light_requirements": "Full sun",
-    "watering_cycle": "Every 5-7 days",
-    "origin_country": "India",
-    "scientific_name": "Ocimum basilicum"
-  },
+
   {
     "id": 204,
     "name": "Jade Plant",
     "category": "Succulents",
-    "images": ["jade_plant_1.jpg", "jade_plant_2.jpg"],
+    "images": ["img/products/jade_plant_1.jpg", "jade_plant_2.jpg"],
     "price": 12.99,
     "sku": "PP-SUC-204",
     "description": [
@@ -3455,7 +3223,10 @@
     "id": 205,
     "name": "Monstera Deliciosa",
     "category": "IndoorPlants",
-    "images": ["monstera_deliciosa_1.jpg", "monstera_deliciosa_2.jpg"],
+    "images": [
+      "img/products/monstera_deliciosa_1.jpg",
+      "monstera_deliciosa_2.jpg"
+    ],
     "price": 34.99,
     "sku": "PP-PLT-205",
     "description": [
@@ -3472,7 +3243,10 @@
     "id": 206,
     "name": "Lavender 'Provence'",
     "category": "Herbs",
-    "images": ["lavender_provence_1.jpg", "lavender_provence_2.jpg"],
+    "images": [
+      "img/products/lavender_provence_1.jpg",
+      "lavender_provence_2.jpg"
+    ],
     "price": 10.99,
     "sku": "PP-HRB-206",
     "description": [
@@ -3489,7 +3263,7 @@
     "id": 207,
     "name": "Spider Plant",
     "category": "IndoorPlants",
-    "images": ["spider_plant_1.jpg", "spider_plant_2.jpg"],
+    "images": ["img/products/spider_plant_1.jpg", "spider_plant_2.jpg"],
     "price": 10.99,
     "sku": "PP-PLT-207",
     "description": [
@@ -3506,7 +3280,7 @@
     "id": 208,
     "name": "Tillandsia",
     "category": "AirPlants",
-    "images": ["tillandsia_1.jpg", "tillandsia_2.jpg"],
+    "images": ["img/products/tillandsia_1.jpg", "tillandsia_2.jpg"],
     "price": 8.99,
     "sku": "PP-AIR-208",
     "description": [
@@ -3523,7 +3297,7 @@
     "id": 209,
     "name": "Fiddle Leaf Fig",
     "category": "IndoorPlants",
-    "images": ["fiddle_leaf_fig_1.jpg", "fiddle_leaf_fig_2.jpg"],
+    "images": ["img/products/fiddle_leaf_fig_1.jpg", "fiddle_leaf_fig_2.jpg"],
     "price": 29.99,
     "sku": "PP-PLT-209",
     "description": [
@@ -3540,7 +3314,10 @@
     "id": 210,
     "name": "Golden Barrel Cactus",
     "category": "Cacti",
-    "images": ["golden_barrel_cactus_1.jpg", "golden_barrel_cactus_2.jpg"],
+    "images": [
+      "img/products/golden_barrel_cactus_1.jpg",
+      "golden_barrel_cactus_2.jpg"
+    ],
     "price": 15.99,
     "sku": "PP-CAC-210",
     "description": [
@@ -3557,7 +3334,7 @@
     "id": 211,
     "name": "Jade Plant",
     "category": "Succulents",
-    "images": ["jade_plant_1.jpg", "jade_plant_2.jpg"],
+    "images": ["img/products/jade_plant_1.jpg", "jade_plant_2.jpg"],
     "price": 12.99,
     "sku": "PP-SUC-211",
     "description": [
@@ -3570,28 +3347,12 @@
     "origin_country": "South Africa",
     "scientific_name": "Crassula ovata"
   },
-  {
-    "id": 212,
-    "name": "Lavender 'Hidcote'",
-    "category": "Herbs",
-    "images": ["lavender_hidcote_1.jpg", "lavender_hidcote_2.jpg"],
-    "price": 9.99,
-    "sku": "PP-HRB-212",
-    "description": [
-      "A compact variety of lavender with deep purple flowers and aromatic foliage.",
-      "Thrives in full sun and well-drained soil, making it ideal for herb gardens and borders.",
-      "Popular in herb gardens and for crafting scented sachets."
-    ],
-    "light_requirements": "Full sun",
-    "watering_cycle": "Every 7-10 days",
-    "origin_country": "Mediterranean",
-    "scientific_name": "Lavandula angustifolia 'Hidcote'"
-  },
+
   {
     "id": 213,
     "name": "Blue Star Fern",
     "category": "Ferns",
-    "images": ["blue_star_fern_1.jpg", "blue_star_fern_2.jpg"],
+    "images": ["img/products/blue_star_fern_1.jpg", "blue_star_fern_2.jpg"],
     "price": 19.99,
     "sku": "PP-FRN-213",
     "description": [
@@ -3608,7 +3369,7 @@
     "id": 214,
     "name": "Spider Plant",
     "category": "IndoorPlants",
-    "images": ["spider_plant_1.jpg", "spider_plant_2.jpg"],
+    "images": ["img/products/spider_plant_1.jpg", "spider_plant_2.jpg"],
     "price": 10.99,
     "sku": "PP-PLT-214",
     "description": [
@@ -3625,7 +3386,10 @@
     "id": 215,
     "name": "Monstera Deliciosa",
     "category": "IndoorPlants",
-    "images": ["monstera_deliciosa_1.jpg", "monstera_deliciosa_2.jpg"],
+    "images": [
+      "img/products/monstera_deliciosa_1.jpg",
+      "monstera_deliciosa_2.jpg"
+    ],
     "price": 34.99,
     "sku": "PP-PLT-215",
     "description": [
@@ -3642,7 +3406,10 @@
     "id": 216,
     "name": "Dwarf Jade Bonsai",
     "category": "Bonsai",
-    "images": ["dwarf_jade_bonsai_1.jpg", "dwarf_jade_bonsai_2.jpg"],
+    "images": [
+      "img/products/dwarf_jade_bonsai_1.jpg",
+      "dwarf_jade_bonsai_2.jpg"
+    ],
     "price": 45.99,
     "sku": "PP-BNS-216",
     "description": [
@@ -3659,7 +3426,7 @@
     "id": 217,
     "name": "Peach Tree",
     "category": "Trees",
-    "images": ["peach_tree_1.jpg", "peach_tree_2.jpg"],
+    "images": ["img/products/peach_tree_1.jpg", "peach_tree_2.jpg"],
     "price": 45.99,
     "sku": "PP-TRE-217",
     "description": [
@@ -3676,7 +3443,7 @@
     "id": 218,
     "name": "Orchid Bark Mix",
     "category": "Soils",
-    "images": ["orchid_bark_mix_1.jpg"],
+    "images": ["img/products/orchid_bark_mix_1.jpg"],
     "price": 14.99,
     "sku": "PP-SOIL-218",
     "description": [
@@ -3693,7 +3460,10 @@
     "id": 219,
     "name": "Blue Fescue Grass",
     "category": "OrnamentalGrasses",
-    "images": ["blue_fescue_grass_1.jpg", "blue_fescue_grass_2.jpg"],
+    "images": [
+      "img/products/blue_fescue_grass_1.jpg",
+      "blue_fescue_grass_2.jpg"
+    ],
     "price": 9.99,
     "sku": "PP-ORN-219",
     "description": [
@@ -3707,27 +3477,10 @@
     "scientific_name": "Festuca glauca"
   },
   {
-    "id": 220,
-    "name": "Lavender 'Munstead'",
-    "category": "Herbs",
-    "images": ["lavender_munstead_1.jpg", "lavender_munstead_2.jpg"],
-    "price": 9.99,
-    "sku": "PP-HRB-220",
-    "description": [
-      "A compact variety of lavender known for its aromatic foliage and deep purple flowers.",
-      "Thrives in full sun and well-drained soil, suitable for herb gardens, borders, and rock gardens.",
-      "Requires minimal watering once established, about once every 7-10 days."
-    ],
-    "light_requirements": "Full sun",
-    "watering_cycle": "Every 7-10 days",
-    "origin_country": "Mediterranean",
-    "scientific_name": "Lavandula angustifolia 'Munstead'"
-  },
-  {
     "id": 221,
     "name": "Basil",
     "category": "Herbs",
-    "images": ["basil_1.jpg", "basil_2.jpg"],
+    "images": ["img/products/basil_1.jpg", "basil_2.jpg"],
     "price": 6.99,
     "sku": "PP-HRB-221",
     "description": [
@@ -3744,7 +3497,7 @@
     "id": 222,
     "name": "Bird of Paradise",
     "category": "Tropicals",
-    "images": ["bird_of_paradise_1.jpg", "bird_of_paradise_2.jpg"],
+    "images": ["img/products/bird_of_paradise_1.jpg", "bird_of_paradise_2.jpg"],
     "price": 29.99,
     "sku": "PP-TRO-222",
     "description": [
@@ -3757,28 +3510,15 @@
     "origin_country": "South Africa",
     "scientific_name": "Strelitzia reginae"
   },
-  {
-    "id": 223,
-    "name": "Rubber Plant",
-    "category": "IndoorPlants",
-    "images": ["rubber_plant_1.jpg", "rubber_plant_2.jpg"],
-    "price": 24.99,
-    "sku": "PP-PLT-223",
-    "description": [
-      "A popular indoor plant known for its glossy, dark green leaves and upright growth habit.",
-      "Thrives in bright, indirect light and well-drained soil, making it suitable for indoor settings.",
-      "Adds a touch of elegance and greenery to indoor spaces with its bold foliage and compact form."
-    ],
-    "light_requirements": "Bright, indirect light",
-    "watering_cycle": "Every 7 days",
-    "origin_country": "Southeast Asia",
-    "scientific_name": "Ficus elastica"
-  },
+
   {
     "id": 224,
     "name": "Golden Barrel Cactus",
     "category": "Cacti",
-    "images": ["golden_barrel_cactus_1.jpg", "golden_barrel_cactus_2.jpg"],
+    "images": [
+      "img/products/golden_barrel_cactus_1.jpg",
+      "golden_barrel_cactus_2.jpg"
+    ],
     "price": 15.99,
     "sku": "PP-CAC-224",
     "description": [
@@ -3795,7 +3535,7 @@
     "id": 225,
     "name": "Maidenhair Fern",
     "category": "Ferns",
-    "images": ["maidenhair_fern_1.jpg", "maidenhair_fern_2.jpg"],
+    "images": ["img/products/maidenhair_fern_1.jpg", "maidenhair_fern_2.jpg"],
     "price": 17.99,
     "sku": "PP-FRN-225",
     "description": [
@@ -3812,7 +3552,7 @@
     "id": 226,
     "name": "Wisteria",
     "category": "Climbers",
-    "images": ["wisteria_1.jpg", "wisteria_2.jpg"],
+    "images": ["img/products/wisteria_1.jpg", "wisteria_2.jpg"],
     "price": 34.99,
     "sku": "PP-CLM-226",
     "description": [
@@ -3829,7 +3569,7 @@
     "id": 227,
     "name": "Succulent Potting Mix",
     "category": "Soils",
-    "images": ["succulent_potting_mix_1.jpg"],
+    "images": ["img/products/succulent_potting_mix_1.jpg"],
     "price": 9.99,
     "sku": "PP-SOIL-227",
     "description": [
@@ -3846,7 +3586,7 @@
     "id": 228,
     "name": "Orchid Bark Mix",
     "category": "Soils",
-    "images": ["orchid_bark_mix_1.jpg"],
+    "images": ["img/products/orchid_bark_mix_1.jpg"],
     "price": 14.99,
     "sku": "PP-SOIL-228",
     "description": [
@@ -3863,7 +3603,7 @@
     "id": 229,
     "name": "Ficus Bonsai",
     "category": "Bonsai",
-    "images": ["ficus_bonsai_1.jpg", "ficus_bonsai_2.jpg"],
+    "images": ["img/products/ficus_bonsai_1.jpg", "ficus_bonsai_2.jpg"],
     "price": 49.99,
     "sku": "PP-BNS-229",
     "description": [
@@ -3880,7 +3620,7 @@
     "id": 230,
     "name": "Golden Pothos",
     "category": "IndoorPlants",
-    "images": ["golden_pothos_1.jpg", "golden_pothos_2.jpg"],
+    "images": ["img/products/golden_pothos_1.jpg", "golden_pothos_2.jpg"],
     "price": 12.99,
     "sku": "PP-PLT-230",
     "description": [
@@ -3897,7 +3637,7 @@
     "id": 231,
     "name": "Spider Plant",
     "category": "IndoorPlants",
-    "images": ["spider_plant_1.jpg", "spider_plant_2.jpg"],
+    "images": ["img/products/spider_plant_1.jpg", "spider_plant_2.jpg"],
     "price": 10.99,
     "sku": "PP-PLT-231",
     "description": [
@@ -3911,27 +3651,10 @@
     "scientific_name": "Chlorophytum comosum"
   },
   {
-    "id": 232,
-    "name": "Rubber Plant",
-    "category": "IndoorPlants",
-    "images": ["rubber_plant_1.jpg", "rubber_plant_2.jpg"],
-    "price": 24.99,
-    "sku": "PP-PLT-232",
-    "description": [
-      "A popular indoor plant known for its glossy, dark green leaves and upright growth habit.",
-      "Thrives in bright, indirect light and well-drained soil, making it suitable for indoor settings.",
-      "Adds a touch of elegance and greenery to indoor spaces with its bold foliage and compact form."
-    ],
-    "light_requirements": "Bright, indirect light",
-    "watering_cycle": "Every 7 days",
-    "origin_country": "Southeast Asia",
-    "scientific_name": "Ficus elastica"
-  },
-  {
     "id": 233,
     "name": "Snake Plant",
     "category": "IndoorPlants",
-    "images": ["snake_plant_1.jpg", "snake_plant_2.jpg"],
+    "images": ["img/products/snake_plant_1.jpg", "snake_plant_2.jpg"],
     "price": 19.99,
     "sku": "PP-PLT-233",
     "description": [
@@ -3948,7 +3671,7 @@
     "id": 234,
     "name": "Jade Plant",
     "category": "Succulents",
-    "images": ["jade_plant_1.jpg", "jade_plant_2.jpg"],
+    "images": ["img/products/jade_plant_1.jpg", "jade_plant_2.jpg"],
     "price": 12.99,
     "sku": "PP-SUC-234",
     "description": [
@@ -3965,7 +3688,10 @@
     "id": 235,
     "name": "Monstera Deliciosa",
     "category": "IndoorPlants",
-    "images": ["monstera_deliciosa_1.jpg", "monstera_deliciosa_2.jpg"],
+    "images": [
+      "img/products/monstera_deliciosa_1.jpg",
+      "monstera_deliciosa_2.jpg"
+    ],
     "price": 34.99,
     "sku": "PP-PLT-235",
     "description": [
@@ -3982,7 +3708,10 @@
     "id": 236,
     "name": "Dwarf Jade Bonsai",
     "category": "Bonsai",
-    "images": ["dwarf_jade_bonsai_1.jpg", "dwarf_jade_bonsai_2.jpg"],
+    "images": [
+      "img/products/dwarf_jade_bonsai_1.jpg",
+      "dwarf_jade_bonsai_2.jpg"
+    ],
     "price": 45.99,
     "sku": "PP-BNS-236",
     "description": [
@@ -3999,7 +3728,7 @@
     "id": 237,
     "name": "Fiddle Leaf Fig",
     "category": "IndoorPlants",
-    "images": ["fiddle_leaf_fig_1.jpg", "fiddle_leaf_fig_2.jpg"],
+    "images": ["img/products/fiddle_leaf_fig_1.jpg", "fiddle_leaf_fig_2.jpg"],
     "price": 29.99,
     "sku": "PP-PLT-237",
     "description": [
@@ -4016,7 +3745,7 @@
     "id": 238,
     "name": "Tillandsia",
     "category": "AirPlants",
-    "images": ["tillandsia_1.jpg", "tillandsia_2.jpg"],
+    "images": ["img/products/tillandsia_1.jpg", "tillandsia_2.jpg"],
     "price": 8.99,
     "sku": "PP-AIR-238",
     "description": [
@@ -4033,7 +3762,10 @@
     "id": 239,
     "name": "Golden Barrel Cactus",
     "category": "Cacti",
-    "images": ["golden_barrel_cactus_1.jpg", "golden_barrel_cactus_2.jpg"],
+    "images": [
+      "img/products/golden_barrel_cactus_1.jpg",
+      "golden_barrel_cactus_2.jpg"
+    ],
     "price": 15.99,
     "sku": "PP-CAC-239",
     "description": [
@@ -4050,7 +3782,7 @@
     "id": 240,
     "name": "Blue Star Fern",
     "category": "Ferns",
-    "images": ["blue_star_fern_1.jpg", "blue_star_fern_2.jpg"],
+    "images": ["img/products/blue_star_fern_1.jpg", "blue_star_fern_2.jpg"],
     "price": 19.99,
     "sku": "PP-FRN-240",
     "description": [
@@ -4067,7 +3799,10 @@
     "id": 241,
     "name": "Monstera Deliciosa",
     "category": "IndoorPlants",
-    "images": ["monstera_deliciosa_1.jpg", "monstera_deliciosa_2.jpg"],
+    "images": [
+      "img/products/monstera_deliciosa_1.jpg",
+      "monstera_deliciosa_2.jpg"
+    ],
     "price": 34.99,
     "sku": "PP-PLT-241",
     "description": [
@@ -4084,7 +3819,7 @@
     "id": 242,
     "name": "Japanese Maple",
     "category": "Trees",
-    "images": ["japanese_maple_1.jpg", "japanese_maple_2.jpg"],
+    "images": ["img/products/japanese_maple_1.jpg", "japanese_maple_2.jpg"],
     "price": 59.99,
     "sku": "PP-TRE-242",
     "description": [
@@ -4097,28 +3832,12 @@
     "origin_country": "Japan",
     "scientific_name": "Acer palmatum"
   },
-  {
-    "id": 243,
-    "name": "Rubber Plant",
-    "category": "IndoorPlants",
-    "images": ["rubber_plant_1.jpg", "rubber_plant_2.jpg"],
-    "price": 24.99,
-    "sku": "PP-PLT-243",
-    "description": [
-      "A popular indoor plant known for its glossy, dark green leaves and upright growth habit.",
-      "Thrives in bright, indirect light and well-drained soil, making it suitable for indoor settings.",
-      "Adds a touch of elegance and greenery to indoor spaces with its bold foliage and compact form."
-    ],
-    "light_requirements": "Bright, indirect light",
-    "watering_cycle": "Every 7 days",
-    "origin_country": "Southeast Asia",
-    "scientific_name": "Ficus elastica"
-  },
+
   {
     "id": 244,
     "name": "Tillandsia",
     "category": "AirPlants",
-    "images": ["tillandsia_1.jpg", "tillandsia_2.jpg"],
+    "images": ["img/products/tillandsia_1.jpg", "tillandsia_2.jpg"],
     "price": 8.99,
     "sku": "PP-AIR-244",
     "description": [
@@ -4135,7 +3854,7 @@
     "id": 245,
     "name": "Golden Pothos",
     "category": "IndoorPlants",
-    "images": ["golden_pothos_1.jpg", "golden_pothos_2.jpg"],
+    "images": ["img/products/golden_pothos_1.jpg", "golden_pothos_2.jpg"],
     "price": 12.99,
     "sku": "PP-PLT-245",
     "description": [
@@ -4152,7 +3871,7 @@
     "id": 246,
     "name": "Wisteria",
     "category": "Climbers",
-    "images": ["wisteria_1.jpg", "wisteria_2.jpg"],
+    "images": ["img/products/wisteria_1.jpg", "wisteria_2.jpg"],
     "price": 34.99,
     "sku": "PP-CLM-246",
     "description": [
@@ -4169,7 +3888,7 @@
     "id": 247,
     "name": "Hydrangea",
     "category": "FloweringShrubs",
-    "images": ["hydrangea_1.jpg", "hydrangea_2.jpg"],
+    "images": ["img/products/hydrangea_1.jpg", "hydrangea_2.jpg"],
     "price": 29.99,
     "sku": "PP-FLS-247",
     "description": [
@@ -4186,7 +3905,7 @@
     "id": 248,
     "name": "Ficus Bonsai",
     "category": "Bonsai",
-    "images": ["ficus_bonsai_1.jpg", "ficus_bonsai_2.jpg"],
+    "images": ["img/products/ficus_bonsai_1.jpg", "ficus_bonsai_2.jpg"],
     "price": 49.99,
     "sku": "PP-BNS-248",
     "description": [
@@ -4203,7 +3922,10 @@
     "id": 249,
     "name": "Lavender 'Munstead'",
     "category": "Herbs",
-    "images": ["lavender_munstead_1.jpg", "lavender_munstead_2.jpg"],
+    "images": [
+      "img/products/lavender_munstead_1.jpg",
+      "lavender_munstead_2.jpg"
+    ],
     "price": 9.99,
     "sku": "PP-HRB-249",
     "description": [
@@ -4220,7 +3942,7 @@
     "id": 250,
     "name": "Japanese Maple",
     "category": "Trees",
-    "images": ["japanese_maple_1.jpg", "japanese_maple_2.jpg"],
+    "images": ["img/products/japanese_maple_1.jpg", "japanese_maple_2.jpg"],
     "price": 59.99,
     "sku": "PP-TRE-250",
     "description": [

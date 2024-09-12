@@ -35,7 +35,7 @@ let displayProduct = async (allCheckCat = []) => {
       <div class="card product-card col-md-4 border-0"> 
           <div class="product-card__img">
             <img
-              src="${element.image}"  <!-- Make sure to have the correct image path -->
+              src="${element.images[0]}" 
               class="card-img-top"
               alt="${element.name}"
             />

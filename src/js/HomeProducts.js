@@ -40,7 +40,7 @@ async function HomeProds(categoryId = "IndoorPlants") {
       productCatcard.innerHTML = `
           <div class="product-card__img">
             <img
-              src="img/products/1_1.jpg"
+              src="${productCat.images[0]}"
               class="card-img-top"
               alt="${productCat.name}"
             />

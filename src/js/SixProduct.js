@@ -26,7 +26,7 @@ function showProductsByCategories(categories) {
          <div class="card product-card border-0"> 
           <div class="product-card__img">
             <img
-              src="${product.image}"  <!-- Make sure to have the correct image path -->
+              src="${product.images[0]}" 
               class="card-img-top"
               alt="${product.name}"
             />

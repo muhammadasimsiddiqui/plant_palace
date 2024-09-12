@@ -74,7 +74,7 @@ function displayWishlist() {
       <td>${index + 1}</td>
       <td>
         <a href="productDetail.html?id=${item.id}">
-          <img src="${item.images[0]}" alt="${item.name}" class="img img-fluid img-thumbnail p-0 me-3">
+          <img src="${item.images[0]}"  alt="${item.name}" class="img img-fluid img-thumbnail p-0 me-3">
           ${item.name}
         </a>
       </td>
