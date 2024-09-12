@@ -1,4 +1,13 @@
-
+async function fetchProducts() {
+  try {
+    const response = await fetch('src/json/product.json'); // Update the path to your JSON file
+    products = await response.json();
+    console.log("Products fetched:", products);
+    return products;
+  } catch (error) {
+    console.error("Error fetching products data:", error);
+  }
+}
 
 function showProductsByCategories(categories) {
   const productList = document.getElementById("product-list-six");
@@ -12,28 +21,33 @@ function showProductsByCategories(categories) {
 
     limitedProducts.forEach((product) => {
       const productCard = document.createElement("div");
-      productCard.className = "swiper-slide product-slide text-start";
+      productCard.className = "swiper-slide product-slide ";
       productCard.innerHTML = `
-         <img
-          class="img-fluid product-card-image"
-           src="img/products/1_1.jpg"
-          alt="${product.name}"
-        />
-        <div class="product-star-rating mt-1">
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="fas fa-star"></i>
-          <i class="far fa-star"></i>
-        </div>
-        <h5 class="mt-1 product-card-name">${product.name}</h5>       
-        <h4 class="mt-1 product-card-price">$ ${product.price}</h4>
-        <a href="productDetail.html?id=${product.id}"> 
-          <button class="btn-view mt-3">
-            Add to Cart 
-            <i class="fa-solid fa-basket-shopping"></i>
-          </button>
-        </a>
+         <div class="card product-card border-0"> 
+          <div class="product-card__img">
+            <img
+              src="${product.image}"  <!-- Make sure to have the correct image path -->
+              class="card-img-top"
+              alt="${product.name}"
+            />
+          </div>
+          <div class="card-body">
+            <div style="color: var(--plantpalace-black)">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <h5 class="card-title  fw-bold">${product.name}</h5>
+            <h6 class="mb-3 card-price  fw-bold">$ ${product.price}</h6>
+            <div class="process-one__bottom-btn-box">
+              <a href="productDetail.html?id=${product.id}" class="plantpalace-btn process-one__bottom-btn">
+                Add to Cart&nbsp;<i class="fa-solid fa-cart-shopping"></i>
+              </a>
+            </div>
+          </div>
+      </div>
       `;
       productList.appendChild(productCard);
     });
@@ -70,5 +84,8 @@ function showProductsByCategories(categories) {
   });
 }
 
-// Call the function with an array of categories
-showProductsByCategories(["IndoorPlants", "EdiblePlants", "Ferns", "Herbs", "Soils"]);
+// Fetch products and show products by categories once the page is loaded
+document.addEventListener("DOMContentLoaded", async function () {
+  await fetchProducts(); // Fetch the products
+  showProductsByCategories(["IndoorPlants", "EdiblePlants", "Ferns", "Herbs", "Soils"]); // Show products after data is loaded
+});
