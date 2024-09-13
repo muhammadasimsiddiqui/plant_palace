@@ -329,6 +329,16 @@ section {
 .cta-one__btn:before {
   background-color: var(--plantpalace-white);
 }
+
+/* Example CSS for error messages */
+.error-message {
+  color: red;
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+  padding: 10px;
+  border-radius: 5px;
+}
+
 /************************************ Global CSS End ************************************/
 
 /************************************ Section Header CSS Start ************************************/

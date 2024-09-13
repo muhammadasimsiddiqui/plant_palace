@@ -67,7 +67,7 @@
           <img src="img/banners/signin.svg" class="img-fluid" />
         </div>
         <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1 py-5">
-          <form>
+          <form onsubmit="login()">
             <div
               class="d-flex flex-row align-items-center justify-content-center justify-content-lg-start"
             >
@@ -96,7 +96,7 @@
               >
               <input
                 type="email"
-                id=""
+                id="email"
                 class="form-control form-control-lg"
                 placeholder="Enter a valid email address"
               />
@@ -107,7 +107,7 @@
               <label class="form-label small fw-bold">Password</label>
               <input
                 type="password"
-                id=""
+                id="password"
                 class="form-control form-control-lg"
                 placeholder="Enter password"
               />

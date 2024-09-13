@@ -1,3 +1,4 @@
+// Header Functions
 // Header Scroll
 function plantpalaceHeader() {
   fetch("components/header.html")
@@ -8,9 +9,51 @@ function plantpalaceHeader() {
       headerNavhover();
       updateWishlistBadge();
       updateCartBadge();
+      updateHeaderButton();
     });
 }
 plantpalaceHeader();
+function attachScrollListener() {
+  let navUpper = document.getElementById("header_upper"); // Make sure this ID matches your header's ID
+  window.onscroll = function () {
+    if (document.documentElement.scrollTop > 50) {
+      navUpper.classList.add("navbar-shadow");
+      navUpper.classList.remove("mt-3");
+    } else {
+      navUpper.classList.add("mt-3");
+      navUpper.classList.remove("navbar-shadow");
+    }
+  };
+}
+
+//NavBar Add And Remove Active Classes
+function headerNavhover() {
+  const currentPage = window.location.pathname.toLowerCase();
+  const navLinks = document.querySelectorAll(".nav-link");
+  navLinks.forEach((link) => {
+    const linkPathname = new URL(link.href).pathname.toLowerCase();
+    const hasDropdown =
+      link.nextElementSibling &&
+      link.nextElementSibling.classList.contains("dropdown-menu");
+    if (currentPage === linkPathname && !hasDropdown) {
+      link.classList.add("active");
+    } else {
+      link.classList.remove("active");
+    }
+  });
+}
+
+// Footer
+document.addEventListener("DOMContentLoaded", function () {
+  fetch("components/footer.html")
+    .then((response) => response.text())
+    .then((html) => {
+      document.getElementById("footerplantpalace").innerHTML = html;
+      initializeFooter();
+    });
+});
+
+function initializeFooter() {}
 
 // Testinomial
 function plantpalaceTestinomial() {
@@ -44,47 +87,6 @@ function plantpalaceTestinomial() {
     });
 }
 plantpalaceTestinomial();
-function attachScrollListener() {
-  let navUpper = document.getElementById("header_upper"); // Make sure this ID matches your header's ID
-  window.onscroll = function () {
-    if (document.documentElement.scrollTop > 50) {
-      navUpper.classList.add("navbar-shadow");
-      navUpper.classList.remove("mt-3");
-    } else {
-      navUpper.classList.add("mt-3");
-      navUpper.classList.remove("navbar-shadow");
-    }
-  };
-}
-
-//NavBar Add And Remove Active Classes
-
-function headerNavhover() {
-  const currentPage = window.location.pathname.toLowerCase();
-  const navLinks = document.querySelectorAll(".nav-link");
-  navLinks.forEach((link) => {
-    const linkPathname = new URL(link.href).pathname.toLowerCase();
-    const hasDropdown =
-      link.nextElementSibling &&
-      link.nextElementSibling.classList.contains("dropdown-menu");
-    if (currentPage === linkPathname && !hasDropdown) {
-      link.classList.add("active");
-    } else {
-      link.classList.remove("active");
-    }
-  });
-}
-
-document.addEventListener("DOMContentLoaded", function () {
-  fetch("components/footer.html")
-    .then((response) => response.text())
-    .then((html) => {
-      document.getElementById("footerplantpalace").innerHTML = html;
-      initializeFooter();
-    });
-});
-
-function initializeFooter() {}
 
 // Counter
 let targetElements = document.querySelectorAll(".digit-box");
@@ -103,7 +105,7 @@ targetElements.forEach((targetElement) => {
   }, timing);
 });
 
-// Change Page Shop
+// Change Page Functions
 function shop() {
   window.location.href = "shop.html";
 }
@@ -136,54 +138,5 @@ function addtocartform() {
   return false;
 }
 
-if (sessionStorage.getItem("isLogin")) {
-  $("#logtext").html("Logout");
-  $("#logtext2").html("Logout");
-}
+//
 
-function SignUp() {
-  username = $("#name").val();
-  mobile = $("#mobile").val();
-  email = $("#email").val();
-  password = $("#password").val();
-
-  if (username == "" || mobile == "" || email == "" || password == "") {
-    alert("Please fill all fields");
-  } else {
-    sessionStorage.setItem("name", username);
-    sessionStorage.setItem("mobile", mobile);
-    sessionStorage.setItem("email", email);
-    sessionStorage.setItem("password", password);
-    sessionStorage.setItem("isLogin", true);
-    $("#logtext").html("Logout");
-    $("#logtext2").html("Logout");
-    alert("Sign Up Successfully");
-    window.location.href = "cart.html";
-
-    // sessionStorage.clear();
-  }
-}
-
-$("#btnCheckout").click(function () {
-  if (!sessionStorage.getItem("isLogin")) {
-    alert("Please Signup/Login to checkout");
-    window.location.href = "signup.html";
-  } else {
-    localStorage.removeItem("cart");
-    alert("Your order has been processed.");
-    window.location.href = "index.html";
-  }
-});
-
-$("#logtext").click(function () {
-  if ($("#logtext").html() == "Logout") {
-    $("#logtext").html("Sign Up");
-
-    window.location.reload();
-    sessionStorage.clear();
-  } else {
-    window.location.href = "signup.html";
-  }
-});
-
-//  testinomial
