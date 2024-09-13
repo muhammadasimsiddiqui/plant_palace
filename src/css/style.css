@@ -330,7 +330,6 @@ section {
   background-color: var(--plantpalace-white);
 }
 
-
 /************************************ Global CSS End ************************************/
 
 /************************************ Section Header CSS Start ************************************/
@@ -1294,8 +1293,7 @@ header {
 }
 
 .contactSection .icon {
-  width: 28px;
-  margin-right: 0.7rem;
+  color: var(--plantpalace-base);
 }
 
 .contactSection .social-media {
@@ -1450,7 +1448,6 @@ header {
   .contactSection .input {
     padding: 0.45rem 1.2rem;
   }
-
 }
 
 /************************************ ContactPage CSS End ************************************/
@@ -1605,4 +1602,3 @@ h5 > span {
 
 /******************************* Login & Signup Page CSS End *******************************/
 /* Custom styles */
-

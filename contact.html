@@ -32,112 +32,112 @@
 
     <!------------ Start Banner Section ------------>
     <!--  -->
-   <section>
-    <div class="contactSection">
-      <span class="big-circle"></span>
-      <img src="img/icons/shape.png" class="square" alt="" />
-      <div class="form">
-        <div class="contact-info">
-          <h3 class="title">Let's get in touch</h3>
-          <p class="text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
-            dolorum adipisci recusandae praesentium dicta!
-          </p>
+    <section>
+      <div class="contactSection">
+        <span class="big-circle"></span>
+        <img src="img/icons/shape.png" class="square" alt="" />
+        <div class="form">
+          <div class="contact-info">
+            <h3 class="title">Let's get in touch</h3>
+            <p class="text">
+              Have questions or need support? Reach out and let’s discuss how we
+              can assist with your plant care needs!
+            </p>
 
-          <div class="info">
-            <div class="information">
-              <img src="img/icons/location.png" class="icon" alt="" />
-              <p>Aptech Metro Star Gate</p>
+            <div class="info">
+              <div class="information">
+                <i class="fa-2x fa-solid fa-map-location pe-3 icon"></i>
+                <p>Aptech Metro Star Gate</p>
+              </div>
+              <div class="information">
+                <i class="fa-2x fa-regular fa-envelope pe-3 icon"></i>
+                <p>hamdanrizwankhan0@gmail.com</p>
+              </div>
+              <div class="information">
+                <i class=" fa-2x fa-solid fa-phone-volume pe-3 icon"></i>
+                <p>+92-309-366-999-6</p>
+              </div>
             </div>
-            <div class="information">
-              <img src="img/icons/email.png" class="icon" alt="" />
-              <p>hamdanrizwankhan0@gmail.com</p>
-            </div>
-            <div class="information">
-              <img src="img/icons/phone.png" class="icon" alt="" />
-              <p>+92-309-366-999-6</p>
+
+            <div class="social-media">
+              <p>Connect with us :</p>
+              <div class="social-icons">
+                <a href="#">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </div>
             </div>
           </div>
 
-          <div class="social-media">
-            <p>Connect with us :</p>
-            <div class="social-icons">
-              <a href="#">
-                <i class="fab fa-facebook-f"></i>
-              </a>
-              <a href="#">
-                <i class="fab fa-twitter"></i>
-              </a>
-              <a href="#">
-                <i class="fab fa-instagram"></i>
-              </a>
-              <a href="#">
-                <i class="fab fa-linkedin-in"></i>
-              </a>
-            </div>
+          <div class="contact-form">
+            <span class="circle one"></span>
+            <span class="circle two"></span>
+
+            <form onsubmit="formsubmition()" id="contactForm">
+              <h3 class="title">Contact us</h3>
+              <div class="input-container">
+                <input
+                  type="text"
+                  name="name"
+                  id="formName"
+                  class="contact_form_input input"
+                  pattern="[A-Za-z]{3,}"
+                  required
+                />
+                <label for="">Name</label>
+                <span>Name</span>
+              </div>
+              <div class="input-container">
+                <input
+                  type="email"
+                  name="email"
+                  id="formEmail"
+                  class="contact_form_input input"
+                  required
+                />
+                <label for="">Email</label>
+                <span>Email</span>
+              </div>
+              <div class="input-container">
+                <input
+                  type="tel"
+                  name="phone"
+                  id="formPhone"
+                  class="contact_form_input input"
+                  pattern="(?!(1234|0000|9876))\d{4,}"
+                />
+                <label for="">Phone</label>
+                <span>Phone</span>
+              </div>
+              <div class="input-container textarea">
+                <textarea
+                  name="message"
+                  class="contact_form_input input"
+                  id="formMessage"
+                ></textarea>
+                <label for="">Message</label>
+                <span>Message</span>
+              </div>
+              <button
+                type="submit"
+                class="plantpalace-btn mt-auto cta-one__btn rounded-5 border-0 mt-0 py-2 px-4 justify-content-center"
+              >
+                Submit
+              </button>
+            </form>
           </div>
-        </div>
-
-        <div class="contact-form">
-          <span class="circle one"></span>
-          <span class="circle two"></span>
-
-          <form onsubmit="formsubmition()" id="contactForm">
-            <h3 class="title">Contact us</h3>
-            <div class="input-container">
-              <input
-                type="text"
-                name="name"
-                id="formName"
-                class="contact_form_input input"
-                pattern="[A-Za-z]{3,}"
-                required
-              />
-              <label for="">Name</label>
-              <span>Name</span>
-            </div>
-            <div class="input-container">
-              <input
-                type="email"
-                name="email"
-                id="formEmail"
-                class="contact_form_input input"
-                required
-              />
-              <label for="">Email</label>
-              <span>Email</span>
-            </div>
-            <div class="input-container">
-              <input
-                type="tel"
-                name="phone"
-                id="formPhone"
-                class="contact_form_input input"
-                pattern="(?!(1234|0000|9876))\d{4,}"
-              />
-              <label for="">Phone</label>
-              <span>Phone</span>
-            </div>
-            <div class="input-container textarea">
-              <textarea
-                name="message"
-                class="contact_form_input input"
-                id="formMessage"
-              ></textarea>
-              <label for="">Message</label>
-              <span>Message</span>
-            </div>
-            <button
-              type="submit"
-              class="plantpalace-btn mt-auto cta-one__btn rounded-5 border-0 mt-0 py-2 px-4 justify-content-center"
-            >
-              Submit
-            </button>
-          </form>
         </div>
       </div>
-    </div>
-   </section>
+    </section>
 
     <!--  -->
 
