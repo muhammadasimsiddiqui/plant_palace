@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+
+    <link
+      rel="shortcut icon"
+      href="img/Logo/Plant-Palace.png"
+      type="image/x-icon"
+    />
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- SwiperJS CSS  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!----- Font Awesome Cdn ----->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+
+    <!----- Bootstrap CSS ----->
+    <link rel="stylesheet" href="src/bootstrap/css/bootstrap.min.css" />
+
+    <!----- Light Box CSS ----->
+    <link rel="stylesheet" href="src/css/lightbox.css" />
+
+    <!----- Custom CSS ----->
+    <link rel="stylesheet" href="src/css/style.css" />
+    <style>
+      .divider:after,
+      .divider:before {
+        content: "";
+        flex: 1;
+        height: 1px;
+        background: #eee;
+      }
+    </style>
+  </head>
+  <body>
+    <!------------ Start Header ------------>
+    <header id="plantpalace"></header>
+    <!------------ End Header ------------>
+
+    <!------------ Start Signup Form Section ------------>
+    <div class="py-4 container rounded-3" style="background-color: #f1f2f2">
+      <h2 class="text-center">Signup Now</h2>
+    </div>
+    <div class="container-fluid py-5">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-md-9 col-lg-6 col-xl-5">
+          <img src="img/banners/signup.webp" class="img-fluid" />
+        </div>
+        <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
+          <form>
+            <div
+              class="d-flex flex-row align-items-center justify-content-center justify-content-lg-start"
+            >
+              <p class="lead fw-normal mb-0 me-3">Sign in with</p>
+              <button type="button" class="btn btn-success btn-floating mx-1">
+                <i class="fab fa-facebook-f"></i>
+              </button>
+
+              <button type="button" class="btn btn-success btn-floating mx-1">
+                <i class="fab fa-twitter"></i>
+              </button>
+
+              <button type="button" class="btn btn-success btn-floating mx-1">
+                <i class="fab fa-linkedin-in"></i>
+              </button>
+            </div>
+
+            <div class="divider d-flex align-items-center my-4">
+              <p class="text-center fw-bold mx-3 mb-0">Or</p>
+            </div>
+
+            <!-- Email input -->
+            <div data-mdb-input-init class="form-outline mb-4">
+              <label class="form-label small fw-bold" for="form3Example3"
+                >Email address</label
+              >
+              <input
+                type="email"
+                id="form3Example3"
+                class="form-control form-control-lg"
+                placeholder="Enter a valid email address"
+              />
+            </div>
+
+            <!-- Password input -->
+            <div data-mdb-input-init class="form-outline mb-3">
+              <label class="form-label small fw-bold">Password</label>
+              <input
+                type="password"
+                id=""
+                class="form-control form-control-lg"
+                placeholder="Enter password"
+              />
+            </div>
+
+            <div class="text-center text-lg-start mt-4 pt-2">
+              <button
+                type="submit"
+                data-mdb-button-init
+                data-mdb-ripple-init
+                class="plantpalace-btn border-0"
+              >
+                Submit
+              </button>
+              <p class="small fw-bold mt-2 pt-1 mb-0">
+                Already have an account?Please
+                <a href="login.html" class="link-success">Login Here</a>
+              </p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!------------ End Signup Form Section ------------>
+
+    <!------------ Start Footer  ------------>
+    <footer id="footerplantpalace"></footer>
+    <!------------ End Footer  ------------>
+  </body>
+
+  <!-- LightBox JS -->
+  <script src="src/js/lightbox-plus-jquery.min.js"></script>
+
+  <!-- Product Data JS -->
+  <script src="src/js/Product.js"></script>
+
+  <!----- Bootstrap JS ----->
+  <script src="src/bootstrap/js/bootstrap.bundle.js"></script>
+
+  <!-- JQuery -->
+  <script src="src/js/JQuery-3.7.1.js"></script>
+
+  <!----- Custom JS ----->
+  <script src="src/js/Script.js"></script>
+
+  <script src="src/js/cart.js"></script>
+  <script src="src/js/Wishlist.js"></script>
+</html>

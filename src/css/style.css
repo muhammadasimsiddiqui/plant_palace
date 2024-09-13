@@ -1021,24 +1021,24 @@ header {
   display: flex;
 }
 
-.contact-banner h1,
-.contact-banner h4 {
+ .contact-banner h1,
+ .contact-banner h4 {
   color: var(--white) !important;
 }
 
 @media (min-width: 320px) {
-  .contact-banner h4 {
+   .contact-banner h4 {
     font-size: 2rem;
   }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-  .contact-banner h4 {
+   .contact-banner h4 {
     font-size: 2.8rem;
   }
 }
 
-.first_col {
+.contactPageForm .first_col {
   background-color: white;
   height: 550px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -1048,12 +1048,12 @@ header {
   top: 171px;
   border-radius: 20px;
 }
-
-.sec_col .img-fluid {
+ 
+.contactPageForm .sec_col .img-fluid {
   border-radius: 20px;
 }
 
-.row-last {
+.contactPageForm .row-last {
   width: 60% !important;
   position: relative !important;
   left: 350px;
@@ -1064,12 +1064,12 @@ header {
   border-radius: 20px;
 }
 
-.row-last .row .col i {
+.contactPageForm .row-last .row .col i {
   font-size: 3rem;
   color: var(--primary-color);
 }
 
-.form-control {
+.contactPageForm .form-control {
   height: 35px;
   background: var(--white);
   font-size: 1.4rem;
@@ -1081,22 +1081,21 @@ header {
   resize: none;
 }
 
-.form-control-message {
+.contactPageForm .form-control-message {
   height: 100px;
 }
 
-.form-control[type="text"]:focus {
+.contactPageForm .form-control[type="text"]:focus {
   border: 2px solid var(--primary-color);
 }
 
-.form-label {
-  font-size: 1.5rem;
+.contactPageForm .form-label {
   font-weight: 500;
   letter-spacing: 1px;
 }
 
 @media only screen and (max-width: 911px) {
-  .row-last {
+  .contactPageForm .row-last {
     left: 0 !important;
     width: 100% !important;
     top: 0 !important;
@@ -1104,15 +1103,15 @@ header {
 }
 
 @media only screen and (max-width: 600px) {
-  .first_col {
+  .contactPageForm .first_col {
     position: initial;
     left: 0 !important;
   }
 
-  .sec_col {
+  .contactPageForm .sec_col {
     order: 1 !important;
   }
-  .row-last {
+  .contactPageForm .row-last {
     height: 400px;
   }
 }
@@ -1264,66 +1263,6 @@ h5 > span {
 
 /************************************* Page Cart CSS End *************************************/
 
-/******************************* Login & Signup Page CSS Start *******************************/
-
-.acc-form label {
-  font-size: 18px;
-}
-
-.acc-form input::placeholder {
-  font-size: 16px;
-}
-
-.acc-form-main-cont {
-  overflow: hidden;
-}
-.acc-form-main-cont h1 {
-  font-size: 150px;
-  line-height: 1 !important;
-  color: #0c5a49;
-  text-align: center;
-}
-@media (max-width: 1024px) {
-  .acc-form-main-cont h1 {
-    font-size: 80px;
-  }
-}
-
-.acc-form-main-cont .input-group {
-  margin-bottom: 15px;
-}
-
-.acc-form-main-cont .input-group label {
-  color: #777;
-}
-
-.acc-form-main-cont .input-group input {
-  border-radius: 8px !important;
-  padding: 12px;
-  border: 1px solid #ddd;
-  font-size: 16px;
-}
-
-.acc-form-main-cont .input-group input:active,
-.acc-form-main-cont .input-group input:focus {
-  border: 2px solid var(--secondary-color);
-}
-
-.acc-form-main-cont .btn {
-  padding: 10px 50px;
-  border: 2px solid var(--green-color);
-  border-radius: 5px;
-  background-color: var(--green-color);
-  color: #fff;
-  font-size: 18px;
-  margin-top: 20px;
-  font-weight: 500;
-  transition: all 0.3s ease-in-out;
-}
-
-.acc-form-main-cont .btn:hover {
-  background-color: transparent;
-  color: var(--green-color);
-}
+/*******************************  Signup Page CSS Start *******************************/
 
 /******************************* Login & Signup Page CSS End *******************************/
