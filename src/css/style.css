@@ -1106,10 +1106,8 @@ header {
 .contactSection {
   position: relative;
   width: 100%;
-  min-height: 100dvh;
+  min-height: 100vh;
   padding: 2rem;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -1394,7 +1392,7 @@ header {
 
   .contactSection .big-circle {
     bottom: 75%;
-    transform: scale(0.9) translate(-40%, 30%);
+    transform: scale(0.9) translate(-80%, 30%);
     right: 50%;
   }
 
@@ -1440,10 +1438,6 @@ header {
     width: 30px;
     height: 30px;
     line-height: 30px;
-  }
-
-  .contactSection .icon {
-    width: 23px;
   }
 
   .contactSection .input {
