@@ -859,7 +859,6 @@
     "images": [
       "img/products/blue_star_fern_1.jpeg",
       "img/products/blue_star_fern_2.jpg"
-      
     ],
     "price": 19.99,
     "sku": "PP-FRN-061",
@@ -879,7 +878,9 @@
     "category": "OrnamentalGrasses",
     "images": [
       "img/products/japanese_blood_grass_1.jpg",
-      "japanese_blood_grass_2.jpg"
+      "img/products/japanese_blood_grass_2.webp",
+      "img/products/japanese_blood_grass_4.webp",
+      "img/products/japanese_blood_grass_5.webp"
     ],
     "price": 10.99,
     "sku": "PP-ORN-062",
@@ -940,12 +941,17 @@
   },
   {
     "id": 55,
-    "name": "Bird of Paradise",
+    "name": "White Bird of Paradise",
     "category": "Tropicals",
-    "images": ["img/products/bird_of_paradise_1.jpg"],
+    "images": [
+      "img/products/white_bird_of_paradise_1.webp",
+      "img/products/white_bird_of_paradise_2.webp",
+      "img/products/white_bird_of_paradise_3.webp"
+    ],
     "price": 29.99,
     "sku": "PP-TRO-065",
     "description": [
+      "The White Bird of Paradise is an exotic tropical indoor house plant.",
       "A tropical plant known for its large, banana-like leaves and striking bird-shaped flowers.",
       "Prefers full sun and well-drained soil, making it ideal for bright indoor spaces or outdoor gardens in warm climates.",
       "Adds a dramatic and exotic touch to any setting with its unique appearance and vibrant blooms."
@@ -959,7 +965,12 @@
     "id": 56,
     "name": "Creeping Juniper",
     "category": "Groundcovers",
-    "images": ["img/products/creeping_juniper_1.jpg"],
+    "images": [
+      "img/products/creeping_juniper_1.jpg",
+      "img/products/creeping_juniper_2.jpg",
+      "img/products/creeping_juniper_3.webp",
+      "img/products/creeping_juniper_1.jpg"
+    ],
     "price": 15.99,
     "sku": "PP-GRO-067",
     "description": [

@@ -714,7 +714,9 @@ header {
 /************************************ Section Product CSS End ************************************/
 
 /************************************ Single Product Page CSS Start ************************************/
-
+.single-product-page{
+  
+}
 .right-box {
   border: 1px solid var(--primary-color);
   border-radius: 10px;
