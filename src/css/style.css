@@ -338,7 +338,6 @@ header {
 }
 
 .navbar-shadow {
-  margin: 1rem 0;
   background-color: var(--primary-color);
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
@@ -390,14 +389,15 @@ header {
   background-repeat: no-repeat;
   background-position: center center;
   color: var(--white) !important;
-  height: 90dvh;
+  min-height: 100dvh;
   overflow: hidden;
+  padding-top: 250px;
 }
 
 .home-hero h2 {
   font-size: clamp(62px, 5vw, 84px);
   font-weight: 600;
-  padding-top: 40px;
+  padding-top: 30px;
   padding-bottom: 45px;
   line-height: clamp(62px, 5vw, 80px);
 }

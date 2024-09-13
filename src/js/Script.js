@@ -1,5 +1,5 @@
 // Header Scroll
-function luxelivingHeader() {
+function plantpalaceHeader() {
   fetch("components/header.html")
     .then((response) => response.text())
     .then((html) => {
@@ -10,15 +10,16 @@ function luxelivingHeader() {
       updateCartBadge();
     });
 }
-luxelivingHeader();
+plantpalaceHeader();
 function attachScrollListener() {
-  let nav = document.getElementById("plantpalace"); // Make sure this ID matches your header's ID
+  let navUpper = document.getElementById("header_upper"); // Make sure this ID matches your header's ID
   window.onscroll = function () {
     if (document.documentElement.scrollTop > 50) {
-      nav.classList.add("navbar-shadow");
-      nav.classList.add("sticky-top");
+      navUpper.classList.add("navbar-shadow");
+      navUpper.classList.remove("mt-3");
     } else {
-      nav.classList.remove("navbar-shadow");
+      navUpper.classList.add("mt-3");
+      navUpper.classList.remove("navbar-shadow");
     }
   };
 }
