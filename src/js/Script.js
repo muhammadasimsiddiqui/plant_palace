@@ -87,6 +87,16 @@ function plantpalaceTestinomial() {
 }
 plantpalaceTestinomial();
 
+// WhyChooseUse
+function plantpalaceWhyChooseUs() {
+  fetch("components/whychooseus.html")
+    .then((response) => response.text())
+    .then((html) => {
+      document.getElementById("whyChooseus").innerHTML = html;
+    });
+}
+plantpalaceWhyChooseUs();
+
 // Counter
 let targetElements = document.querySelectorAll(".digit-box");
 let animationtimming = 0.0001;
@@ -152,7 +162,6 @@ function formSubmission(event) {
 }
 document.getElementById("contactForm");
 document.addEventListener("submit", formSubmission);
-
 
 function addtocartform() {
   // Show SweetAlert dialog
