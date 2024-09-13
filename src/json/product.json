@@ -538,7 +538,7 @@
     "id": 32,
     "name": "Mint 'Spearmint'",
     "category": "Herbs",
-    "images": ["img/products/Mint_Spearmint.jpeg"],
+    "images": ["img/products/Mint 'Spearmint'.jpg"],
     "price": 6.99,
     "sku": "PP-HRB-036",
     "description": [
@@ -1083,7 +1083,7 @@
     "id": 61,
     "name": "Hydrangea",
     "category": "FloweringShrubs",
-    "images": ["img/products/hydrangea_1.jpg"],
+    "images": ["img/products/Hydrangea.jpg"],
     "price": 29.99,
     "sku": "PP-FLS-075",
     "description": [
@@ -1100,7 +1100,7 @@
     "id": 62,
     "name": "Bougainvillea",
     "category": "Climbers",
-    "images": ["img/products/bougainvillea_1.jpg"],
+    "images": ["img/products/Bougainvilleabb.jpg"],
     "price": 19.99,
     "sku": "PP-CLM-084",
     "description": [
@@ -1140,7 +1140,7 @@
     "id": 64,
     "name": "Bonsai Scissors",
     "category": "GardeningTools",
-    "images": ["img/products/bonsai_scissors_1.jpg"],
+    "images": ["img/products/Bonsai Scissors.jpg"],
     "price": 24.99,
     "sku": "PP-TOOL-097",
     "description": [
@@ -1157,7 +1157,7 @@
     "id": 65,
     "name": "Garden Hand Trowel",
     "category": "GardeningTools",
-    "images": ["img/products/garden_hand_trowel_1.jpg"],
+    "images": ["img/products/Garden Hand Trowel.jpg"],
     "price": 8.99,
     "sku": "PP-TOOL-101",
     "description": [
@@ -1174,7 +1174,7 @@
     "id": 66,
     "name": "Bonsai Soil Mix",
     "category": "Soils",
-    "images": ["img/products/bonsai_soil_mix_1.jpg"],
+    "images": ["img/products/Bonsai Soil Mix.jpg"],
     "price": 14.99,
     "sku": "PP-SOIL-111",
     "description": [
@@ -1191,7 +1191,7 @@
     "id": 67,
     "name": "Chives 'Garlic'",
     "category": "Herbs",
-    "images": ["img/products/Chives_Garlic.jpeg"],
+    "images": ["img/products/Chives 'Garlic'.jpg"],
     "price": 5.99,
     "sku": "PP-HRB-041",
     "description": [
@@ -1208,7 +1208,7 @@
     "id": 69,
     "name": "Bamboo Palm",
     "category": "Palms",
-    "images": ["img/products/bamboo_palm_1.jpg"],
+    "images": ["img/products/Bamboo Palm.jpeg"],
     "price": 24.99,
     "sku": "PP-PLM-124",
     "description": [
@@ -1225,7 +1225,7 @@
     "id": 70,
     "name": "Ficus Bonsai",
     "category": "Bonsai",
-    "images": ["img/products/ficus_bonsai_1.jpg"],
+    "images": ["img/products/Ficus Bonsai.jpg"],
     "price": 49.99,
     "sku": "PP-BNS-126",
     "description": [
@@ -1370,7 +1370,7 @@
     "id": 77,
     "name": "Azalea",
     "category": "Bonsai",
-    "images": ["img/products/azalea_bonsai_1.jpg"],
+    "images": ["img/products/Azalea.jpg"],
     "price": 69.99,
     "sku": "PP-BNS-135",
     "description": [
@@ -1408,7 +1408,7 @@
     "id": 79,
     "name": "Garden Shovel",
     "category": "GardeningTools",
-    "images": ["img/products/garden_shovel_1.jpg"],
+    "images": ["img/products/garden shovel.jpg"],
     "price": 15.99,
     "sku": "PP-TOOL-199",
     "description": [
@@ -1467,7 +1467,7 @@
     "id": 83,
     "name": "Thyme 'English'",
     "category": "Herbs",
-    "images": ["img/products/Thyme_English.jpeg"],
+    "images": ["img/products/Thyme 'English'.jpg"],
     "price": 8.99,
     "sku": "PP-HRB-035",
     "description": [
@@ -1484,7 +1484,7 @@
     "id": 85,
     "name": "Oregano 'Greek'",
     "category": "Herbs",
-    "images": ["img/products/Oregano_Greek.jpeg"],
+    "images": ["img/products/OreganoGreek.jpg"],
     "price": 7.99,
     "sku": "PP-HRB-037",
     "description": [
@@ -1502,8 +1502,8 @@
     "name": "Lavender 'Provence'",
     "category": "Herbs",
     "images": [
-      "img/products/lavender_provence_1.jpg",
-      "lavender_provence_2.jpg"
+      "img/products/Lavender Provence.jpg",
+       "lavender_provence_2.jpg"
     ],
     "price": 10.99,
     "sku": "PP-HRB-121",
@@ -1521,7 +1521,7 @@
     "id": 87,
     "name": "Parsley 'Italian Flat-Leaf'",
     "category": "Herbs",
-    "images": ["img/products/Parsley_Italian.jpeg"],
+    "images": ["img/products/Parsley Italian Flat-Leaf.jpg"],
     "price": 5.99,
     "sku": "PP-HRB-038",
     "description": [
@@ -1538,7 +1538,7 @@
     "id": 88,
     "name": "Cilantro 'Santo'",
     "category": "Herbs",
-    "images": ["img/products/Cilantro_Santo.jpeg"],
+    "images": ["img/products/Cilantro 'Santo'.jpg"],
     "price": 4.99,
     "sku": "PP-HRB-039",
     "description": [
@@ -1555,7 +1555,7 @@
     "id": 89,
     "name": "Lemon Balm",
     "category": "Herbs",
-    "images": ["img/products/Lemon_Balm.jpeg"],
+    "images": ["img/products/Lemon Balm.jpg"],
     "price": 6.99,
     "sku": "PP-HRB-040",
     "description": [
@@ -1589,7 +1589,7 @@
     "id": 92,
     "name": "Dill 'Fernleaf'",
     "category": "Herbs",
-    "images": ["img/products/Dill_Fernleaf.jpeg"],
+    "images": ["img/products/Dill 'Fernleaf'.jpg"],
     "price": 4.99,
     "sku": "PP-HRB-042",
     "description": [
@@ -1606,7 +1606,7 @@
     "id": 93,
     "name": "Sage 'Garden'",
     "category": "Herbs",
-    "images": ["img/products/Sage_Garden.jpeg"],
+    "images": ["img/products/Sage 'Garden'.jpg"],
     "price": 6.99,
     "sku": "PP-HRB-043",
     "description": [
@@ -1623,7 +1623,7 @@
     "id": 94,
     "name": "Tarragon 'French'",
     "category": "Herbs",
-    "images": ["img/products/Tarragon_French.jpeg"],
+    "images": ["img/products/Tarragon 'French'.jpg"],
     "price": 8.99,
     "sku": "PP-HRB-044",
     "description": [
