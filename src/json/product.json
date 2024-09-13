@@ -276,20 +276,25 @@
   },
   {
     "id": 17,
-    "name": "Lavender 'Munstead'",
-    "category": "Herbs",
-    "images": ["img/products/Lavender 'Munstead 52.webp"],
-    "price": 9.99,
-    "sku": "PP-HRB-018",
-    "description": [
-      "A compact variety of lavender known for its aromatic foliage and deep purple flowers.",
-      "Thrives in full sun and well-drained soil, suitable for herb gardens, borders, and rock gardens.",
-      "Requires minimal watering once established, about once every 7-10 days."
+    "name": "Lawn Fertilizer",
+    "category": "Soils",
+    "images": [
+      "img/products/lawn_fertilizer_1.avif",
+      "img/products/lawn_fertilizer_2.jpg",
+      "img/products/lawn_fertilizer_3.jpeg",
+      "img/products/lawn_fertilizer_4.webp"
     ],
-    "light_requirements": "Full sun",
-    "watering_cycle": "Every 7-10 days",
-    "origin_country": "Mediterranean",
-    "scientific_name": "Lavandula angustifolia 'Munstead'"
+    "price": 24.99,
+    "sku": "PP-SOIL-201",
+    "description": [
+      "A high-quality lawn fertilizer that promotes lush, green growth.",
+      "Contains essential nutrients for healthy lawn development.",
+      "Suitable for all grass types."
+    ],
+    "light_requirements": "N/A",
+    "watering_cycle": "N/A",
+    "origin_country": "USA",
+    "scientific_name": "N/A"
   },
   {
     "id": 18,
@@ -531,20 +536,20 @@
   },
   {
     "id": 32,
-    "name": "Lavender 'Hidcote'",
+    "name": "Mint 'Spearmint'",
     "category": "Herbs",
-    "images": ["img/products/Lavender 'Hidcote.jpeg"],
-    "price": 9.99,
-    "sku": "PP-HRB-034",
+    "images": ["img/products/Mint_Spearmint.jpeg"],
+    "price": 6.99,
+    "sku": "PP-HRB-036",
     "description": [
-      "A compact variety of lavender with deep purple flowers and aromatic foliage.",
-      "Thrives in full sun and well-drained soil.",
-      "Popular in herb gardens and for crafting scented sachets."
+      "A fast-growing herb with bright green leaves and a refreshing aroma.",
+      "Popular for teas, salads, and garnishes.",
+      "Thrives in moist, well-drained soil."
     ],
-    "light_requirements": "Full sun",
-    "watering_cycle": "Every 7-10 days",
-    "origin_country": "Mediterranean",
-    "scientific_name": "Lavandula angustifolia 'Hidcote'"
+    "light_requirements": "Partial shade to full sun",
+    "watering_cycle": "Every 3-4 days",
+    "origin_country": "Europe",
+    "scientific_name": "Mentha spicata"
   },
   {
     "id": 33,
@@ -987,7 +992,12 @@
     "id": 57,
     "name": "Wisteria",
     "category": "Climbers",
-    "images": ["img/products/wisteria_1.jpg"],
+    "images": [
+      "img/products/wisteria_1.jpg",
+      "img/products/wisteria_2.jpg",
+      "img/products/wisteria_3.jpg",
+      "img/products/wisteria_4.jpg"
+    ],
     "price": 34.99,
     "sku": "PP-CLM-068",
     "description": [
@@ -1004,7 +1014,13 @@
     "id": 58,
     "name": "Maranta Leuconeura (Prayer Plant)",
     "category": "IndoorPlants",
-    "images": ["img/products/prayer_plant_1.jpg"],
+    "images": [
+      "img/products/prayer_plant_1.jpg",
+      "img/products/prayer_plant_2.webp",
+      "img/products/prayer_plant_3.jpeg",
+      "img/products/prayer_plant_4.jpeg",
+      "img/products/prayer_plant_5.jpg"
+    ],
     "price": 13.99,
     "sku": "PP-PLT-070",
     "description": [
@@ -1021,7 +1037,13 @@
     "id": 59,
     "name": "Lucky Bamboo",
     "category": "IndoorPlants",
-    "images": ["img/products/lucky_bamboo_1.jpg"],
+    "images": [
+      "img/products/lucky_bamboo_1.webp",
+      "img/products/lucky_bamboo_2.jpg",
+      "img/products/lucky_bamboo_4.jpg",
+      "img/products/lucky_bamboo_5.jpg",
+      "img/products/lucky_bamboo_3.jpg"
+    ],
     "price": 9.99,
     "sku": "PP-PLT-071",
     "description": [
@@ -1038,7 +1060,13 @@
     "id": 60,
     "name": "African Violet",
     "category": "IndoorPlants",
-    "images": ["img/products/african_violet_1.jpg"],
+    "images": [
+      "img/products/african_violet_1.webp",
+      "img/products/african_violet_2.jpg",
+      "img/products/african_violet_3.jpeg",
+      "img/products/african_violet_4.jpeg",
+      "img/products/african_violet_5.jpeg"
+    ],
     "price": 12.99,
     "sku": "PP-PLT-073",
     "description": [
@@ -1089,7 +1117,13 @@
     "id": 63,
     "name": "Silver Queen",
     "category": "IndoorPlants",
-    "images": ["img/products/silver_queen_1.jpg"],
+    "images": [
+      "img/products/silver_queen_1.jpg",
+      "img/products/silver_queen_2.jpg",
+      "img/products/silver_queen_3.jpeg",
+      "img/products/silver_queen_4.jpeg",
+      "img/products/silver_queen_5.jpeg"
+    ],
     "price": 15.99,
     "sku": "PP-PLT-091",
     "description": [
@@ -1155,23 +1189,20 @@
   },
   {
     "id": 67,
-    "name": "Lavender 'Provence'",
+    "name": "Chives 'Garlic'",
     "category": "Herbs",
-    "images": [
-      "img/products/lavender_provence_1.jpg",
-      "lavender_provence_2.jpg"
-    ],
-    "price": 10.99,
-    "sku": "PP-HRB-121",
+    "images": ["img/products/Chives_Garlic.jpeg"],
+    "price": 5.99,
+    "sku": "PP-HRB-041",
     "description": [
-      "A fragrant herb variety known for its long stems and deep purple flowers.",
-      "Ideal for creating hedges or borders in herb gardens.",
-      "Thrives in full sun and well-drained soil."
+      "A perennial herb with long, slender leaves and a mild garlic flavor.",
+      "Great for salads, garnishes, and sauces.",
+      "Grows well in full sun and moist soil."
     ],
     "light_requirements": "Full sun",
-    "watering_cycle": "Every 7-10 days",
-    "origin_country": "Mediterranean",
-    "scientific_name": "Lavandula x intermedia 'Provence'"
+    "watering_cycle": "Every 3-5 days",
+    "origin_country": "Central Asia",
+    "scientific_name": "Allium tuberosum"
   },
   {
     "id": 69,
@@ -1410,28 +1441,7 @@
     "origin_country": "Germany",
     "scientific_name": "N/A"
   },
-  {
-    "id": 81,
-    "name": "Lawn Fertilizer",
-    "category": "Soils",
-    "images": [
-      "img/products/lawn_fertilizer_1.avif",
-      "img/products/lawn_fertilizer_2.jpg",
-      "img/products/lawn_fertilizer_3.jpeg",
-      "img/products/lawn_fertilizer_4.webp"
-    ],
-    "price": 24.99,
-    "sku": "PP-SOIL-201",
-    "description": [
-      "A high-quality lawn fertilizer that promotes lush, green growth.",
-      "Contains essential nutrients for healthy lawn development.",
-      "Suitable for all grass types."
-    ],
-    "light_requirements": "N/A",
-    "watering_cycle": "N/A",
-    "origin_country": "USA",
-    "scientific_name": "N/A"
-  },
+  
   {
     "id": 82,
     "name": "Basil",
@@ -1452,5 +1462,195 @@
     "watering_cycle": "Every 5-7 days",
     "origin_country": "India",
     "scientific_name": "Ocimum basilicum"
+  },
+  {
+    "id": 83,
+    "name": "Thyme 'English'",
+    "category": "Herbs",
+    "images": ["img/products/Thyme_English.jpeg"],
+    "price": 8.99,
+    "sku": "PP-HRB-035",
+    "description": [
+      "A hardy, perennial herb with small, aromatic leaves.",
+      "Ideal for seasoning meats and soups.",
+      "Low-growing and thrives in well-drained soil."
+    ],
+    "light_requirements": "Full sun",
+    "watering_cycle": "Every 5-7 days",
+    "origin_country": "Mediterranean",
+    "scientific_name": "Thymus vulgaris"
+  },
+  {
+    "id": 85,
+    "name": "Oregano 'Greek'",
+    "category": "Herbs",
+    "images": ["img/products/Oregano_Greek.jpeg"],
+    "price": 7.99,
+    "sku": "PP-HRB-037",
+    "description": [
+      "A robust herb with a pungent aroma and flavor.",
+      "Essential for Mediterranean dishes like pizza and pasta.",
+      "Prefers full sun and dry soil."
+    ],
+    "light_requirements": "Full sun",
+    "watering_cycle": "Every 5-7 days",
+    "origin_country": "Greece",
+    "scientific_name": "Origanum vulgare subsp. hirtum"
+  },
+  {
+    "id": 86,
+    "name": "Lavender 'Provence'",
+    "category": "Herbs",
+    "images": [
+      "img/products/lavender_provence_1.jpg",
+      "lavender_provence_2.jpg"
+    ],
+    "price": 10.99,
+    "sku": "PP-HRB-121",
+    "description": [
+      "A fragrant herb variety known for its long stems and deep purple flowers.",
+      "Ideal for creating hedges or borders in herb gardens.",
+      "Thrives in full sun and well-drained soil."
+    ],
+    "light_requirements": "Full sun",
+    "watering_cycle": "Every 7-10 days",
+    "origin_country": "Mediterranean",
+    "scientific_name": "Lavandula x intermedia 'Provence'"
+  },
+  {
+    "id": 87,
+    "name": "Parsley 'Italian Flat-Leaf'",
+    "category": "Herbs",
+    "images": ["img/products/Parsley_Italian.jpeg"],
+    "price": 5.99,
+    "sku": "PP-HRB-038",
+    "description": [
+      "A versatile herb with flat, dark green leaves and a slightly peppery flavor.",
+      "Commonly used in soups, sauces, and as a garnish.",
+      "Grows well in full sun or partial shade."
+    ],
+    "light_requirements": "Full sun to partial shade",
+    "watering_cycle": "Every 3-5 days",
+    "origin_country": "Mediterranean",
+    "scientific_name": "Petroselinum crispum"
+  },
+  {
+    "id": 88,
+    "name": "Cilantro 'Santo'",
+    "category": "Herbs",
+    "images": ["img/products/Cilantro_Santo.jpeg"],
+    "price": 4.99,
+    "sku": "PP-HRB-039",
+    "description": [
+      "A fast-growing herb with bright green leaves and a citrusy flavor.",
+      "Essential for Mexican and Asian dishes.",
+      "Best grown in cool weather with well-drained soil."
+    ],
+    "light_requirements": "Full sun to partial shade",
+    "watering_cycle": "Every 3-5 days",
+    "origin_country": "Middle East",
+    "scientific_name": "Coriandrum sativum"
+  },
+  {
+    "id": 89,
+    "name": "Lemon Balm",
+    "category": "Herbs",
+    "images": ["img/products/Lemon_Balm.jpeg"],
+    "price": 6.99,
+    "sku": "PP-HRB-040",
+    "description": [
+      "A fragrant herb with lemon-scented leaves used in teas and desserts.",
+      "Calming properties and attracts pollinators.",
+      "Thrives in moist, well-drained soil."
+    ],
+    "light_requirements": "Partial shade to full sun",
+    "watering_cycle": "Every 3-5 days",
+    "origin_country": "Southern Europe",
+    "scientific_name": "Melissa officinalis"
+  },
+  {
+    "id": 91,
+    "name": "Lavender 'Hidcote'",
+    "category": "Herbs",
+    "images": ["img/products/Lavender 'Hidcote.jpeg"],
+    "price": 9.99,
+    "sku": "PP-HRB-034",
+    "description": [
+      "A compact variety of lavender with deep purple flowers and aromatic foliage.",
+      "Thrives in full sun and well-drained soil.",
+      "Popular in herb gardens and for crafting scented sachets."
+    ],
+    "light_requirements": "Full sun",
+    "watering_cycle": "Every 7-10 days",
+    "origin_country": "Mediterranean",
+    "scientific_name": "Lavandula angustifolia 'Hidcote'"
+  },
+  {
+    "id": 92,
+    "name": "Dill 'Fernleaf'",
+    "category": "Herbs",
+    "images": ["img/products/Dill_Fernleaf.jpeg"],
+    "price": 4.99,
+    "sku": "PP-HRB-042",
+    "description": [
+      "A compact variety of dill with delicate, feathery leaves.",
+      "Used in pickling and as a seasoning for fish.",
+      "Prefers full sun and well-drained soil."
+    ],
+    "light_requirements": "Full sun",
+    "watering_cycle": "Every 5-7 days",
+    "origin_country": "Southwest Asia",
+    "scientific_name": "Anethum graveolens"
+  },
+  {
+    "id": 93,
+    "name": "Sage 'Garden'",
+    "category": "Herbs",
+    "images": ["img/products/Sage_Garden.jpeg"],
+    "price": 6.99,
+    "sku": "PP-HRB-043",
+    "description": [
+      "A strong, aromatic herb with silvery leaves used in poultry and stuffing.",
+      "Popular for its medicinal properties and teas.",
+      "Grows well in full sun and dry soil."
+    ],
+    "light_requirements": "Full sun",
+    "watering_cycle": "Every 7-10 days",
+    "origin_country": "Mediterranean",
+    "scientific_name": "Salvia officinalis"
+  },
+  {
+    "id": 94,
+    "name": "Tarragon 'French'",
+    "category": "Herbs",
+    "images": ["img/products/Tarragon_French.jpeg"],
+    "price": 8.99,
+    "sku": "PP-HRB-044",
+    "description": [
+      "A perennial herb with narrow, dark green leaves and a distinctive anise flavor.",
+      "Commonly used in French cuisine for sauces and vinaigrettes.",
+      "Prefers full sun and well-drained soil."
+    ],
+    "light_requirements": "Full sun",
+    "watering_cycle": "Every 7-10 days",
+    "origin_country": "Southern Europe",
+    "scientific_name": "Artemisia dracunculus"
+  },
+  {
+    "id": 95,
+    "name": "Lavender 'Munstead'",
+    "category": "Herbs",
+    "images": ["img/products/Lavender 'Munstead 52.webp"],
+    "price": 9.99,
+    "sku": "PP-HRB-018",
+    "description": [
+      "A compact variety of lavender known for its aromatic foliage and deep purple flowers.",
+      "Thrives in full sun and well-drained soil, suitable for herb gardens, borders, and rock gardens.",
+      "Requires minimal watering once established, about once every 7-10 days."
+    ],
+    "light_requirements": "Full sun",
+    "watering_cycle": "Every 7-10 days",
+    "origin_country": "Mediterranean",
+    "scientific_name": "Lavandula angustifolia 'Munstead'"
   }
 ]
