@@ -347,7 +347,6 @@ header {
 .navbar-nav a.nav-link {
   color: var(--primary-color);
   font-family: var(--secondary-font);
-  font-size: 1.2rem;
   position: relative;
 }
 
@@ -636,8 +635,8 @@ header {
 .owl-carousel .owl-item .card {
   padding: 30px;
   position: relative;
-  background-color: var(--white); 
-  z-index: 1; 
+  background-color: var(--white);
+  z-index: 1;
 }
 
 .owl-carousel .owl-stage-outer {
