@@ -373,7 +373,6 @@ header {
   color: var(--primary-color);
 }
 
-
 .cart-btn-ic {
   font-size: 16px;
 }
@@ -443,11 +442,11 @@ header {
   border-bottom: 3px solid var(--secondary-color);
   height: 520px;
 }
-.actua1container h2{
+.actua1container h2 {
   font-size: 32px;
 }
 
-.actua1container .form-label{
+.actua1container .form-label {
   font-size: 14px;
   margin: 0;
 }
@@ -524,10 +523,9 @@ header {
 /*********************************** Section Category wise products CSS Start ************************************/
 
 .scroll-container::-webkit-scrollbar {
-  height:  2px; 
+  height: 2px;
 }
 /*********************************** Section Category wise products CSS End ************************************/
-
 
 /******************************* Section Banner Section CSS Start ********************************/
 
@@ -659,7 +657,8 @@ header {
   overflow: hidden;
   border-radius: var(--plantpalace-bdr-radius);
   z-index: 1;
-  height: 220px;
+  min-height: 220px;
+  max-height: 220px;
 }
 
 .product-card__img:before {
@@ -692,6 +691,7 @@ header {
 
 .product-card__img img {
   width: 100%;
+  min-height: 220px !important;
   border-radius: var(--plantpalace-bdr-radius);
   transition-delay: 0.1s;
   transition-timing-function: ease-in-out;
@@ -714,9 +714,6 @@ header {
 /************************************ Section Product CSS End ************************************/
 
 /************************************ Single Product Page CSS Start ************************************/
-.single-product-page{
-  
-}
 .right-box {
   border: 1px solid var(--primary-color);
   border-radius: 10px;
