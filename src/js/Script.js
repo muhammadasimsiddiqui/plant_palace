@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", function () {
   fetch("components/footer.html")
     .then((response) => response.text())
     .then((html) => {
-      document.getElementById("luxefooter").innerHTML = html;
+      document.getElementById("footerplantpalace").innerHTML = html;
       initializeFooter();
     });
 });
