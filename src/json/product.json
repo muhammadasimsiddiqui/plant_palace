@@ -1354,9 +1354,9 @@
     "category": "Soils",
     "images": [
       "img/products/lawn_fertilizer_1.avif",
-
       "img/products/lawn_fertilizer_2.jpg",
-      "img/products/lawn_fertilizer_3.jpeg"
+      "img/products/lawn_fertilizer_3.jpeg",
+      "img/products/lawn_fertilizer_4.webp"
     ],
     "price": 24.99,
     "sku": "PP-SOIL-201",
