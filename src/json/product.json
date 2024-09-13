@@ -156,7 +156,10 @@
     "id": 10,
     "name": "Japanese Maple",
     "category": "Trees",
-    "images": ["img/products/Japanese Maple.jpg"],
+    "images": [
+      "img/products/Japanese_Maple_1.webp",
+      "img/products/Japanese Maple.jpg"
+    ],
     "price": 59.99,
     "sku": "PP-TRE-011",
     "description": [
@@ -853,7 +856,11 @@
     "id": 51,
     "name": "Blue Star Fern",
     "category": "Ferns",
-    "images": ["img/products/blue_star_fern_1.jpg", "blue_star_fern_2.jpg"],
+    "images": [
+      "img/products/blue_star_fern_1.jpeg",
+      "img/products/blue_star_fern_2.jpg"
+      
+    ],
     "price": 19.99,
     "sku": "PP-FRN-061",
     "description": [
@@ -890,7 +897,12 @@
     "id": 53,
     "name": "Sago Palm",
     "category": "Palms",
-    "images": ["img/products/sago_palm_1.jpg"],
+    "images": [
+      "img/products/sago_palm_1.webp",
+      "img/products/sago_palm_2.webp",
+      "img/products/sago_palm_3.webp",
+      "img/products/sago_palm_4.webp"
+    ],
     "price": 39.99,
     "sku": "PP-PLM-063",
     "description": [
@@ -907,7 +919,13 @@
     "id": 54,
     "name": "Creeping Jenny",
     "category": "Groundcovers",
-    "images": ["img/products/creeping_jenny_1.jpg"],
+    "images": [
+      "img/products/creeping_jenny_1.webp",
+      "img/products/creeping_jenny_2.webp",
+      "img/products/creeping_jenny_3.webp",
+      "img/products/creeping_jenny_4.webp",
+      "img/products/creeping_jenny_5.webp"
+    ],
     "price": 9.99,
     "sku": "PP-GRO-064",
     "description": [
@@ -1182,7 +1200,7 @@
     "id": 71,
     "name": "Chinese Elm",
     "category": "Bonsai",
-    "images": ["img/products/chinese_elm_bonsai_1.jpg"],
+    "images": ["img/products/chinese_elm_bonsai_1.webp"],
     "price": 54.99,
     "sku": "PP-BNS-128",
     "description": [
@@ -1199,7 +1217,12 @@
     "id": 72,
     "name": "Juniper",
     "category": "Bonsai",
-    "images": ["img/products/juniper_bonsai_1.jpg"],
+    "images": [
+      "img/products/juniper_bonsai_1.jpeg",
+      "img/products/juniper_bonsai_2.jpeg",
+      "img/products/juniper_bonsai_3.jpeg",
+      "img/products/juniper_bonsai_4.jpeg"
+    ],
     "price": 59.99,
     "sku": "PP-BNS-129",
     "description": [
@@ -1216,7 +1239,12 @@
     "id": 73,
     "name": "Olive",
     "category": "Bonsai",
-    "images": ["img/products/olive_bonsai_1.jpg"],
+    "images": [
+      "img/products/olive_bonsai_1.jpeg",
+      "img/products/olive_bonsai_2.jpeg",
+      "img/products/olive_bonsai_3.jpeg",
+      "img/products/olive_bonsai_4.jpeg"
+    ],
     "price": 74.99,
     "sku": "PP-BNS-131",
     "description": [
@@ -1233,7 +1261,12 @@
     "id": 74,
     "name": "Carmona",
     "category": "Bonsai",
-    "images": ["img/products/carmona_bonsai_1.jpg"],
+    "images": [
+      "img/products/carmona_bonsai_1.jpeg",
+      "img/products/carmona_bonsai_2.jpeg",
+      "img/products/carmona_bonsai_3.jpeg",
+      "img/products/carmona_bonsai_4.jpeg"
+    ],
     "price": 49.99,
     "sku": "PP-BNS-132",
     "description": [
@@ -1250,7 +1283,15 @@
     "id": 75,
     "name": "Pine",
     "category": "Bonsai",
-    "images": ["img/products/pine_bonsai_1.jpg"],
+    "images": [
+      "img/products/pine_bonsai_1.jpg",
+      "img/products/pine_bonsai_2.jpg",
+      "img/products/pine_bonsai_3.jpg",
+      "img/products/pine_bonsai_4.jpg",
+      "img/products/pine_bonsai_5.jpg",
+      "img/products/pine_bonsai_6.jpg",
+      "img/products/pine_bonsai_7.jpg"
+    ],
     "price": 89.99,
     "sku": "PP-BNS-133",
     "description": [
@@ -1267,7 +1308,10 @@
     "id": 76,
     "name": "Serissa",
     "category": "Bonsai",
-    "images": ["img/products/serissa_bonsai_1.jpg"],
+    "images": [
+      "img/products/serissa_bonsai_1.webp",
+      "img/products/serissa_bonsai_2.webp"
+    ],
     "price": 44.99,
     "sku": "PP-BNS-134",
     "description": [
@@ -1301,7 +1345,11 @@
     "id": 78,
     "name": "Cedar",
     "category": "Bonsai",
-    "images": ["img/products/cedar_bonsai_1.jpg"],
+    "images": [
+      "img/products/cedar_bonsai_1.webp",
+      "img/products/cedar_bonsai_2.webp",
+      "img/products/cedar_bonsai_3.webp"
+    ],
     "price": 79.99,
     "sku": "PP-BNS-136",
     "description": [
@@ -1335,7 +1383,10 @@
     "id": 80,
     "name": "Hand Rake",
     "category": "GardeningTools",
-    "images": ["img/products/hand_rake_1.jpg"],
+    "images": [
+      "img/products/hand_rake_1.jpeg",
+      "img/products/hand_rake_2.jpeg"
+    ],
     "price": 9.99,
     "sku": "PP-TOOL-200",
     "description": [

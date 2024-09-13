@@ -41,6 +41,7 @@ let displayProduct = async (allCheckCat = []) => {
             />
           </div>
           <div class="card-body">
+          <h5>${element.id}</h5>
             <div style="color: var(--plantpalace-black)">
               <i class="fa-solid fa-star"></i>
               <i class="fa-solid fa-star"></i>

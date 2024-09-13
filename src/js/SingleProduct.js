@@ -60,13 +60,14 @@ function viewProduct(productId, products) {
             <div class="right-box">
               <div class="main-img-box">
                 <a href="${
-                  product.images
+                  product.images[0]
                 }" id="mainImageLink" data-lightbox="models">
-                  <img src="${product.images}" alt="${
+                  <img src="${product.images[0]}" alt="${
     product.name
   }" id="mainImage" class="main-img img-fluid" />
                 </a>
               </div>
+              <div class="pb-3">
               <div class="swiper pro-small-images">
                 <div class="swiper-wrapper">
                     ${imageOptions}
@@ -80,10 +81,11 @@ function viewProduct(productId, products) {
                     : ""
                 }   
               </div>
-            </div>
+
+              </div>       </div>
           </div>
           <div class="col-lg-6">
-            <div class="px-lg-5">
+          
               <h2 class="m-0 pt-md-5 pt-lg-0">${product.name}</h2>
               <br>
               <table cellspacing="0" class="inputs">
@@ -110,20 +112,19 @@ function viewProduct(productId, products) {
               
                <button  onclick="addToCart(${
                  product.id
-               })" class=" plantpalace-btn process-one__bottom-btn border-0">
+               })" class=" plantpalace-btn process-one__bottom-btn border-0 mb-2">
                 Add to Cart&nbsp;&nbsp;<i class="fa-solid  fa-cart-shopping"></i>
-            </button>
+              </button>
 
                <button  onclick="addToWishlist(${
                  product.id
-               })" class=" plantpalace-btn process-one__bottom-btn border-0">
+               })" class=" plantpalace-btn process-one__bottom-btn border-0 mb-2">
                 Add to Wishlist&nbsp;&nbsp;<i class="fa-regular fa-heart"></i>
-            </button>
+              </button>
              
-            </div>
           </div>
         </div>
-        <div class="pt-5 mt-5 des">
+        <div class="pt-5 des">
           <div class="des-title d-flex justify-content-between align-items-center">
             <h4 class="px-2">Product Details</h4>
             <button title="Download Product Details" class="border-0 bg-transparent" onclick="Export2Word('exportContent', '${

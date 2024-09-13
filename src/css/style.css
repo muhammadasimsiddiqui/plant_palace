@@ -742,7 +742,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 30px 15px 30px;
+  padding: 5px 35px 5px 35px;
 }
 
 .pro-small-images .swiper-slide {
