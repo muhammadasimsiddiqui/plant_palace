@@ -1,5 +1,4 @@
 // Header Functions
-// Header Scroll
 function plantpalaceHeader() {
   fetch("components/header.html")
     .then((response) => response.text())
@@ -114,11 +113,46 @@ function about() {
 }
 
 // Contact Form
-function formsubmition() {
-  window.location.href = "mailto:info.muhammadasimsiddiqui@gmail.com";
-  document.getElementById("myForm").reset();
+function contact_form() {
+  const inputs = document.querySelectorAll(".contact_form_input");
+
+  function focusFunc() {
+    let parent = this.parentNode;
+    parent.classList.add("focus");
+  }
+
+  function blurFunc() {
+    let parent = this.parentNode;
+    if (this.value == "") {
+      parent.classList.remove("focus");
+    }
+  }
+
+  inputs.forEach((input) => {
+    input.addEventListener("focus", focusFunc);
+    input.addEventListener("blur", blurFunc);
+  });
+}
+contact_form();
+function formSubmission(event) {
+  event.preventDefault();
+  const formData = new FormData(document.getElementById("contactForm"));
+  const data = {};
+  formData.forEach((value, key) => {
+    data[key] = value;
+  });
+  sessionStorage.setItem("formData", JSON.stringify(data));
+  window.location.href = "mailto:info@plantpalace.com";
+  document.getElementById("contactForm").reset();
+  console.log(
+    "Saved form data:",
+    JSON.parse(sessionStorage.getItem("formData"))
+  );
   return false;
 }
+document.getElementById("contactForm");
+document.addEventListener("submit", formSubmission);
+
 
 function addtocartform() {
   // Show SweetAlert dialog
@@ -139,4 +173,3 @@ function addtocartform() {
 }
 
 //
-

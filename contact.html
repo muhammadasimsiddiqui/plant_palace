@@ -31,110 +31,120 @@
     <!------------ End Header ------------>
 
     <!------------ Start Banner Section ------------>
+    <!--  -->
+   <section>
+    <div class="contactSection">
+      <span class="big-circle"></span>
+      <img src="img/icons/shape.png" class="square" alt="" />
+      <div class="form">
+        <div class="contact-info">
+          <h3 class="title">Let's get in touch</h3>
+          <p class="text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+            dolorum adipisci recusandae praesentium dicta!
+          </p>
 
-    <section class="contact-banner">
-      <div class="container text-center">
-        <h1>Contact Us</h1>
-        <h4>Connect With Us: Your Inquiries Are Important To Us</h4>
-      </div>
-    </section>
+          <div class="info">
+            <div class="information">
+              <img src="img/icons/location.png" class="icon" alt="" />
+              <p>Aptech Metro Star Gate</p>
+            </div>
+            <div class="information">
+              <img src="img/icons/email.png" class="icon" alt="" />
+              <p>hamdanrizwankhan0@gmail.com</p>
+            </div>
+            <div class="information">
+              <img src="img/icons/phone.png" class="icon" alt="" />
+              <p>+92-309-366-999-6</p>
+            </div>
+          </div>
 
-    <!------------ End Banner Section ------------>
+          <div class="social-media">
+            <p>Connect with us :</p>
+            <div class="social-icons">
+              <a href="#">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+          </div>
+        </div>
 
-    <!------------ Start Contact Section ------------>
+        <div class="contact-form">
+          <span class="circle one"></span>
+          <span class="circle two"></span>
 
-    <section class="container contactPageForm py-5">
-      <div class="row py-5 g-3">
-        <div class="col-md-6 first_col">
-          <h2 class="text-center w-100 mt-3">Get In Touch</h2>
-          <form
-            class="p-4 mt-5"
-            action=""
-            id="myform"
-            onsubmit="return formsubmition()"
-          >
-            <label for="name" class="form-label">Enter your Name</label>
-            <input
-              type="text"
-              class="form-control mb-2"
-              id="name"
-              pattern="[A-Z a-z]{3,}"
-              title="Please Enter a Valid Name."
-              required
-            />
-
-            <label for="email" class="form-label">Email ID</label>
-            <input
-              class="form-control mb-2"
-              id="email"
-              type="email"
-              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
-              title="Please Enter a Valid Email Address."
-              required
-            />
-
-            <label for="message" class="form-label">Enter your message</label>
-            <textarea
-              type="text"
-              class="form-control form-control-message mb-2"
-              id="message"
-              rows="3"
-              required
-            ></textarea>
-            <input
+          <form onsubmit="formsubmition()" id="contactForm">
+            <h3 class="title">Contact us</h3>
+            <div class="input-container">
+              <input
+                type="text"
+                name="name"
+                id="formName"
+                class="contact_form_input input"
+                pattern="[A-Za-z]{3,}"
+                required
+              />
+              <label for="">Name</label>
+              <span>Name</span>
+            </div>
+            <div class="input-container">
+              <input
+                type="email"
+                name="email"
+                id="formEmail"
+                class="contact_form_input input"
+                required
+              />
+              <label for="">Email</label>
+              <span>Email</span>
+            </div>
+            <div class="input-container">
+              <input
+                type="tel"
+                name="phone"
+                id="formPhone"
+                class="contact_form_input input"
+                pattern="(?!(1234|0000|9876))\d{4,}"
+              />
+              <label for="">Phone</label>
+              <span>Phone</span>
+            </div>
+            <div class="input-container textarea">
+              <textarea
+                name="message"
+                class="contact_form_input input"
+                id="formMessage"
+              ></textarea>
+              <label for="">Message</label>
+              <span>Message</span>
+            </div>
+            <button
               type="submit"
-              class="my-4 btn btn-view"
-              placeholder="Send Now"
-            />
+              class="plantpalace-btn mt-auto cta-one__btn rounded-5 border-0 mt-0 py-2 px-4 justify-content-center"
+            >
+              Submit
+            </button>
           </form>
         </div>
-        <div class="col-md-6 sec_col">
-          <img src="img/contact.jpg" class="img-fluid" />
-        </div>
       </div>
-      <div class="row-last">
-        <div class="row row-col-1 row-col-md-3 p-3 text-white">
-          <div class="col px-lg-5">
-            <i class="fa-solid fa-phone py-4"></i>
-            <h4>CALL US</h4>
-            <p>+92 320 000 0000</p>
-          </div>
-          <div class="col px-lg-5">
-            <i class="fa-solid fa-location-dot py-4"></i>
-            <h4>LOCATION</h4>
-            <p>4671 Sugar Camp Road, Owatonna, Minnesota, 55060</p>
-          </div>
-          <div class="col px-lg-5">
-            <i class="fa-solid fa-envelope py-4"></i>
-            <h4>Email</h4>
-            <p>Example@mail.com</p>
-          </div>
-        </div>
-      </div>
-    </section>
+    </div>
+   </section>
 
-    <!------------ End Contact Section ------------>
-
-    <!------------ Start GoogleMap Section ------------>
-    <section class="container">
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d887.5728797797436!2d67.15166796395589!3d24.88733872672663!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb339999415e0c3%3A0x36742eee0fd9c291!2sAptech%20Metro%20Star%20Gate!5e0!3m2!1sen!2s!4v1719439419454!5m2!1sen!2s"
-        width="100%"
-        height="300"
-        style="border: 0"
-        allowfullscreen=""
-        loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"
-      ></iframe>
-    </section>
-
-    <!------------ End GoogleMap Section ------------>
+    <!--  -->
 
     <!------------ Start Footer  ------------>
     <footer id="footerplantpalace"></footer>
     <!------------ End Footer  ------------>
   </body>
-
   <!----- Bootstrap JS ----->
   <script src="src/bootstrap/js/bootstrap.bundle.js"></script>
 
