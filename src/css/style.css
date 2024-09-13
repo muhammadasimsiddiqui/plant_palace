@@ -620,8 +620,101 @@ header {
   background: var(--secondary-color);
 }
 
-.testinomials-crousel {
-  padding-bottom: 80px;
+.title-cnt-test {
+  padding-bottom: 200px;
+}
+
+.testinomialCrousel {
+  margin-top: -240px;
+}
+
+.owl-carousel .owl-item {
+  position: relative;
+  transition: all 0.3s ease-in-out;
+}
+
+.owl-carousel .owl-item .card {
+  padding: 30px;
+  position: relative;
+  background-color: var(--white); 
+  z-index: 1; 
+}
+
+.owl-carousel .owl-stage-outer {
+  overflow-y: auto !important;
+  padding-bottom: 40px;
+}
+
+.owl-carousel .owl-item img {
+  height: 200px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.owl-carousel .owl-item .card .inner_card .name {
+  position: absolute;
+  bottom: -20px;
+  left: 33%;
+  color: var(--white);
+  font-size: 1.1rem;
+  font-weight: 600;
+  background-color: var(--secondary-color);
+  padding: 0.3rem 0.4rem;
+  border-radius: 5px;
+  box-shadow: 2px 3px 15px #2ecc71;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.owl-carousel .owl-item .inner_card {
+  opacity: 0.4;
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.owl-carousel .owl-item .card {
+  transform: scale3d(0.8, 0.8, 0.8);
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.owl-carousel .owl-item.active.center .card .inner_card {
+  opacity: 1;
+}
+
+.owl-carousel .owl-item.active.center .card {
+  transform: scale3d(1, 1, 1);
+}
+
+.owl-carousel .owl-dots {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+  height: 20px;
+  background: var(--secondary-color) !important;
+  border-radius: 2px !important;
+  opacity: 0.8;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  height: 13px;
+  width: 13px;
+  opacity: 1;
+  transform: translateY(2px);
+  background: #2ecc71 !important;
+}
+
+@media (min-width: 480.6px) and (max-width: 575.5px) {
+  .owl-carousel .owl-item .card .inner_card.name {
+    left: 24%;
+  }
+}
+
+@media (max-width: 360px) {
+  .owl-carousel .owl-item .card .inner_card .name {
+    left: 30%;
+  }
 }
 
 /***************************** Section Testinomials Category CSS End *******************************/

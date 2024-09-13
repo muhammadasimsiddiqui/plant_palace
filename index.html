@@ -27,6 +27,16 @@
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
 
+    <!-- OwlCrousel CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+    />
+
     <!----- Font Awesome Cdn ----->
     <link
       rel="stylesheet"
@@ -120,10 +130,10 @@
     <section class="banner container-fluid align-content-center">
       <div class="container text-center">
         <div class="banner-content text-white justify-content-center">
-          <h3 class="text-white pb-3">Get Discount Up To 50%</h3>
+          <h3 class="text-white pb-3">Get Discount Up To 5%</h3>
           <h2 class="text-white pb-3">Best Deal For Weak</h2>
           <p class="text-white pb-4 fs-4">
-            Get up to 50% off this week and get offer <br />Don't miss
+            Get up to 5% off this week and get offer <br />Don't miss
           </p>
           <div class="d-flex justify-content-center">
             <!-- Added this div for centering -->
@@ -132,7 +142,7 @@
               onclick="shop()"
             >
               <a href="shop.html" class="plantpalace-btn cta-one__btn"
-                >Buy Now</a
+                >Shop Now</a
               >
             </button>
           </div>
@@ -141,143 +151,126 @@
     </section>
     <!------------ Banner End ------------>
 
-    <!------------ Start Feature Section ------------>
-    <section class="container-fluid mt-5">
-      <div class="container text-center">
-        <div class="section-title m-0 p-0">
-          <h2>Why Choose Us</h2>
-          <p></p>
+    <!------------ Start Testinomials Section ------------>
+    <section
+      class="container-fluid bg-sec title-cnt-test text-center justify-content-center pt-5"
+    >
+      <div class="section-title">
+        <h2>Testinomials</h2>
+      </div>
+      <h2 class="col-md-7 mx-auto pb-5">
+        Our customers’ words speak volumes about our passion for plants and commitment to quality
+      </h2>
+    </section>
+    <div class="testinomialCrousel">
+      <div class="owl-carousel owl-theme mt-5">
+        <div class="owl-item">
+          <div class="card">
+            <div class="inner_card">
+              <div class="img-card">
+                <img src="img/team/Hamdan.jpeg" alt="" />
+                <!-- <img
+                  src="https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                  alt=""
+                /> -->
+              </div>
+              <div class="testimonial mt-4 mb-2">
+                PlantPalace is my go-to place for all things green. Their plants
+                are beautiful and well-cared for.
+              </div>
+              <div class="name">Hamdan Rizwan</div>
+              <!-- <div class="name">Denis Richie</div> -->
+            </div>
+          </div>
         </div>
-
-        <div class="swiper feature-container">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide fe-box fe-box-1">
-              <img src="img/features/f1.png" alt="" />
-              <h5>Free Shipping</h5>
+        <div class="owl-item">
+          <div class="card">
+            <div class="inner_card">
+              <div class="img-card">
+                <img
+                  src="https://images.pexels.com/photos/1024311/pexels-photo-1024311.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+                  alt=""
+                />
+              </div>
+              <div class="testimonial mt-4 mb-2">
+                Thanks to PlantPalace, my office now feels so much more vibrant
+                and lively. Highly recommend!
+              </div>
+              <div class="name">Lisa Sthalekar</div>
             </div>
-            <div class="swiper-slide fe-box fe-box-2">
-              <img src="img/features/f2.png" alt="" />
-              <h5>Online Order</h5>
+          </div>
+        </div>
+        <div class="owl-item">
+          <div class="card">
+            <div class="inner_card">
+              <div class="img-card">
+                <img
+                  src="https://images.pexels.com/photos/1036622/pexels-photo-1036622.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                  alt=""
+                />
+              </div>
+              <div class="testimonial mt-4 mb-2">
+                I have purchased several plants from PlantPalace, and each one
+                has exceeded my expectations.
+              </div>
+              <div class="name">Jessica K.</div>
             </div>
-            <div class="swiper-slide fe-box fe-box-3">
-              <img src="img/features/f3.png" alt="" />
-              <h5>Save Money</h5>
+          </div>
+        </div>
+        <div class="owl-item">
+          <div class="card">
+            <div class="inner_card">
+              <div class="img-card">
+                <img
+                  src="https://images.pexels.com/photos/1212984/pexels-photo-1212984.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                  alt=""
+                />
+              </div>
+              <div class="testimonial mt-4 mb-2">
+                The customer support at PlantPalace is fantastic. They helped me
+                choose the perfect plants for my space.
+              </div>
+              <div class="name">Kevin B.</div>
             </div>
-            <div class="swiper-slide fe-box fe-box-4">
-              <img src="img/features/f4.png" alt="" />
-              <h5>Promotions</h5>
+          </div>
+        </div>
+        <div class="owl-item">
+          <div class="card">
+            <div class="inner_card">
+              <div class="img-card">
+                <img
+                  src="https://images.pexels.com/photos/1832959/pexels-photo-1832959.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                  alt=""
+                />
+              </div>
+              <div class="testimonial mt-4 mb-2">
+                PlantPalace’s website is easy to navigate, and their delivery
+                service is prompt and reliable.
+              </div>
+              <div class="name">Laura S.</div>
             </div>
-            <div class="swiper-slide fe-box fe-box-5">
-              <img src="img/features/f5.png" alt="" />
-              <h5>Happy Sell</h5>
-            </div>
-            <div class="swiper-slide fe-box fe-box-6">
-              <img src="img/features/f6.png" alt="" />
-              <h5>24/7 Support</h5>
+          </div>
+        </div>
+        <div class="owl-item">
+          <div class="card">
+            <div class="inner_card">
+              <div class="img-card">
+                <img
+                  src="https://images.pexels.com/photos/718261/pexels-photo-718261.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                  alt=""
+                />
+              </div>
+              <div class="testimonial mt-4 mb-2">
+                The plants I ordered from PlantPalace arrived in perfect
+                condition and have been thriving ever since.
+              </div>
+              <div class="name">Michael T.</div>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <!------------ End Feature Section ------------>
+    </div>
 
-    <!------------ Start Testinomials Section ------------>
-    <section class="container-fluid bg-sec mt-5">
-      <section class="container text-center justify-content-center pt-5">
-        <div class="section-title">
-          <h2>Testinomials</h2>
-        </div>
-        <h2 class="col-md-7 mx-auto pb-5">
-          We take pride in our work and our customer testimonials reflect that
-        </h2>
-
-        <div class="swiper testinomials-crousel">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <img
-                src="img/banners/person_2.jpg"
-                class="rounded-circle mb-3"
-                alt=""
-                height="100 "
-              />
-              <div>
-                <div class="product-star-rating mt-1">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                </div>
-                <p>
-                  "I was very happy with the quick delivery and nice packaging
-                  of my furniture from Interwood. The furniture was delivered
-                  within a few days of placing my order and was well-protected
-                  during shipping. I would definitely recommend Interwood to
-                  anyone looking for high-quality furniture with excellent
-                  service."
-                </p>
-                <h4 class="pt-3">IKRAM</h4>
-              </div>
-            </div>
-
-            <div class="swiper-slide">
-              <img
-                src="img/banners/person_4.jpg"
-                class="rounded-circle mb-3"
-                alt=""
-                height="100 "
-              />
-              <div>
-                <div class="product-star-rating mt-1">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                </div>
-                <p>
-                  "I was really impressed with the customer service from
-                  Interwood. The staff was very helpful and answered all of my
-                  questions. The delivery time was also very impressive. I would
-                  definitely recommend Interwood to anyone looking for
-                  high-quality furniture with excellent service."
-                </p>
-                <h4 class="pt-3">MALEEHA AWAIS</h4>
-              </div>
-            </div>
-
-            <div class="swiper-slide">
-              <img
-                src="img/banners/person_3.jpg"
-                class="rounded-circle mb-3"
-                alt=""
-                height="100 "
-              />
-              <div>
-                <div class="product-star-rating mt-1">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                </div>
-                <p>
-                  "I was really impressed with the timely delivery and good
-                  packaging of my bedroom set from Interwood. The furniture was
-                  delivered on the promised date and was well-protected during
-                  shipping. I would definitely recommend Interwood to anyone
-                  looking for high-quality furniture with excellent service."
-                </p>
-                <h4 class="pt-3">SAAD</h4>
-              </div>
-            </div>
-          </div>
-          <div class="swiper-pagination"></div>
-          <div class="swiper-button-next d-lg-none d-flex"></div>
-          <div class="swiper-button-prev d-lg-none d-flex"></div>
-        </div>
-      </section>
-    </section>
     <!------------ End Testinomials Section ------------>
 
     <!------------ Start Contact Section ------------>
@@ -464,6 +457,9 @@
       keyboard: true,
     });
   </script>
+
+  <!-- OwlCrousel JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
 
   <!----- Custom JS ----->
   <script src="src/js/Script.js"></script>
