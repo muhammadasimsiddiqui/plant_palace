@@ -42,8 +42,8 @@ function showProductsByCategories(categories) {
             <h5 class="card-title  fw-bold">${product.name}</h5>
             <h6 class="mb-3 card-price  fw-bold">$ ${product.price}</h6>
             <div class="process-one__bottom-btn-box">
-              <a href="productDetail.html?id=${product.id}" class="plantpalace-btn process-one__bottom-btn">
-                View Details&nbsp;<i class="fas fa-eye"></i>
+              <a href="productDetail.html?id=${product.id}" class="plantpalace-btn d-flex process-one__bottom-btn justify-content-center">
+                <span class="d-flex"><span>View</span>&nbsp;<span>Details</span>&nbsp;<span>&nbsp;<i class="fas fa-eye"></i></span></span>
               </a>
             </div>
           </div>

@@ -41,7 +41,6 @@ let displayProduct = async (allCheckCat = []) => {
             />
           </div>
           <div class="card-body">
-          <h5>${element.id}</h5>
             <div style="color: var(--plantpalace-black)">
               <i class="fa-solid fa-star"></i>
               <i class="fa-solid fa-star"></i>
@@ -52,8 +51,8 @@ let displayProduct = async (allCheckCat = []) => {
             <h5 class="card-title  fw-bold">${element.name}</h5>
             <h6 class="mb-3 card-price  fw-bold">$ ${element.price}</h6>
             <div class="process-one__bottom-btn-box">
-              <a href="productDetail.html?id=${element.id}" class="plantpalace-btn process-one__bottom-btn">
-                View Details&nbsp;<i class="fas fa-eye"></i>
+              <a href="productDetail.html?id=${element.id}" class="plantpalace-btn d-flex process-one__bottom-btn justify-content-center">
+                <span class="d-flex"><span>View</span>&nbsp;<span>Details</span>&nbsp;<span>&nbsp;<i class="fas fa-eye"></i></span></span>
               </a>
             </div>
           </div>

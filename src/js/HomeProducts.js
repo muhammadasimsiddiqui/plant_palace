@@ -58,8 +58,8 @@ async function HomeProds(categoryId = "IndoorPlants") {
             <h5 class="card-title  fw-bold">${productCat.name}</h5>
             <h6 class="mb-3 card-price  fw-bold">$ ${productCat.price}</h6>
             <div class="process-one__bottom-btn-box">
-              <a href="productDetail.html?id=${productCat.id}" class="plantpalace-btn process-one__bottom-btn">
-                View Details&nbsp;<i class="fas fa-eye"></i>
+              <a href="productDetail.html?id=${productCat.id}" class="plantpalace-btn d-flex process-one__bottom-btn justify-content-center">
+                <span class="d-flex"><span>View</span>&nbsp;<span>Details</span>&nbsp;<span>&nbsp;<i class="fas fa-eye"></i></span></span>
               </a>
             </div>
           </div>

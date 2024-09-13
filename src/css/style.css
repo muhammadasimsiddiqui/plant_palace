@@ -1106,9 +1106,10 @@ header {
 .contactSection {
   position: relative;
   width: 100%;
-  min-height: 100vh;
+  min-height: 100dvh;
   padding: 2rem;
-  background-color: #fafafa;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
   overflow: hidden;
   display: flex;
   align-items: center;
