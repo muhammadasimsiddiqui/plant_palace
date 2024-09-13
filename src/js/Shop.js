@@ -5,7 +5,7 @@ let allCat = [];
 // Fetch products data from JSON
 const fetchProducts = async () => {
   try {
-    const response = await fetch('src/json/product.json'); // Update with the correct path to your JSON
+    const response = await fetch("src/json/product.json"); // Update with the correct path to your JSON
     const products = await response.json();
     return products;
   } catch (error) {
@@ -14,7 +14,7 @@ const fetchProducts = async () => {
 };
 
 let displayProduct = async (allCheckCat = []) => {
-  let products = await fetchProducts(); 
+  let products = await fetchProducts();
   productDiv.innerHTML = "";
 
   products.forEach((element) => {
@@ -53,7 +53,7 @@ let displayProduct = async (allCheckCat = []) => {
             <h6 class="mb-3 card-price  fw-bold">$ ${element.price}</h6>
             <div class="process-one__bottom-btn-box">
               <a href="productDetail.html?id=${element.id}" class="plantpalace-btn process-one__bottom-btn">
-                Add to Cart&nbsp;<i class="fa-solid fa-cart-shopping"></i>
+                View Details&nbsp;<i class="fas fa-eye"></i>
               </a>
             </div>
           </div>

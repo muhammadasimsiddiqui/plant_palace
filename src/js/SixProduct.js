@@ -1,6 +1,6 @@
 async function fetchProducts() {
   try {
-    const response = await fetch('src/json/product.json'); // Update the path to your JSON file
+    const response = await fetch("src/json/product.json"); // Update the path to your JSON file
     products = await response.json();
     console.log("Products fetched:", products);
     return products;
@@ -43,7 +43,7 @@ function showProductsByCategories(categories) {
             <h6 class="mb-3 card-price  fw-bold">$ ${product.price}</h6>
             <div class="process-one__bottom-btn-box">
               <a href="productDetail.html?id=${product.id}" class="plantpalace-btn process-one__bottom-btn">
-                Add to Cart&nbsp;<i class="fa-solid fa-cart-shopping"></i>
+                View Details&nbsp;<i class="fas fa-eye"></i>
               </a>
             </div>
           </div>
@@ -87,5 +87,11 @@ function showProductsByCategories(categories) {
 // Fetch products and show products by categories once the page is loaded
 document.addEventListener("DOMContentLoaded", async function () {
   await fetchProducts(); // Fetch the products
-  showProductsByCategories(["IndoorPlants", "EdiblePlants", "Ferns", "Herbs", "Soils"]); // Show products after data is loaded
+  showProductsByCategories([
+    "IndoorPlants",
+    "EdiblePlants",
+    "Ferns",
+    "Herbs",
+    "Soils",
+  ]); // Show products after data is loaded
 });
