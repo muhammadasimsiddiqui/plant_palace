@@ -1087,9 +1087,7 @@ header {
 /************************************ AboutPage CSS End ************************************/
 
 /************************************ WhyChooseUs Section CSS Start ************************************/
-.why-choose-section {
-  padding: 7rem 0;
-}
+
 .why-choose-section .img-wrap {
   position: relative;
 }
@@ -1110,7 +1108,7 @@ header {
   border-radius: 20px;
 }
 
-.why-choose-section .pb-10{
+.why-choose-section .pb-10 {
   padding-bottom: 82px;
 }
 
@@ -1202,6 +1200,113 @@ header {
 }
 
 /************************************ WhyChooseUs Section CSS End ************************************/
+/************************************ Team Section CSS Start ************************************/
+.team .team-item {
+  position: relative;
+  padding: 0 25px 25px 25px;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+.team .team-item::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  bottom: 0;
+  left: 0;
+  background: #e6fff8; /* Light green background */
+  border-radius: 10px;
+  transition: 0.5s;
+  z-index: -1;
+}
+
+.team .team-item:hover::before {
+  height: 0;
+}
+
+.team .team-item::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 10px;
+  transition: 0.5s;
+  z-index: -1;
+}
+
+.team .team-item:hover::after {
+  height: 100%;
+  background: var(--plantpalace-base); /* Green background */
+}
+
+.team .team-item .team-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  position: relative;
+  margin-top: 50%;
+  transform: translateY(-50%);
+  margin-bottom: -50%;
+  display: flex;
+  justify-content: center;
+  border: 4px solid var(--plantpalace-base); /* Green border */
+  border-style: dotted;
+  padding: 4px;
+  background: var(--white); /* White background */
+  transition: 0.5s;
+}
+
+.team .team-item:hover .team-img {
+  border: 4px solid var(--white); /* White border */
+  border-style: dotted;
+  background: 0;
+}
+
+.team .team-item .team-img img {
+  width: 100%;
+  height: 200px;
+  border-radius: 100%;
+  transition: 0.5s;
+  object-fit: cover;
+}
+
+.team .team-item .team-title {
+  padding: 25px 0 25px 0;
+  text-align: center;
+}
+
+.team .team-item .team-title h4,
+.team .team-item .team-title p {
+  transition: 0.5s;
+}
+
+.team .team-item:hover .team-title h4,
+.team .team-item:hover .team-title p {
+  color: var(--white); 
+}
+
+.team .team-item .team-icon {
+  display: flex;
+  justify-content: center;
+}
+
+.team .team-item .team-icon a {
+  transition: 0.5s;
+}
+
+.team .team-item:hover .team-icon a {
+  color: var(--plantpalace-base);
+  background: #ffffff; 
+}
+
+.team .team-item:hover .team-icon a:hover {
+  color: #ffffff; 
+  background: var(--green-color); 
+}
+/************************************ Team Section CSS End ************************************/
 
 /************************************ ContactPage CSS Start ************************************/
 
