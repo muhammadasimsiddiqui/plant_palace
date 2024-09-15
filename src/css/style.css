@@ -757,70 +757,12 @@ header {
 
 /*********************************** Section Contact CSS End ************************************/
 
-/********************************** Section Feature CSS Start ***********************************/
-
-.feature-container {
-  padding: 50px 50px;
-}
-
-.fe-box {
-  text-align: center;
-  padding: 25px 15px;
-  box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
-  border: 1px solid #cce7d0;
-  border-radius: 6px;
-  margin: 15px 0;
-}
-
-.fe-box:hover {
-  box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1);
-}
-
-.fe-box img {
-  width: 100%;
-  margin-bottom: 10px;
-}
-
-.fe-box h5 {
-  display: inline-block;
-  padding: 9px 8px 6px 8px;
-  line-height: 1;
-  border-radius: 4px;
-  color: #088178;
-  font-size: 14px !important;
-}
-
-.fe-box-1 h5 {
-  background-color: #fddde4;
-}
-
-.fe-box-2 h5 {
-  background-color: #cdebbc;
-}
-
-.fe-box-3 h5 {
-  background-color: #d1e8f2;
-}
-
-.fe-box-4 h5 {
-  background-color: #cdd4f8;
-}
-
-.fe-box-5 h5 {
-  background-color: #f6dbf6;
-}
-
-.fe-box-6 h5 {
-  background-color: #fff2e5;
-}
-
-/*********************************** Section Feature CSS End ************************************/
-
 /*********************************** Section Category wise products CSS Start ************************************/
 
 .scroll-container::-webkit-scrollbar {
   height: 2px;
 }
+
 /*********************************** Section Category wise products CSS End ************************************/
 
 /******************************* Section Banner Section CSS Start ********************************/
@@ -833,6 +775,7 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  position: relative;
 }
 
 .banner-content h5 {
@@ -1299,7 +1242,7 @@ header {
 }
 
 .about-us-section .ab-text-head {
-  font-size: 2.8rem;
+  font-size: 38px;
   color: var(--primary-color);
 }
 
@@ -1322,7 +1265,6 @@ header {
   overflow: hidden;
 }
 
-.about-us-section .ab-box h4,
 .about-us-section .ab-box p {
   color: var(--white);
 }
@@ -1331,14 +1273,8 @@ header {
   font-size: 42px;
 }
 
-.about-us-section .ab-box h4 {
-  font-size: 1.8rem;
-  letter-spacing: 1px;
-  font-weight: 600;
-}
-
 .about-us-section .ab-box p {
-  font-size: 2.2rem;
+  font-size: 18px;
 }
 
 .about-us-section .ab-box::after,
@@ -1499,7 +1435,7 @@ header {
   margin-top: 11rem;
   color: var(--white);
   overflow: hidden;
-  background-image: url(../../img/backgrounds/site-footer-bg.jpg); 
+  background-image: url(../../img/backgrounds/site-footer-bg.jpg);
   background-size: cover;
   background-position: center;
 }
