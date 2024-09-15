@@ -1,4 +1,4 @@
-async function fetchProducts() {
+async function fetch_plant_products_data() {
   try {
     const response = await fetch("src/json/product.json"); // Update the path to your JSON file
     products = await response.json();
@@ -86,7 +86,7 @@ function showProductsByCategories(categories) {
 
 // Fetch products and show products by categories once the page is loaded
 document.addEventListener("DOMContentLoaded", async function () {
-  await fetchProducts(); // Fetch the products
+  await fetch_plant_products_data(); // Fetch the products
   showProductsByCategories([
     "IndoorPlants",
     "EdiblePlants",
