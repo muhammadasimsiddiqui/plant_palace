@@ -2,7 +2,6 @@ async function fetchProducts() {
   try {
     const response = await fetch("src/json/product.json");
     products = await response.json();
-    console.log("Products fetched: ", products);
     return products;
   } catch (error) {
     console.error("Error fetching products data: ", error);
