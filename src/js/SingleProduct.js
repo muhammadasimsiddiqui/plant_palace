@@ -174,7 +174,7 @@ function Export2Word(element, filename = "") {
   </style></head><body>`;
   var siteinformation = `
   <div> 
-    <h2 class="text-center">Plant Palaces</h2>
+    <h2 class="text-center">Plant Palace</h2>
     <p>URL:&nbsp;&nbsp; ${window.location.href}</p>
   </div>
   `;
