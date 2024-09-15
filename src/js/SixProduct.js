@@ -2,7 +2,6 @@ async function fetch_plant_products_data() {
   try {
     const response = await fetch("src/json/product.json"); // Update the path to your JSON file
     products = await response.json();
-    console.log("Products fetched:", products);
     return products;
   } catch (error) {
     console.error("Error fetching products data:", error);
