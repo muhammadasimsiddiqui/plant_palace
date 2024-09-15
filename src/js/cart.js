@@ -39,6 +39,15 @@ function addToCart(productId) {
 
   if (existingProduct) {
     existingProduct.quantity += 1;
+    Swal.fire({
+      title: "<p>Product is Already in Your Cart.</p> ",
+      text: "",
+      icon: "info",
+      confirmButtonText: "Continue Browsing",
+      customClass: {
+        confirmButton: "plantpalace-btn",
+      },
+    });
   } else {
     cart.push({ ...product, quantity: 1 });
     Swal.fire({
