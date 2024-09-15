@@ -8,7 +8,7 @@ function plantpalaceHeader() {
       headerNavhover();
       updateWishlistBadge();
       updateCartBadge();
-      updateHeaderButton();
+      
     });
 }
 plantpalaceHeader();
