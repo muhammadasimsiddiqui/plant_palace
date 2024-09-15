@@ -140,9 +140,7 @@ function viewProduct(productId, products) {
                 Add to Cart&nbsp;&nbsp;<i class="fa-solid  fa-cart-shopping"></i>
               </button>
 
-               <button  onclick="addToWishlist(${
-                 product.id
-               })" class=" plantpalace-btn process-one__bottom-btn border-0 mb-2">
+               <button  onclick="addToWishlist(${product.id})" class=" plantpalace-btn process-one__bottom-btn border-0 mb-2">
                 Add to Wishlist&nbsp;&nbsp;<i class="fa-regular fa-heart"></i>
               </button>
              
