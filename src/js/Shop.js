@@ -3,7 +3,7 @@ var categorylistDiv = document.querySelector(".shop-category-list");
 let allCat = [];
 
 // Fetch products data from JSON
-const fetchProducts = async () => {
+const fetchProductsData = async () => {
   try {
     const response = await fetch("src/json/product.json"); // Update with the correct path to your JSON
     const products = await response.json();
@@ -14,7 +14,7 @@ const fetchProducts = async () => {
 };
 
 let displayProduct = async (allCheckCat = []) => {
-  let products = await fetchProducts();
+  let products = await fetchProductsData();
   productDiv.innerHTML = "";
 
   products.forEach((element) => {

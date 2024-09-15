@@ -8,21 +8,28 @@ function updateCartBadge() {
 
   totalAmout();
 }
-
 function totalAmout() {
   let total = 0;
-  let priceElements = document.querySelectorAll(".totalAmout");
+  let cart = JSON.parse(localStorage.getItem("cart")) || [];
 
-  priceElements.forEach((element) => {
-    const value = parseFloat(element.value);
-    total += value;
+  // Calculate the total from the cart data directly
+  cart.forEach((item) => {
+    total += item.price * item.quantity;
   });
-  console.log(total);
+
+  // Update the total display elements
   let showTotal = document.getElementById("showTotal");
   let showTotal2 = document.getElementById("showTotal2");
-  showTotal.textContent = `${total.toFixed(2)}`;
-  showTotal2.textContent = total.toLocaleString();
+
+  if (showTotal) {
+    showTotal.textContent = `$${total.toFixed(2)}`;
+  }
+
+  if (showTotal2) {
+    showTotal2.textContent = `$${total.toLocaleString()}`;
+  }
 }
+
 
 function addToCart(productId) {
   let cart = JSON.parse(localStorage.getItem("cart")) || [];
