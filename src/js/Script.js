@@ -28,14 +28,23 @@ function attachScrollListener() {
 //NavBar Add And Remove Active Classes
 function headerNavhover() {
   const currentPage = window.location.pathname.toLowerCase();
+  const isHomePage = currentPage === "/" || currentPage === "/index.html";
   const navLinks = document.querySelectorAll(".nav-link");
+
   navLinks.forEach((link) => {
     const linkPathname = new URL(link.href).pathname.toLowerCase();
     const hasDropdown =
       link.nextElementSibling &&
       link.nextElementSibling.classList.contains("dropdown-menu");
-    if (currentPage === linkPathname && !hasDropdown) {
-      link.classList.add("active");
+
+    // Check if current page is home page or matches link
+    if (
+      (isHomePage && linkPathname === "/index.html") ||
+      currentPage === linkPathname
+    ) {
+      if (!hasDropdown) {
+        link.classList.add("active");
+      }
     } else {
       link.classList.remove("active");
     }
