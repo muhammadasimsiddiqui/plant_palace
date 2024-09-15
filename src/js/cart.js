@@ -34,6 +34,15 @@ function addToCart(productId) {
     existingProduct.quantity += 1;
   } else {
     cart.push({ ...product, quantity: 1 });
+    Swal.fire({
+      title: "<p>Product Has Been Successfully Added to Cart.</p> ",
+      text: "",
+      icon: "success",
+      confirmButtonText: "Continue Shopping",
+      customClass: {
+        confirmButton: "plantpalace-btn",
+      },
+    });
   }
 
   localStorage.setItem("cart", JSON.stringify(cart));

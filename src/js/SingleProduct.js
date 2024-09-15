@@ -57,6 +57,19 @@ function viewProduct(productId, products) {
       <div class="container"  id="exportContent">
         <div class="row">
           <div class="col-lg-6">
+          <nav aria-label="breadcrumb" class=" d-lg-none d-sm-block">
+                  <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item"><a href="shop.html">Shop</a></li>
+                    <li class="breadcrumb-item"><a href="#">${
+                      product.category
+                    }</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">${
+                      product.name
+                    }</li>
+                  </ol>
+                </nav>
+          
             <div class="right-box">
               <div class="main-img-box">
                 <a href="${
@@ -85,9 +98,20 @@ function viewProduct(productId, products) {
               </div>       </div>
           </div>
           <div class="col-lg-6">
-          
-              <h2 class="m-0 pt-md-5 pt-lg-0">${product.name}</h2>
-              <br>
+               <nav aria-label="breadcrumb" class=" d-none d-lg-block">
+                  <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item"><a href="shop.html">Shop</a></li>
+                    <li class="breadcrumb-item"><a href="#">${
+                      product.category
+                    }</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">${
+                      product.name
+                    }</li>
+                  </ol>
+                </nav>
+              <h2 class="m-0 pt-2 pt-lg-0 pb-2">${product.name}</h2>
+              
               <table cellspacing="0" class="inputs">
                 <tr><td><b>Scientific Name:</b> ${
                   product.scientific_name || "N/A"

@@ -1,7 +1,6 @@
-
 async function fetchProducts() {
   try {
-    const response = await fetch('src/json/product.json');
+    const response = await fetch("src/json/product.json");
     products = await response.json();
     console.log("Products fetched: ", products);
     return products;
@@ -12,9 +11,9 @@ async function fetchProducts() {
 
 // Initialize the application (fetch products and update wishlist badge)
 document.addEventListener("DOMContentLoaded", async function () {
-  await fetchProducts(); 
-  updateWishlistBadge(); 
-  displayWishlist(); 
+  await fetchProducts();
+  updateWishlistBadge();
+  displayWishlist();
 });
 
 function updateWishlistBadge() {
@@ -42,8 +41,26 @@ function addToWishlist(productId) {
 
   if (!existingProduct) {
     wishlist.push({ ...product });
+    Swal.fire({
+      title: "<p>Product Has Been Successfully Added to Wishlist.</p> ",
+      text: "",
+      icon: "success",
+      confirmButtonText: "Continue Browsing",
+      customClass: {
+        confirmButton: "plantpalace-btn",
+      },
+    });
   } else {
     console.log(`Product with ID ${productId} is already in the wishlist`);
+    Swal.fire({
+      title: "<p>Product is Already in Your Wishlist.</p> ",
+      text: "",
+      icon: "info",
+      confirmButtonText: "Continue Browsing",
+      customClass: {
+        confirmButton: "plantpalace-btn",
+      },
+    });
   }
 
   localStorage.setItem("wishlist", JSON.stringify(wishlist));
@@ -74,7 +91,9 @@ function displayWishlist() {
       <td>${index + 1}</td>
       <td>
         <a href="productDetail.html?id=${item.id}">
-          <img src="${item.images[0]}"  alt="${item.name}" class="img img-fluid img-thumbnail p-0 me-3">
+          <img src="${item.images[0]}"  alt="${
+      item.name
+    }" class="img img-fluid img-thumbnail p-0 me-3">
           ${item.name}
         </a>
       </td>
