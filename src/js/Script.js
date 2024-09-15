@@ -97,6 +97,95 @@ function plantpalaceWhyChooseUs() {
 }
 plantpalaceWhyChooseUs();
 
+
+
+            // Load the contact section and initialize form functionality
+            function plantpalacecontactSection() {
+              fetch("components/contact.html")
+                  .then(response => response.text())
+                  .then(html => {
+                      document.getElementById("contactSection").innerHTML = html;
+                      contact_form(); // Initialize form inputs
+                      // Attach form submission handler after form is loaded
+                      const contactForm = document.getElementById("contactForm");
+                      if (contactForm) {
+                          contactForm.addEventListener("submit", formSubmission);
+                      }
+                  })
+                  .catch(error => console.error('Error loading contact section:', error));
+          }
+  
+          // Initialize contact form inputs with focus and blur effects
+          function contact_form() {
+              const inputs = document.querySelectorAll(".contact_form_input");
+  
+              function focusFunc() {
+                  let parent = this.parentNode;
+                  parent.classList.add("focus");
+              }
+  
+              function blurFunc() {
+                  let parent = this.parentNode;
+                  if (this.value === "") {
+                      parent.classList.remove("focus");
+                  }
+              }
+  
+              inputs.forEach(input => {
+                  input.addEventListener("focus", focusFunc);
+                  input.addEventListener("blur", blurFunc);
+              });
+          }
+  
+          // Handle form submission
+          function formSubmission(event) {
+              event.preventDefault(); // Prevent the default form submission
+  
+              // Get form data
+              const formData = new FormData(document.getElementById("contactForm"));
+              const data = {};
+              formData.forEach((value, key) => {
+                  data[key] = value;
+              });
+  
+              // Retrieve existing data from sessionStorage
+              let existingData = JSON.parse(sessionStorage.getItem("formData"));
+              if (!Array.isArray(existingData)) {
+                  existingData = [];
+              }
+              existingData.push(data);
+  
+              // Store updated data in sessionStorage
+              sessionStorage.setItem("formData", JSON.stringify(existingData));
+  
+              // Construct mailto link
+              const email = "info@plantpalace.com";
+              const subject = encodeURIComponent("Contact Form Submission");
+              const body = encodeURIComponent(`Name: ${data.name || 'N/A'}\nEmail: ${data.email || 'N/A'}\nMessage: ${data.message || 'N/A'}`);
+              const mailtoLink = `mailto:${email}?subject=${subject}&body=${body}`;
+  
+              // Open the email client
+              window.location.href = mailtoLink;
+  
+              // Optionally reload the contact section
+              setTimeout(() => {
+                  plantpalacecontactSection();
+              }, 500); // Delay to ensure the email client has time to open
+  
+              // Optionally reload the whole page
+              // setTimeout(() => {
+              //     location.reload();
+              // }, 500); // Delay to ensure the email client has time to open
+  
+              // Log saved form data
+              console.log("Saved form data:", JSON.parse(sessionStorage.getItem("formData")));
+  
+              return false; // Prevent any further action
+          }
+  
+          // Initialize the contact section
+          plantpalacecontactSection();
+
 // Counter
 let targetElements = document.querySelectorAll(".digit-box");
 let animationtimming = 0.0001;
@@ -122,46 +211,7 @@ function about() {
   window.location.href = "about.html";
 }
 
-// Contact Form
-function contact_form() {
-  const inputs = document.querySelectorAll(".contact_form_input");
 
-  function focusFunc() {
-    let parent = this.parentNode;
-    parent.classList.add("focus");
-  }
-
-  function blurFunc() {
-    let parent = this.parentNode;
-    if (this.value == "") {
-      parent.classList.remove("focus");
-    }
-  }
-
-  inputs.forEach((input) => {
-    input.addEventListener("focus", focusFunc);
-    input.addEventListener("blur", blurFunc);
-  });
-}
-contact_form();
-function formSubmission(event) {
-  event.preventDefault();
-  const formData = new FormData(document.getElementById("contactForm"));
-  const data = {};
-  formData.forEach((value, key) => {
-    data[key] = value;
-  });
-  sessionStorage.setItem("formData", JSON.stringify(data));
-  window.location.href = "mailto:info@plantpalace.com";
-  document.getElementById("contactForm").reset();
-  console.log(
-    "Saved form data:",
-    JSON.parse(sessionStorage.getItem("formData"))
-  );
-  return false;
-}
-document.getElementById("contactForm");
-document.addEventListener("submit", formSubmission);
 
 function addtocartform() {
   // Show SweetAlert dialog
